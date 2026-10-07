@@ -52,10 +52,12 @@ class WhisperMedusaEngine(BaseASREngine):
         quantization: str = "int8",  # 'none' (fp16), 'int8' (w8a16), 'int4' (w4a16)
         device: Optional[str] = None,
         regulation_start: float = 140,
-        regulation_factor: float = 1.01
+        regulation_factor: float = 1.01,
+        fp16: bool = True,
+        **kwargs
     ):
-        super().__init__(model_name, device, fp16=(quantization != "none"))
-        self.quantization = quantization.lower()
+        super().__init__(model_name, device, fp16=(quantization != "none" or fp16))
+        self.quantization = quantization.lower() if quantization else "none"
         print(f"Loading Whisper-Medusa: {model_name} on {self.device} [Quantization: {self.quantization.upper()}]...")
 
         self.processor = WhisperProcessor.from_pretrained(model_name)
@@ -164,9 +166,11 @@ class VanillaWhisperEngine(BaseASREngine):
         model_name: str = "openai/whisper-large-v2",
         quantization: str = "none",  # 'none', 'int8', 'int4'
         device: Optional[str] = None,
+        fp16: bool = True,
+        **kwargs
     ):
-        super().__init__(model_name, device, fp16=(quantization != "none"))
-        self.quantization = quantization.lower()
+        super().__init__(model_name, device, fp16=(quantization != "none" or fp16))
+        self.quantization = quantization.lower() if quantization else "none"
         print(f"Loading Vanilla Whisper: {model_name} on {self.device} [Quantization: {self.quantization.upper()}]...")
 
         self.processor = WhisperProcessor.from_pretrained(model_name)

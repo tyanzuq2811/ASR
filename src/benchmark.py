@@ -23,16 +23,18 @@ class ASRBenchmarkRunner:
         medusa_model_name: str = "aiola/whisper-medusa-v1",
         baseline_model_name: Optional[str] = "openai/whisper-large-v2",
         output_dir: str = "benchmark_results",
+        quantization: str = "int8",
         fp16: bool = True,
     ):
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.quantization = quantization
         self.fp16 = fp16
 
-        print("Initializing engines for benchmark...")
-        self.medusa_engine = WhisperMedusaEngine(model_name=medusa_model_name, fp16=fp16)
+        print(f"Initializing engines for benchmark (Quantization: {quantization.upper()})...")
+        self.medusa_engine = WhisperMedusaEngine(model_name=medusa_model_name, quantization=quantization, fp16=fp16)
         if baseline_model_name:
-            self.baseline_engine = VanillaWhisperEngine(model_name=baseline_model_name, fp16=fp16)
+            self.baseline_engine = VanillaWhisperEngine(model_name=baseline_model_name, quantization="none", fp16=fp16)
         else:
             self.baseline_engine = None
 

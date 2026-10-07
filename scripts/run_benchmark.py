@@ -17,6 +17,7 @@ def main():
     parser.add_argument("--baseline-model", type=str, default="openai/whisper-large-v2", help="HuggingFace model ID for Vanilla Whisper baseline")
     parser.add_argument("--no-baseline", action="store_true", help="Skip baseline model inference")
     parser.add_argument("--language", type=str, default=None, choices=["en", "vi", "all"], help="Filter by language")
+    parser.add_argument("--quantization", type=str, default="int8", choices=["int8", "int4", "none"], help="Quantization mode for Medusa (int8: W8A16, int4: W4A16, none: FP16)")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of audio samples (e.g. 5, 10 for quick testing)")
     parser.add_argument("--output-dir", type=str, default="benchmark_results", help="Directory to save benchmark metrics and reports")
     parser.add_argument("--no-fp16", action="store_true", help="Disable FP16 precision (use FP32)")
@@ -29,6 +30,7 @@ def main():
     print("=" * 70)
     print("   ASR BENCHMARK: WHISPER-MEDUSA vs VANILLA WHISPER")
     print(f"   Output Directory: {output_path}")
+    print(f"   Quantization    : {args.quantization.upper()}")
     print(f"   Language Filter : {lang or 'All (EN + VI)'}")
     print(f"   Sample Limit    : {args.limit or 'All 200 samples'}")
     print("=" * 70)
@@ -39,6 +41,7 @@ def main():
         medusa_model_name=args.medusa_model,
         baseline_model_name=None if args.no_baseline else args.baseline_model,
         output_dir=str(output_path),
+        quantization=args.quantization,
         fp16=not args.no_fp16,
     )
 
