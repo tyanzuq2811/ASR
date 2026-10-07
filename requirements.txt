@@ -1,10 +1,10 @@
 # Auto-fetch CUDA PyTorch wheels for Linux & Windows
 --extra-index-url https://download.pytorch.org/whl/cu124
 
-# Core PyTorch with CUDA
-torch>=2.2.0
+# Core PyTorch with CUDA 12.4 (pinned >=2.6.0 for optimum-quanto compatibility)
+torch>=2.6.0
 torchvision
-torchaudio>=2.2.0
+torchaudio>=2.6.0
 
 # HuggingFace & Transformers pinned for whisper-medusa compatibility
 transformers==4.49.0

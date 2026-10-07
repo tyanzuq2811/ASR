@@ -16,5 +16,5 @@ setup(
     description="Adding Medusa speculative decoding to Whisper model",
     author="aiOla",
     python_requires=">=3.9",
-    install_requires=requirements("requirements"),  # Optional
+    install_requires=[],
 )
