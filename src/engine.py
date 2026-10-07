@@ -2,6 +2,7 @@ import time
 import os
 import torch
 import torchaudio
+import soundfile as sf
 from pathlib import Path
 from typing import Dict, Optional, Union
 from transformers import WhisperProcessor, WhisperForConditionalGeneration
@@ -22,7 +23,12 @@ class BaseASREngine:
 
     def preprocess_audio(self, audio_input: Union[str, Path, torch.Tensor], sr: Optional[int] = None) -> torch.Tensor:
         if isinstance(audio_input, (str, Path)):
-            speech, sample_rate = torchaudio.load(str(audio_input))
+            data, sample_rate = sf.read(str(audio_input))
+            speech = torch.from_numpy(data).float()
+            if speech.ndim == 1:
+                speech = speech.unsqueeze(0)
+            elif speech.ndim == 2:
+                speech = speech.t()
         else:
             speech = audio_input
             sample_rate = sr if sr is not None else self.sampling_rate

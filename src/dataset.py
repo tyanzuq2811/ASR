@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import torch
 import torchaudio
+import soundfile as sf
 
 class ASRDataset:
     """
@@ -93,8 +94,13 @@ class ASRDataset:
     def load_audio(self, index: int, target_sr: int = 16000) -> Tuple[torch.Tensor, str, str, str]:
         """Loads single audio sample with metadata."""
         row = self.df.iloc[index]
-        audio_path = row["resolved_audio_path"]
-        speech, sr = torchaudio.load(audio_path)
+        audio_path = str(row["resolved_audio_path"])
+        data, sr = sf.read(audio_path)
+        speech = torch.from_numpy(data).float()
+        if speech.ndim == 1:
+            speech = speech.unsqueeze(0)
+        elif speech.ndim == 2:
+            speech = speech.t()
 
         if speech.shape[0] > 1:
             speech = speech.mean(dim=0, keepdim=True)
