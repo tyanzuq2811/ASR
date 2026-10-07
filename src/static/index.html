@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASR Benchmark: Whisper-Medusa & Quantization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.3); border-radius: 9999px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.5); }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-[#090D16] text-slate-900 dark:text-slate-100 min-h-screen transition-colors duration-200 font-sans flex flex-col">
+
+    <!-- Top Navigation -->
+    <header class="border-b border-slate-200 dark:border-slate-800/80 bg-white/80 dark:bg-[#0B1120]/80 backdrop-blur-md sticky top-0 z-30 px-6 py-3.5">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-emerald-400 flex items-center justify-center text-white shadow-lg shadow-indigo-500/20">
+                    <i data-lucide="mic" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-2">
+                        <span class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400 bg-clip-text text-transparent">ASR MEDUSA</span>
+                        <span class="text-xs px-2 py-0.5 rounded-full font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">Edge Quantized</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 dark:text-slate-400">Speculative Decoding & Low-Bit Quantization</p>
+                </div>
+            </div>
+
+            <!-- Hardware Badge & Dark Mode Toggle -->
+            <div class="flex items-center space-x-3">
+                <div id="hardware-badge" class="hidden sm:flex items-center space-x-2 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-100/80 dark:bg-slate-900/60 text-xs text-slate-600 dark:text-slate-300">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <span id="gpu-name" class="font-medium">Loading GPU...</span>
+                    <span class="text-slate-400 dark:text-slate-600">|</span>
+                    <span id="vram-info" class="font-mono text-emerald-600 dark:text-emerald-400">-- / -- GB</span>
+                </div>
+
+                <button id="theme-toggle" class="p-2 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+                    <i id="theme-icon" data-lucide="sun" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="max-w-7xl mx-auto w-full flex-1 p-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+        <!-- Left Column: Audio Selector & Controls -->
+        <section class="lg:col-span-5 flex flex-col space-y-4">
+            <div class="bg-white dark:bg-[#0F172A] border border-slate-200 dark:border-slate-800/80 rounded-2xl p-5 shadow-sm space-y-4">
+                
+                <!-- Filter bar -->
+                <div class="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800/60">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Tập Âm Thanh (Real 200)</span>
+                    <span id="total-samples-count" class="text-xs font-mono font-medium text-slate-400">200 mẫu</span>
+                </div>
+
+                <!-- Language Tabs -->
+                <div class="grid grid-cols-3 gap-1.5 p-1 bg-slate-100 dark:bg-slate-900 rounded-xl text-xs font-medium">
+                    <button class="lang-tab active py-2 rounded-lg transition text-center" data-lang="">Tất cả</button>
+                    <button class="lang-tab py-2 rounded-lg transition text-center text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white" data-lang="vi">Tiếng Việt (100)</button>
+                    <button class="lang-tab py-2 rounded-lg transition text-center text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white" data-lang="en">Tiếng Anh (100)</button>
+                </div>
+
+                <!-- Domain Filter & Search -->
+                <div class="grid grid-cols-2 gap-2">
+                    <select id="domain-select" class="w-full text-xs bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl px-3 py-2.5 text-slate-700 dark:text-slate-300 focus:outline-none focus:ring-1 focus:ring-indigo-500">
+                        <option value="">Tất cả lĩnh vực</option>
+                    </select>
+                    <input id="search-input" type="text" placeholder="Tìm kiếm từ..." class="w-full text-xs bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl px-3 py-2.5 text-slate-700 dark:text-slate-300 focus:outline-none focus:ring-1 focus:ring-indigo-500">
+                </div>
+
+                <!-- Audio List -->
+                <div id="audio-list" class="max-h-64 overflow-y-auto space-y-2 pr-1">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- Active Sample Box -->
+                <div class="pt-3 border-t border-slate-100 dark:border-slate-800/60 space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span id="active-recording-id" class="font-mono text-xs font-bold text-indigo-600 dark:text-indigo-400">REC_XXXXXX</span>
+                        <div class="flex items-center space-x-1.5">
+                            <span id="active-domain-badge" class="text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400">DOMAIN</span>
+                            <span id="active-lang-badge" class="text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-500">VI</span>
+                        </div>
+                    </div>
+
+                    <audio id="audio-player" controls class="w-full h-9 rounded-lg"></audio>
+
+                    <div>
+                        <div class="text-[11px] font-semibold text-slate-400 mb-1">Văn bản chuẩn (Ground Truth):</div>
+                        <div id="active-ground-truth" class="text-xs p-3 rounded-xl bg-slate-100 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 font-medium text-slate-700 dark:text-slate-200 leading-relaxed">
+                            Chọn 1 file audio phía trên...
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Right Column: Settings & Side-by-Side Comparison -->
+        <section class="lg:col-span-7 flex flex-col space-y-4">
+
+            <!-- Control Bar: Quantization & Run Button -->
+            <div class="bg-white dark:bg-[#0F172A] border border-slate-200 dark:border-slate-800/80 rounded-2xl p-5 shadow-sm space-y-4">
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                    
+                    <!-- Quantization Selector -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-xs font-bold text-slate-500 dark:text-slate-400 whitespace-nowrap">Lượng Tử Hóa Medusa:</span>
+                        <div class="inline-flex rounded-xl p-1 bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-semibold">
+                            <button class="quant-btn active px-3 py-1.5 rounded-lg transition" data-quant="int8">INT8 (W8A16)</button>
+                            <button class="quant-btn px-3 py-1.5 rounded-lg transition text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white" data-quant="int4">INT4 (W4A16)</button>
+                            <button class="quant-btn px-3 py-1.5 rounded-lg transition text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white" data-quant="none">FP16 Gốc</button>
+                        </div>
+                    </div>
+
+                    <!-- Baseline Model -->
+                    <div class="flex items-center space-x-2">
+                        <span class="text-xs font-bold text-slate-500 dark:text-slate-400 whitespace-nowrap">Baseline:</span>
+                        <select id="baseline-select" class="text-xs bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl px-3 py-2 text-slate-700 dark:text-slate-300 font-medium">
+                            <option value="openai/whisper-large-v2">Whisper Large V2</option>
+                            <option value="openai/whisper-small">Whisper Small</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Big CTA Run Button -->
+                <button id="run-btn" class="w-full py-3.5 px-6 rounded-xl font-bold text-sm bg-gradient-to-r from-indigo-600 via-indigo-500 to-emerald-500 hover:from-indigo-500 hover:to-emerald-400 text-white shadow-lg shadow-indigo-500/25 transition duration-150 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                    <i data-lucide="play" class="w-4 h-4 fill-current"></i>
+                    <span>CHẠY SO SÁNH ĐỐI CHỨNG</span>
+                </button>
+            </div>
+
+            <!-- Comparison Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
+                
+                <!-- Card 1: Vanilla Whisper -->
+                <div class="bg-white dark:bg-[#0F172A] border border-slate-200 dark:border-slate-800/80 rounded-2xl p-5 shadow-sm flex flex-col justify-between space-y-4">
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800/60">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-2.5 h-2.5 rounded-full bg-slate-400"></div>
+                                <span class="font-bold text-sm">Vanilla Whisper</span>
+                            </div>
+                            <span class="text-[11px] font-mono px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 font-semibold">FP16 Gốc</span>
+                        </div>
+
+                        <div class="mt-4">
+                            <div class="text-[11px] font-semibold text-slate-400 mb-1">Kết quả Phiên âm:</div>
+                            <div id="base-output" class="text-xs p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/60 dark:border-slate-800/80 min-h-[70px] text-slate-700 dark:text-slate-200 font-medium leading-relaxed flex items-center justify-center text-slate-400">
+                                Chưa chạy
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metrics Grid -->
+                    <div class="grid grid-cols-3 gap-2 pt-2 border-t border-slate-100 dark:border-slate-800/60">
+                        <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-800 text-center">
+                            <div class="text-[10px] text-slate-400 font-medium">Độ trễ</div>
+                            <div id="base-latency" class="font-mono font-bold text-sm text-slate-800 dark:text-slate-200 mt-0.5">-- ms</div>
+                        </div>
+                        <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-800 text-center">
+                            <div class="text-[10px] text-slate-400 font-medium">RTF</div>
+                            <div id="base-rtf" class="font-mono font-bold text-sm text-slate-800 dark:text-slate-200 mt-0.5">--</div>
+                        </div>
+                        <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-800 text-center">
+                            <div class="text-[10px] text-slate-400 font-medium">WER</div>
+                            <div id="base-wer" class="font-mono font-bold text-sm text-slate-800 dark:text-slate-200 mt-0.5">-- %</div>
+                        </div>
+                        <div class="col-span-3 p-2 rounded-xl bg-slate-50 dark:bg-slate-900/40 text-[11px] flex justify-between px-3 text-slate-500 font-mono">
+                            <span>VRAM: <b id="base-vram">-- MB</b></span>
+                            <span>Model: <b id="base-size">~3.1 GB</b></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Whisper-Medusa Quantized -->
+                <div class="bg-white dark:bg-[#0F172A] border-2 border-emerald-500/40 dark:border-emerald-500/30 rounded-2xl p-5 shadow-sm flex flex-col justify-between space-y-4 relative overflow-hidden">
+                    <div class="absolute -right-8 -top-8 w-24 h-24 bg-emerald-500/10 rounded-full blur-xl pointer-events-none"></div>
+
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800/60">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></div>
+                                <span class="font-bold text-sm text-emerald-600 dark:text-emerald-400">Whisper-Medusa</span>
+                            </div>
+                            <span id="medusa-quant-tag" class="text-[11px] font-mono px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 font-bold">INT8 (W8A16)</span>
+                        </div>
+
+                        <div class="mt-4">
+                            <div class="flex items-center justify-between mb-1">
+                                <span class="text-[11px] font-semibold text-slate-400">Kết quả Phiên âm:</span>
+                                <span id="speedup-badge" class="hidden text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-500 text-white">🚀 1.5x Tăng tốc</span>
+                            </div>
+                            <div id="medusa-output" class="text-xs p-3.5 rounded-xl bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-500/20 min-h-[70px] text-slate-700 dark:text-slate-200 font-medium leading-relaxed flex items-center justify-center text-slate-400">
+                                Chưa chạy
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metrics Grid -->
+                    <div class="grid grid-cols-3 gap-2 pt-2 border-t border-slate-100 dark:border-slate-800/60">
+                        <div class="p-2.5 rounded-xl bg-emerald-50/50 dark:bg-slate-900/80 border border-emerald-500/20 dark:border-slate-800 text-center">
+                            <div class="text-[10px] text-emerald-600 dark:text-emerald-400 font-medium">Độ trễ</div>
+                            <div id="medusa-latency" class="font-mono font-bold text-sm text-emerald-600 dark:text-emerald-400 mt-0.5">-- ms</div>
+                        </div>
+                        <div class="p-2.5 rounded-xl bg-emerald-50/50 dark:bg-slate-900/80 border border-emerald-500/20 dark:border-slate-800 text-center">
+                            <div class="text-[10px] text-emerald-600 dark:text-emerald-400 font-medium">RTF</div>
+                            <div id="medusa-rtf" class="font-mono font-bold text-sm text-emerald-600 dark:text-emerald-400 mt-0.5">--</div>
+                        </div>
+                        <div class="p-2.5 rounded-xl bg-emerald-50/50 dark:bg-slate-900/80 border border-emerald-500/20 dark:border-slate-800 text-center">
+                            <div class="text-[10px] text-emerald-600 dark:text-emerald-400 font-medium">WER</div>
+                            <div id="medusa-wer" class="font-mono font-bold text-sm text-emerald-600 dark:text-emerald-400 mt-0.5">-- %</div>
+                        </div>
+                        <div class="col-span-3 p-2 rounded-xl bg-emerald-50/40 dark:bg-emerald-950/30 text-[11px] flex justify-between px-3 text-emerald-700 dark:text-emerald-300 font-mono">
+                            <span>VRAM: <b id="medusa-vram">-- MB</b></span>
+                            <span id="mem-reduced">Nén: <b>-50% VRAM</b></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- App Logic Script -->
+    <script>
+        // Lucide icon init
+        lucide.createIcons();
+
+        // Dark/Light Theme Handler
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+
+        function setTheme(isDark) {
+            if (isDark) {
+                html.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+                themeIcon.setAttribute('data-lucide', 'sun');
+            } else {
+                html.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+                themeIcon.setAttribute('data-lucide', 'moon');
+            }
+            lucide.createIcons();
+        }
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme === 'dark');
+        } else {
+            setTheme(true); // default dark mode
+        }
+
+        themeToggleBtn.addEventListener('click', () => {
+            setTheme(!html.classList.contains('dark'));
+        });
+
+        // App State
+        let allSamples = [];
+        let selectedSample = null;
+        let currentLangFilter = '';
+        let currentQuant = 'int8';
+
+        // Fetch Hardware Status
+        async function fetchStatus() {
+            try {
+                const res = await fetch('/api/status');
+                const data = await res.json();
+                if (data.device === 'cuda') {
+                    document.getElementById('gpu-name').innerText = data.gpu_name;
+                    document.getElementById('vram-info').innerText = `${data.free_vram_gb} / ${data.total_vram_gb} GB VRAM`;
+                    document.getElementById('hardware-badge').classList.remove('hidden');
+                }
+            } catch (e) {
+                console.error("Status fetch error", e);
+            }
+        }
+
+        // Fetch Samples
+        async function fetchSamples() {
+            const domain = document.getElementById('domain-select').value;
+            const search = document.getElementById('search-input').value;
+            let url = `/api/samples?`;
+            if (currentLangFilter) url += `language=${currentLangFilter}&`;
+            if (domain) url += `domain=${encodeURIComponent(domain)}&`;
+            if (search) url += `search=${encodeURIComponent(search)}&`;
+
+            try {
+                const res = await fetch(url);
+                const data = await res.json();
+                allSamples = data.samples;
+                renderAudioList();
+                if (data.samples.length > 0 && !selectedSample) {
+                    selectSample(data.samples[0]);
+                }
+            } catch (e) {
+                console.error("Samples fetch error", e);
+            }
+        }
+
+        function renderAudioList() {
+            const list = document.getElementById('audio-list');
+            list.innerHTML = '';
+            document.getElementById('total-samples-count').innerText = `${allSamples.length} mẫu`;
+
+            allSamples.forEach(sample => {
+                const isSelected = selectedSample && selectedSample.recording_id === sample.recording_id;
+                const item = document.createElement('div');
+                item.className = `p-2.5 rounded-xl cursor-pointer text-xs transition border flex items-center justify-between ${
+                    isSelected 
+                    ? 'bg-indigo-500/10 border-indigo-500/40 text-indigo-600 dark:text-indigo-400 font-semibold' 
+                    : 'bg-slate-50 dark:bg-slate-900/60 border-slate-200/60 dark:border-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-800/80 text-slate-700 dark:text-slate-300'
+                }`;
+                item.innerHTML = `
+                    <div class="truncate max-w-[260px]">
+                        <span class="font-mono font-bold mr-1">${sample.recording_id}</span>
+                        <span class="text-slate-400">${sample.text}</span>
+                    </div>
+                    <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-200/60 dark:bg-slate-800 text-slate-500">${sample.language.toUpperCase()}</span>
+                `;
+                item.onclick = () => selectSample(sample);
+                list.appendChild(item);
+            });
+        }
+
+        function selectSample(sample) {
+            selectedSample = sample;
+            renderAudioList();
+            document.getElementById('active-recording-id').innerText = sample.recording_id;
+            document.getElementById('active-domain-badge').innerText = sample.domain;
+            document.getElementById('active-lang-badge').innerText = sample.language.toUpperCase();
+            document.getElementById('active-ground-truth').innerText = sample.text;
+
+            const player = document.getElementById('audio-player');
+            player.src = `/api/audio/${sample.recording_id}`;
+
+            // Reset outputs
+            document.getElementById('base-output').innerText = 'Chưa chạy';
+            document.getElementById('medusa-output').innerText = 'Chưa chạy';
+            document.getElementById('base-latency').innerText = '-- ms';
+            document.getElementById('base-rtf').innerText = '--';
+            document.getElementById('base-wer').innerText = '-- %';
+            document.getElementById('medusa-latency').innerText = '-- ms';
+            document.getElementById('medusa-rtf').innerText = '--';
+            document.getElementById('medusa-wer').innerText = '-- %';
+            document.getElementById('speedup-badge').classList.add('hidden');
+        }
+
+        // Language Tabs
+        document.querySelectorAll('.lang-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.lang-tab').forEach(t => {
+                    t.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-slate-900', 'dark:text-white', 'shadow-sm');
+                    t.classList.add('text-slate-500', 'dark:text-slate-400');
+                });
+                tab.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-slate-900', 'dark:text-white', 'shadow-sm');
+                tab.classList.remove('text-slate-500', 'dark:text-slate-400');
+                currentLangFilter = tab.getAttribute('data-lang');
+                fetchSamples();
+            });
+        });
+
+        // Quantization Buttons
+        document.querySelectorAll('.quant-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.quant-btn').forEach(b => {
+                    b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-slate-900', 'dark:text-white', 'shadow-sm');
+                    b.classList.add('text-slate-500', 'dark:text-slate-400');
+                });
+                btn.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-slate-900', 'dark:text-white', 'shadow-sm');
+                btn.classList.remove('text-slate-500', 'dark:text-slate-400');
+                currentQuant = btn.getAttribute('data-quant');
+                document.getElementById('medusa-quant-tag').innerText = currentQuant.toUpperCase() === 'NONE' ? 'FP16 GỐC' : `${currentQuant.toUpperCase()} (W${currentQuant.slice(3)}A16)`;
+            });
+        });
+
+        // Search and Domain change listeners
+        document.getElementById('domain-select').addEventListener('change', fetchSamples);
+        document.getElementById('search-input').addEventListener('input', fetchSamples);
+
+        // Run Benchmark
+        const runBtn = document.getElementById('run-btn');
+        runBtn.addEventListener('click', async () => {
+            if (!selectedSample) return;
+
+            runBtn.disabled = true;
+            runBtn.innerHTML = `
+                <svg class="animate-spin -ml-1 mr-2 h-4 w-4 text-white inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>ĐANG SUY LUẬN ĐỐI CHỨNG...</span>
+            `;
+
+            try {
+                const res = await fetch('/api/transcribe', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        recording_id: selectedSample.recording_id,
+                        quantization: currentQuant,
+                        medusa_model: 'aiola/whisper-medusa-v1',
+                        baseline_model: document.getElementById('baseline-select').value
+                    })
+                });
+
+                if (!res.ok) {
+                    const err = await res.json();
+                    alert(`Lỗi: ${err.detail}`);
+                    return;
+                }
+
+                const data = await res.json();
+
+                // Fill Baseline
+                document.getElementById('base-output').innerText = data.baseline.text;
+                document.getElementById('base-latency').innerText = `${data.baseline.latency_ms} ms`;
+                document.getElementById('base-rtf').innerText = `${data.baseline.rtf}`;
+                document.getElementById('base-wer').innerText = `${data.baseline.wer} %`;
+                document.getElementById('base-vram').innerText = `${data.baseline.peak_vram_mb} MB`;
+                document.getElementById('base-size').innerText = `~${data.baseline.model_size_mb} MB`;
+
+                // Fill Medusa
+                document.getElementById('medusa-output').innerText = data.medusa.text;
+                document.getElementById('medusa-latency').innerText = `${data.medusa.latency_ms} ms`;
+                document.getElementById('medusa-rtf').innerText = `${data.medusa.rtf}`;
+                document.getElementById('medusa-wer').innerText = `${data.medusa.wer} %`;
+                document.getElementById('medusa-vram').innerText = `${data.medusa.peak_vram_mb} MB`;
+                document.getElementById('mem-reduced').innerText = `Nén: -${data.memory_reduction_pct}%`;
+
+                // Badge
+                const badge = document.getElementById('speedup-badge');
+                badge.innerText = `🚀 ${data.speedup_factor}x Tăng tốc`;
+                badge.classList.remove('hidden');
+
+            } catch (e) {
+                alert(`Lỗi kết nối server: ${e.message}`);
+            } finally {
+                runBtn.disabled = false;
+                runBtn.innerHTML = `
+                    <i data-lucide="play" class="w-4 h-4 fill-current"></i>
+                    <span>CHẠY SO SÁNH ĐỐI CHỨNG</span>
+                `;
+                lucide.createIcons();
+            }
+        });
+
+        // Populate Domain list on load
+        async function loadDomains() {
+            try {
+                const res = await fetch('/api/samples');
+                const data = await res.json();
+                const domains = [...new Set(data.samples.map(s => s.domain).filter(Boolean))].sort();
+                const select = document.getElementById('domain-select');
+                domains.forEach(d => {
+                    const opt = document.createElement('option');
+                    opt.value = d;
+                    opt.innerText = d;
+                    select.appendChild(opt);
+                });
+            } catch (e) {}
+        }
+
+        // Init
+        fetchStatus();
+        loadDomains();
+        fetchSamples();
+    </script>
+</body>
+</html>

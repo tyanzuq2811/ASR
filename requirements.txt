@@ -1,0 +1,44 @@
+# Auto-fetch CUDA PyTorch wheels for Linux & Windows
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# Core PyTorch with CUDA
+torch>=2.2.0
+torchvision
+torchaudio>=2.2.0
+
+# HuggingFace & Transformers pinned for whisper-medusa compatibility
+transformers==4.49.0
+accelerate>=1.0.0
+huggingface_hub>=0.28.0
+
+# Quantization
+optimum-quanto>=0.2.7
+bitsandbytes>=0.50.0
+
+# Speech, Audio & Evaluation
+jiwer==3.0.3
+soundfile>=0.12.1
+librosa>=0.11.0
+scipy>=1.12.0
+
+# Data processing & visualization
+numpy>=1.26.4
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tabulate>=0.9.0
+tqdm>=4.66.0
+openpyxl>=3.1.0
+
+# Web Application & API
+fastapi>=0.110.0
+uvicorn>=0.30.0
+
+# Experiment tracking
+wandb>=0.18.0
+pyyaml>=6.0.0
+pymupdf>=1.24.0
+python-docx>=1.1.0
+
+# Local editable install for whisper-medusa
+-e ./whisper-medusa
