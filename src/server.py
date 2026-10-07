@@ -181,5 +181,25 @@ static_dir = Path(__file__).resolve().parent / "static"
 static_dir.mkdir(parents=True, exist_ok=True)
 app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 
+@app.on_event("startup")
+async def startup_event():
+    print("\n" + "=" * 65)
+    print("  🚀 ASR BENCHMARK & DEMO WEB ĐÃ SẴN SÀNG!")
+    print("  👉 Mở trình duyệt web ngay tại:")
+    print("     🔗 http://localhost:8000")
+    print("     🔗 http://127.0.0.1:8000")
+    print("=" * 65 + "\n", flush=True)
+
 if __name__ == "__main__":
-    uvicorn.run("src.server:app", host="0.0.0.0", port=8000, reload=True)
+    import argparse
+    parser = argparse.ArgumentParser(description="ASR Benchmark & Web Demo Server")
+    parser.add_argument("--host", type=str, default="0.0.0.0", help="Host address (default: 0.0.0.0)")
+    parser.add_argument("--port", type=int, default=8000, help="Port to listen on (default: 8000)")
+    args = parser.parse_args()
+
+    print("\n" + "=" * 65)
+    print("  🚀 Đang khởi động ASR Web Server...")
+    print(f"  👉 Truy cập trình duyệt: http://localhost:{args.port} hoặc http://127.0.0.1:{args.port}")
+    print("=" * 65 + "\n", flush=True)
+
+    uvicorn.run("src.server:app", host=args.host, port=args.port, reload=True)
