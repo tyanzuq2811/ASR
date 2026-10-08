@@ -29,4 +29,3 @@ htmlcov/
 Thumbs.db
 data/
 *.wav
-benchmark_results_ami/
