@@ -134,10 +134,15 @@ def parse_and_build_transcripts():
                 for elem in root.findall(".//w"):
                     text = elem.text
                     start_time = elem.get("starttime")
-                    # Lấy các từ hợp lệ có mốc thời gian
+                    punc = elem.get("punc")
+
+                    # Bỏ qua các thẻ là dấu câu (punc="true") hoặc rỗng
+                    if punc == "true":
+                        continue
+
                     if text and start_time is not None:
                         text_clean = text.strip()
-                        if text_clean:
+                        if text_clean and text_clean not in ".,?!;:\"'()-_/":
                             all_words.append((float(start_time), text_clean))
             except Exception as e:
                 print(f"  Cảnh báo lỗi đọc XML {xf.name}: {e}")
