@@ -194,7 +194,6 @@ def main():
             generate_kwargs={
                 "language": "english",
                 "task": "transcribe",
-                "condition_on_previous_text": False,
                 "temperature": 0.0,
             }
         )
