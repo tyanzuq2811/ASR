@@ -18,9 +18,19 @@ if str(root_dir) not in sys.path:
 
 from src.dataset import ASRDataset
 from src.metrics import calculate_sample_metrics, calculate_speedup
-from src.engine import WhisperMedusaEngine, VanillaWhisperEngine
+from contextlib import asynccontextmanager
 
-app = FastAPI(title="ASR Edge AI Benchmark API", version="2.0.0")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("\n" + "=" * 65)
+    print("  🚀 ASR BENCHMARK & DEMO WEB ĐÃ SẴN SÀNG!")
+    print("  👉 Mở trình duyệt web ngay tại:")
+    print("     🔗 http://localhost:8000")
+    print("     🔗 http://127.0.0.1:8000")
+    print("=" * 65 + "\n", flush=True)
+    yield
+
+app = FastAPI(title="ASR Edge AI Benchmark API", version="2.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -180,15 +190,6 @@ def run_transcription(req: TranscribeRequest):
 static_dir = Path(__file__).resolve().parent / "static"
 static_dir.mkdir(parents=True, exist_ok=True)
 app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
-
-@app.on_event("startup")
-async def startup_event():
-    print("\n" + "=" * 65)
-    print("  🚀 ASR BENCHMARK & DEMO WEB ĐÃ SẴN SÀNG!")
-    print("  👉 Mở trình duyệt web ngay tại:")
-    print("     🔗 http://localhost:8000")
-    print("     🔗 http://127.0.0.1:8000")
-    print("=" * 65 + "\n", flush=True)
 
 if __name__ == "__main__":
     import argparse

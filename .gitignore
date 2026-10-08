@@ -27,3 +27,6 @@ wheels/
 htmlcov/
 .DS_Store
 Thumbs.db
+data/
+*.wav
+benchmark_results_ami/
