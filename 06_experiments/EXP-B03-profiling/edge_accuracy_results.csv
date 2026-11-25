@@ -1,0 +1,61 @@
+config,tier_name,audio_id,audio_duration_s,reference_text,predicted_text,wer,cer,ttft_ms,tpot_ms,rtf,peak_ram_mb
+fp32,FP32 Baseline,VIVOSDEV02_R015,3.375,tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả một thứ đều kỳ rạm một các phi thường,0.3636,0.1765,739.13,47.95,0.4891,632.3
+fp32,FP32 Baseline,VIVOSDEV02_R027,3.406,có thể lành lặn mà không để lại vết sẹo,có thể làn lặng mà không để lại bế sẻo,0.4,0.1667,564.15,48.04,0.4055,647.68
+fp32,FP32 Baseline,VIVOSDEV02_R031,5.375,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,mốn đẹp phải gè làm sao cho các bó kơi trên nội bận lên,0.4286,0.2093,722.0,48.37,0.3324,648.56
+fp32,FP32 Baseline,VIVOSDEV02_R032,3.438,y tế bình hưng hòa bị hư hỏng,í đế bình hưng hoà bị hư hậm,0.5,0.3182,713.24,46.43,0.4102,652.58
+fp32,FP32 Baseline,VIVOSDEV02_R045,3.625,cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọt cái chê,0.5,0.3913,604.45,48.84,0.3285,656.73
+fp32,FP32 Baseline,VIVOSDEV02_R106,2.625,trở nên thụ động,trở nên thủ đọng,0.5,0.1538,528.6,44.49,0.337,656.73
+fp32,FP32 Baseline,VIVOSDEV02_R122,2.562,cũng khiến cho họ dè dặt,cũng khí cho họ dề dạc,0.5,0.3158,734.17,45.47,0.4996,656.76
+fp32,FP32 Baseline,VIVOSDEV02_R130,4.406,chị gặn hỏi anh thề sống thề chết là không có,chị dặng hỏi anh thề sống thề trẻ là không có,0.1818,0.1714,746.15,47.5,0.3742,656.76
+fp32,FP32 Baseline,VIVOSDEV02_R132,3.875,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tuyện thoại lan nhân ta cũng phải nhất máy đúng không,0.3636,0.2045,548.2,47.9,0.3393,656.76
+fp32,FP32 Baseline,VIVOSDEV02_R135,3.719,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cũng thuộc lại dày đặt nhất trong hệ mặt trời,0.2,0.0541,708.17,47.13,0.4187,656.76
+fp32,FP32 Baseline,VIVOSDEV02_R137,3.562,các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũng và bé bối kinh tế,0.1111,0.037,695.1,46.89,0.419,656.76
+fp32,FP32 Baseline,VIVOSDEV02_R149,4.75,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,trong cứ có lùi lại mặt dùa vướng pếu gông chiền,0.5455,0.2973,619.65,51.13,0.3781,656.76
+fp32,FP32 Baseline,VIVOSDEV02_R154,5.188,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,vọc buôn dự án trị trọt bày ra cái dự án để kim chét,0.4286,0.2927,502.48,49.35,0.3443,657.54
+fp32,FP32 Baseline,VIVOSDEV02_R164,3.656,các chương trình ca nhạc phần lớn đều không đột phá,các chuyên trình ca nhà thuần lớn đều không độc thế,0.4545,0.2683,676.01,47.35,0.4181,657.54
+fp32,FP32 Baseline,VIVOSDEV02_R170,4.938,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lộip trảy sang gõ cửa phòng ba lên hai giấm dui,0.4545,0.3235,555.86,49.13,0.3316,657.54
+fp32,FP32 Baseline,VIVOSDEV02_R173,3.219,để trả trở lại đại dương,để trả trở lại dương,0.1667,0.1579,501.35,44.95,0.2955,657.72
+fp32,FP32 Baseline,VIVOSDEV02_R181,4.125,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nà có tôi mắt tôi sau và bình trảnh rộng minh mông,0.5833,0.3077,705.36,47.99,0.4154,657.72
+fp32,FP32 Baseline,VIVOSDEV02_R192,4.938,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi đự hỏi phải tranh đó lại cho doanh còn quá trẻ,0.4167,0.3143,590.78,47.28,0.2921,657.76
+fp32,FP32 Baseline,VIVOSDEV02_R195,4.062,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,đi ba châu ông cơ gội nhận quýt giá phát triển cỏ lại,0.6923,0.3636,733.27,48.99,0.4821,657.76
+fp32,FP32 Baseline,VIVOSDEV02_R200,3.344,và khi chúng ta sao nhãng công việc của mình,vạc khi chúng ta sẽ nhạc công việc của mình,0.3,0.2,772.36,46.1,0.4241,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R015,3.375,tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả mọi thứ đều kỳ rạm một các phi thường,0.2727,0.1176,982.31,43.59,0.5495,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R027,3.406,có thể lành lặn mà không để lại vết sẹo,có thể lành lặng mà không để lại bếch sẻo,0.3,0.1667,953.12,20.19,0.3866,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R031,5.375,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,mốn đẹp phải gè làm sao cho các bó kơi trên nội bận lên,0.4286,0.2093,773.84,22.67,0.2368,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R032,3.438,y tế bình hưng hòa bị hư hỏng,y đế bình hưng hoà bị hư hậm,0.375,0.2727,719.1,19.63,0.2949,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R045,3.625,cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọt cái chê,0.5,0.3913,908.06,19.48,0.3151,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R106,2.625,trở nên thụ động,trở nên thủ đồng,0.5,0.1538,816.64,19.1,0.3621,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R122,2.562,cũng khiến cho họ dè dặt,cũng khí tra họa dè dạc,0.6667,0.4737,833.33,22.7,0.4405,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R130,4.406,chị gặn hỏi anh thề sống thề chết là không có,chị dạng hỏi anh thề sống thể trẻ là không có,0.2727,0.2286,653.11,20.13,0.2305,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R132,3.875,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tiện thải lan nhưng ta cũng phải nhất máy đúng không,0.3636,0.1591,641.15,19.83,0.2423,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R135,3.719,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cốn thuộc lại dày đặc nhất trong hệ mặt trời,0.2,0.0811,980.49,19.82,0.3543,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R137,3.562,các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũm và bé bối kinh tế,0.2222,0.1111,792.34,22.63,0.3369,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R149,4.75,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,trong cứ có lùi lại mặt dù vướng pia gôn chuyện,0.5455,0.3784,630.13,20.72,0.2287,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R154,5.188,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,vọc buồn dự án trị trọt bày ra cái dự án để kim chét,0.5,0.3171,993.91,21.11,0.3016,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R164,3.656,các chương trình ca nhạc phần lớn đều không đột phá,các chuyên trình ra nhạc thành lớn đều không độc thế,0.4545,0.2683,648.79,22.46,0.2943,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R170,4.938,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lồi bảy trang gõ cửa phòng ba lên hai dám dui,0.5455,0.2941,683.69,20.95,0.2276,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R173,3.219,để trả trở lại đại dương,để trả trở lại dương,0.1667,0.1579,1018.88,19.33,0.3767,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R181,4.125,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nà có tôi mắt tôi sau và bình trẻ rộng minh mông,0.5833,0.3077,921.08,20.46,0.3226,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R192,4.938,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi đự hỏi phải tranh đó lại cho doanh còn quá trẻ,0.4167,0.3143,857.34,22.96,0.2574,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R195,4.062,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,đi ba châu éo cơ gọi nhận quýt giá phát triển cò lại,0.6154,0.3182,727.32,21.75,0.3237,657.76
+w8a16,W8A16 QDQ Tier,VIVOSDEV02_R200,3.344,và khi chúng ta sao nhãng công việc của mình,vạc khi chúng ta xa nhạc công việc của mình,0.3,0.2,839.56,22.29,0.3512,657.76
+int8,INT8 Tier,VIVOSDEV02_R015,3.375,tất cả mọi thứ đều kỳ lạ một cách phi thường,có,1.0,0.9706,481.77,23.82,0.1569,657.76
+int8,INT8 Tier,VIVOSDEV02_R027,3.406,có thể lành lặn mà không để lại vết sẹo,có,0.9,0.9333,427.95,22.72,0.139,657.76
+int8,INT8 Tier,VIVOSDEV02_R031,5.375,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,c,1.0,0.9767,394.5,25.77,0.0782,657.76
+int8,INT8 Tier,VIVOSDEV02_R032,3.438,y tế bình hưng hòa bị hư hỏng,c,1.0,1.0,440.62,20.25,0.1341,657.76
+int8,INT8 Tier,VIVOSDEV02_R045,3.625,cô cứ nhè ngay cái nọng cá trê,có,1.0,0.9565,320.77,19.49,0.0993,657.76
+int8,INT8 Tier,VIVOSDEV02_R106,2.625,trở nên thụ động,c,1.0,1.0,476.49,18.14,0.1884,657.76
+int8,INT8 Tier,VIVOSDEV02_R122,2.562,cũng khiến cho họ dè dặt,c,1.0,0.9474,480.39,18.45,0.1947,657.76
+int8,INT8 Tier,VIVOSDEV02_R130,4.406,chị gặn hỏi anh thề sống thề chết là không có,c,1.0,0.9714,460.93,18.04,0.1087,657.76
+int8,INT8 Tier,VIVOSDEV02_R132,3.875,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,có,1.0,0.9773,467.61,18.15,0.1301,657.76
+int8,INT8 Tier,VIVOSDEV02_R135,3.719,cũng thuộc loại dày đặc nhất trong hệ mặt trời,c,1.0,0.973,434.2,25.29,0.1236,657.76
+int8,INT8 Tier,VIVOSDEV02_R137,3.562,các vụ tham nhũng và bê bối kinh tế,c,1.0,0.963,378.95,27.0,0.114,657.76
+int8,INT8 Tier,VIVOSDEV02_R149,4.75,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,c,1.0,0.973,411.69,20.27,0.0909,657.76
+int8,INT8 Tier,VIVOSDEV02_R154,5.188,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,c,1.0,0.9756,429.01,18.42,0.0863,657.76
+int8,INT8 Tier,VIVOSDEV02_R164,3.656,các chương trình ca nhạc phần lớn đều không đột phá,có,1.0,0.9756,468.0,18.35,0.138,657.76
+int8,INT8 Tier,VIVOSDEV02_R170,4.938,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,c,1.0,0.9706,353.81,18.31,0.0754,657.76
+int8,INT8 Tier,VIVOSDEV02_R173,3.219,để trả trở lại đại dương,có,1.0,1.0,524.59,18.1,0.1742,657.76
+int8,INT8 Tier,VIVOSDEV02_R181,4.125,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,có,0.9167,0.9487,475.69,18.45,0.1243,657.76
+int8,INT8 Tier,VIVOSDEV02_R192,4.938,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,cói,1.0,0.9429,340.32,19.46,0.0808,657.76
+int8,INT8 Tier,VIVOSDEV02_R195,4.062,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,c,1.0,0.9773,335.05,24.26,0.0885,657.76
+int8,INT8 Tier,VIVOSDEV02_R200,3.344,và khi chúng ta sao nhãng công việc của mình,có,1.0,0.9714,429.75,25.53,0.1438,657.76

@@ -1,0 +1,5 @@
+comparison_tier,tier_id,baseline_mean_wer_pct,target_mean_wer_pct,delta_wer_abs_pct,delta_wer_ci_95_low,delta_wer_ci_95_high,wer_p_value,baseline_mean_cer_pct,target_mean_cer_pct,delta_cer_abs_pct,delta_cer_ci_95_low,delta_cer_ci_95_high,cer_p_value
+A30 GPU Reference (CUDA/FP16),a30_gpu_fp16,40.45,40.45,0.0,0.0,0.0,1.0,23.62,23.62,0.0,0.0,0.0,1.0
+Server CPU Reference (FP32),server_cpu_fp32,40.45,40.45,0.0,0.0,0.0,1.0,23.62,23.62,0.0,0.0,0.0,1.0
+Edge W8A16 QDQ Tier,edge_w8a16,40.45,41.15,0.69,-2.4,3.79,0.6788,23.62,24.6,0.99,-1.07,3.29,0.3858
+Edge INT8 Tier,edge_int8,40.45,99.08,58.63,52.09,65.5,0.0,23.62,97.02,73.4,69.14,77.85,0.0

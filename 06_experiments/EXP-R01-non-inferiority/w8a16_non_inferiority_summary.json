@@ -1,0 +1,74 @@
+{
+  "evaluation_scope": {
+    "dataset": "VIVOS Test Split (Held-out clean)",
+    "total_utterances": 760,
+    "total_speakers": 19,
+    "bootstrap_replicates": 10000,
+    "seed": 20261022
+  },
+  "corpus_metrics": {
+    "fp32_wer": 0.271432,
+    "w8a16_wer": 0.271562,
+    "delta_wer": 0.00013,
+    "fp32_cer": 0.12151,
+    "w8a16_cer": 0.121144,
+    "delta_cer": -0.000366
+  },
+  "per_utterance_bootstrap_95ci": {
+    "fp32_wer_mean": 0.272387,
+    "fp32_wer_95ci": [
+      0.258245,
+      0.286449
+    ],
+    "w8a16_wer_mean": 0.27253,
+    "w8a16_wer_95ci": [
+      0.258552,
+      0.286342
+    ],
+    "delta_wer_mean": 0.000143,
+    "delta_wer_95ci": [
+      -0.003624,
+      0.003906
+    ],
+    "fp32_cer_mean": 0.122393,
+    "fp32_cer_95ci": [
+      0.115421,
+      0.129557
+    ],
+    "w8a16_cer_mean": 0.121967,
+    "w8a16_cer_95ci": [
+      0.114924,
+      0.129098
+    ],
+    "delta_cer_mean": -0.000426,
+    "delta_cer_95ci": [
+      -0.002178,
+      0.001302
+    ],
+    "two_sided_paired_bootstrap_p_value": 0.9622,
+    "paired_t_test_p_value": 0.940625,
+    "wilcoxon_signed_rank_p_value": 0.865671
+  },
+  "non_inferiority_tests": {
+    "margin_1.0pct": {
+      "margin_absolute": 0.01,
+      "margin_percentage": "1.0%",
+      "upper_95_ci": 0.003906487518329621,
+      "upper_95_ci_strictly_less_than_margin": true,
+      "one_sided_bootstrap_p_value": 0.0,
+      "one_sided_t_stat": -5.1385,
+      "one_sided_t_p_value": 1.76283212473081e-07,
+      "verdict": "NON-INFERIOR (PASS)"
+    },
+    "margin_1.5pct": {
+      "margin_absolute": 0.015,
+      "margin_percentage": "1.5%",
+      "upper_95_ci": 0.003906487518329621,
+      "upper_95_ci_strictly_less_than_margin": true,
+      "one_sided_bootstrap_p_value": 0.0,
+      "one_sided_t_stat": -7.745,
+      "one_sided_t_p_value": 1.5309586167635415e-14,
+      "verdict": "NON-INFERIOR (PASS)"
+    }
+  }
+}

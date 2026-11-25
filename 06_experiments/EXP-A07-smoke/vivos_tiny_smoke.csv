@@ -1,0 +1,6 @@
+utterance_id,speaker_id,split,reference,hypothesis,audio_duration_s,inference_s,rtf,device,model_id
+VIVOSDEV02_R106,VIVOSDEV02,test_in_domain,trở nên thụ động,chào anh nhan tô đau,2.625000,0.343390,0.130815,cpu,openai/whisper-tiny
+VIVOSDEV02_R122,VIVOSDEV02,test_in_domain,cũng khiến cho họ dè dặt,công kênh chào hạ dạ,2.562500,0.359988,0.140483,cpu,openai/whisper-tiny
+VIVOSDEV02_R130,VIVOSDEV02,test_in_domain,chị gặn hỏi anh thề sống thề chết là không có,dị dẫn hỏi anh thế xong thế để là không gó,4.406250,0.493529,0.112007,cpu,openai/whisper-tiny
+VIVOSDEV02_R132,VIVOSDEV02,test_in_domain,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tuyện thái lan nhân ta cũng phải nhất máy đúng không?,3.875000,0.478317,0.123437,cpu,openai/whisper-tiny
+VIVOSDEV02_R135,VIVOSDEV02,test_in_domain,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cũng thuật lại dầy đặc nhất trong hệ mặt trời,3.718750,0.518587,0.139452,cpu,openai/whisper-tiny

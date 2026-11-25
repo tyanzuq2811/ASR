@@ -1,0 +1,44 @@
+{
+  "whisper_base": {
+    "model_id": "openai/whisper-base",
+    "model_tag": "whisper_base",
+    "parameters": 72593920,
+    "total_utterances": 760,
+    "total_audio_s": 2685.54,
+    "total_inference_s": 185.19,
+    "macro_wer": 0.45597,
+    "macro_cer": 0.228647,
+    "mean_per_utt_wer": 0.50988,
+    "mean_per_utt_cer": 0.28425,
+    "median_rtf": 0.0678,
+    "avg_rtf": 0.069
+  },
+  "phowhisper_tiny": {
+    "model_id": "vinai/PhoWhisper-tiny",
+    "model_tag": "phowhisper_tiny",
+    "parameters": 37760640,
+    "total_utterances": 760,
+    "total_audio_s": 2685.54,
+    "total_inference_s": 157.51,
+    "macro_wer": 0.19179,
+    "macro_cer": 0.068933,
+    "mean_per_utt_wer": 0.213153,
+    "mean_per_utt_cer": 0.076735,
+    "median_rtf": 0.0595,
+    "avg_rtf": 0.0587
+  },
+  "phowhisper_small": {
+    "model_id": "vinai/PhoWhisper-small",
+    "model_tag": "phowhisper_small",
+    "parameters": 241734912,
+    "total_utterances": 760,
+    "total_audio_s": 2685.54,
+    "total_inference_s": 308.37,
+    "macro_wer": 0.154105,
+    "macro_cer": 0.050197,
+    "mean_per_utt_wer": 0.175303,
+    "mean_per_utt_cer": 0.058373,
+    "median_rtf": 0.1139,
+    "avg_rtf": 0.1148
+  }
+}

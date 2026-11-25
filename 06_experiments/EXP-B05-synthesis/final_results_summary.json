@@ -1,0 +1,63 @@
+{
+  "dataset_evaluation": {
+    "vivos_rows_evaluated": 3040,
+    "speakers_evaluated": 11,
+    "snr_levels_db": [
+      "clean",
+      20,
+      10,
+      5
+    ],
+    "noise_corpus": "MUSAN (SLR17) Noise Subset"
+  },
+  "model_performance": {
+    "pretrained_whisper_tiny_clean_wer": 0.591,
+    "pretrained_whisper_tiny_clean_cer": 0.3147,
+    "clean_finetuned_overall_wer": 0.3173,
+    "noise_aware_overall_wer": 0.3052,
+    "noise_aware_overall_cer": 0.1431,
+    "cpu_vs_gpu_parity_gap_wer": 0.000162
+  },
+  "edge_deployment_arduino_ventuno_q": {
+    "target_soc": "Qualcomm Snapdragon QCS8275 (Octa-core Kryo + Hexagon HTP v75)",
+    "memory_installed_gib": 14,
+    "peak_ram_used_mb": 657.76,
+    "fp32_baseline": {
+      "footprint_mb": 220.19,
+      "wer_mean": 40.45,
+      "wer_median": 42.86,
+      "cer_mean": 23.62,
+      "ttft_median_ms": 685.56,
+      "tpot_median_ms": 47.7,
+      "rtf_median": 0.3918
+    },
+    "w8a16_qdq": {
+      "footprint_mb": 56.49,
+      "footprint_reduction_pct": 74.3,
+      "wer_mean": 41.15,
+      "wer_median": 42.26,
+      "cer_mean": 24.61,
+      "delta_wer_vs_fp32": 0.7,
+      "ttft_median_ms": 824.99,
+      "tpot_median_ms": 20.83,
+      "rtf_median": 0.3188
+    },
+    "int8_tier": {
+      "footprint_mb": 55.93,
+      "footprint_reduction_pct": 74.6,
+      "wer_mean": 99.08,
+      "wer_median": 100.0,
+      "cer_mean": 97.02,
+      "ttft_median_ms": 431.98,
+      "tpot_median_ms": 19.48,
+      "rtf_median": 0.1239,
+      "accuracy_collapse_note": "Dynamic 8-bit activation clipping degrades attention distributions causing early EOS collapse."
+    }
+  },
+  "security_offline_boundary": {
+    "outbound_ip_packets": 0,
+    "audio_leakage_bytes": 0,
+    "rpc_interface": "FastRPC Shared-Memory Ring Buffer",
+    "rpc_payload": "UTF-8 text and command strings (<100 bytes)"
+  }
+}

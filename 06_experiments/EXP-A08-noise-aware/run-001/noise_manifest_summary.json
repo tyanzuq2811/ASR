@@ -1,0 +1,36 @@
+{
+  "source_manifest": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/03_data/processed/vivos_speaker_split.csv",
+  "noise_root": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/03_data/raw/musan/extracted/musan",
+  "output_manifest": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/03_data/processed/vivos_noise_mixed_manifest.csv",
+  "seed": 20261020,
+  "conditions": [
+    "clean",
+    "20",
+    "10",
+    "5"
+  ],
+  "noise_files": 930,
+  "noise_sample_rate_hz": 16000,
+  "source_rows": 12420,
+  "output_rows": 14700,
+  "rows_by_split_condition": {
+    "validation": {
+      "20": 287,
+      "5": 333,
+      "clean": 331,
+      "10": 321
+    },
+    "train": {
+      "5": 2604,
+      "10": 2604,
+      "20": 2615,
+      "clean": 2565
+    },
+    "test_in_domain": {
+      "clean": 760,
+      "20": 760,
+      "10": 760,
+      "5": 760
+    }
+  }
+}

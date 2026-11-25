@@ -1,0 +1,13 @@
+{
+  "model_id": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/06_experiments/EXP-A08-clean/run-003-corrected/final",
+  "split": "test_in_domain",
+  "device": "cuda",
+  "seed": 20261020,
+  "rows": 760,
+  "wer": 0.2698782698782699,
+  "cer": 0.1195264105459095,
+  "median_inference_s": 0.08721700310707092,
+  "median_rtf": 0.02459000051021576,
+  "total_audio_s": 2685.544563,
+  "total_inference_s": 66.144671
+}

@@ -1,0 +1,13 @@
+{
+  "model_id": "openai/whisper-tiny",
+  "split": "test_in_domain",
+  "device": "cpu",
+  "seed": 20261020,
+  "rows": 5,
+  "wer": 0.6428571428571429,
+  "cer": 0.3027027027027027,
+  "median_inference_s": 0.478316992521286,
+  "median_rtf": 0.13081499934196472,
+  "total_audio_s": 17.1875,
+  "total_inference_s": 2.193811
+}

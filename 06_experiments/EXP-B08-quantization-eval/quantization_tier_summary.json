@@ -1,0 +1,128 @@
+{
+  "manifest_info": {
+    "num_samples": 20,
+    "manifest_type": "VIVOS Test Representative Fixed Set (VIVOSDEV02)",
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95
+  },
+  "baseline_edge_fp32": {
+    "mean_wer": 0.4045432345432346,
+    "median_wer": 0.42857142857142855,
+    "wer_ci_95": [
+      0.13749999999999998,
+      0.6405448717948716
+    ],
+    "mean_cer": 0.2361968966180667,
+    "median_cer": 0.23879750425411234
+  },
+  "comparisons_vs_edge_fp32": {
+    "a30_gpu_fp16": {
+      "tier_name": "A30 GPU Reference (CUDA/FP16)",
+      "wer_analysis": {
+        "base_mean": 0.4045432345432346,
+        "base_ci_95_low": 0.3392613636363636,
+        "base_ci_95_high": 0.46697385947385944,
+        "target_mean": 0.4045432345432346,
+        "target_ci_95_low": 0.3392613636363636,
+        "target_ci_95_high": 0.46697385947385944,
+        "delta_mean": 0.0,
+        "delta_ci_95_low": 0.0,
+        "delta_ci_95_high": 0.0,
+        "p_value": 1.0
+      },
+      "cer_analysis": {
+        "base_mean": 0.2361968966180667,
+        "base_ci_95_low": 0.19343918024982065,
+        "base_ci_95_high": 0.2763273492436071,
+        "target_mean": 0.2361968966180667,
+        "target_ci_95_low": 0.19343918024982065,
+        "target_ci_95_high": 0.2763273492436071,
+        "delta_mean": 0.0,
+        "delta_ci_95_low": 0.0,
+        "delta_ci_95_high": 0.0,
+        "p_value": 1.0
+      }
+    },
+    "server_cpu_fp32": {
+      "tier_name": "Server CPU Reference (FP32)",
+      "wer_analysis": {
+        "base_mean": 0.4045432345432346,
+        "base_ci_95_low": 0.3392613636363636,
+        "base_ci_95_high": 0.46697385947385944,
+        "target_mean": 0.4045432345432346,
+        "target_ci_95_low": 0.3392613636363636,
+        "target_ci_95_high": 0.46697385947385944,
+        "delta_mean": 0.0,
+        "delta_ci_95_low": 0.0,
+        "delta_ci_95_high": 0.0,
+        "p_value": 1.0
+      },
+      "cer_analysis": {
+        "base_mean": 0.2361968966180667,
+        "base_ci_95_low": 0.19343918024982065,
+        "base_ci_95_high": 0.2763273492436071,
+        "target_mean": 0.2361968966180667,
+        "target_ci_95_low": 0.19343918024982065,
+        "target_ci_95_high": 0.2763273492436071,
+        "delta_mean": 0.0,
+        "delta_ci_95_low": 0.0,
+        "delta_ci_95_high": 0.0,
+        "p_value": 1.0
+      }
+    },
+    "edge_w8a16": {
+      "tier_name": "Edge W8A16 QDQ Tier",
+      "wer_analysis": {
+        "base_mean": 0.4045432345432346,
+        "base_ci_95_low": 0.3392613636363636,
+        "base_ci_95_high": 0.46697385947385944,
+        "target_mean": 0.41145285270285276,
+        "target_ci_95_low": 0.34901695526695525,
+        "target_ci_95_high": 0.4731728861416362,
+        "delta_mean": 0.006909618159618156,
+        "delta_ci_95_low": -0.024024725274725274,
+        "delta_ci_95_high": 0.03786276570651569,
+        "p_value": 0.6788
+      },
+      "cer_analysis": {
+        "base_mean": 0.2361968966180667,
+        "base_ci_95_low": 0.19343918024982065,
+        "base_ci_95_high": 0.2763273492436071,
+        "target_mean": 0.24604745109748172,
+        "target_ci_95_low": 0.20212992370238422,
+        "target_ci_95_high": 0.291850280377658,
+        "delta_mean": 0.009850554479415007,
+        "delta_ci_95_low": -0.010726361306526303,
+        "delta_ci_95_high": 0.03292797460521918,
+        "p_value": 0.3858
+      }
+    },
+    "edge_int8": {
+      "tier_name": "Edge INT8 Tier",
+      "wer_analysis": {
+        "base_mean": 0.4045432345432346,
+        "base_ci_95_low": 0.3392613636363636,
+        "base_ci_95_high": 0.46697385947385944,
+        "target_mean": 0.9908333333333333,
+        "target_ci_95_low": 0.9766666666666668,
+        "target_ci_95_high": 1.0,
+        "delta_mean": 0.5862900987900989,
+        "delta_ci_95_low": 0.5209353563103564,
+        "delta_ci_95_high": 0.6549971139971141,
+        "p_value": 0.0
+      },
+      "cer_analysis": {
+        "base_mean": 0.2361968966180667,
+        "base_ci_95_low": 0.19343918024982065,
+        "base_ci_95_high": 0.2763273492436071,
+        "target_mean": 0.9702125130116432,
+        "target_ci_95_low": 0.9623304640847228,
+        "target_ci_95_high": 0.9777195254311524,
+        "delta_mean": 0.7340156163935765,
+        "delta_ci_95_low": 0.6913579153353248,
+        "delta_ci_95_high": 0.7784810946215691,
+        "p_value": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "manifest": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/03_data/processed/vivos_speaker_split.csv",
+  "data_root": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/03_data/raw/vivos/vivos",
+  "output_dir": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/06_experiments/EXP-A08-dryrun",
+  "model_id": "openai/whisper-tiny",
+  "epochs": 1.0,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 1,
+  "learning_rate": 1e-05,
+  "warmup_ratio": 0.05,
+  "logging_steps": 1,
+  "eval_steps": 1,
+  "save_steps": 100,
+  "seed": 20261020,
+  "fp16": false,
+  "bf16": false,
+  "max_train_rows": 2,
+  "max_eval_rows": 2,
+  "train_rows": 2,
+  "eval_rows": 2,
+  "train_speakers": [
+    "VIVOSSPK02"
+  ],
+  "eval_speakers": [
+    "VIVOSSPK01"
+  ],
+  "torch_version": "2.6.0+cu124",
+  "cuda_version": "12.4",
+  "gpu": null,
+  "started_unix": 1792505505.3970218
+}

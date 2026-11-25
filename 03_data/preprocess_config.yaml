@@ -1,0 +1,41 @@
+# Draft execution config; finalize after inspecting the downloaded corpus manifests.
+config_version: 2026-10-20
+random_seed: 20261020
+
+audio:
+  sample_rate_hz: 16000
+  channels: 1
+  resampling: "soxr_hq_or_torchaudio_equivalent"
+  clipping_policy: "detect_and_log; do_not_silently_clip"
+
+transcript:
+  unicode_normalization: NFC
+  preserve_vietnamese_diacritics: true
+  strip_edges: true
+  collapse_internal_whitespace: true
+  lowercase: true
+  punctuation_for_model: preserve
+  metric_normalization: "same NFC/lowercase/whitespace policy; punctuation rule recorded with each result"
+
+splits:
+  speaker_disjoint_required: true
+  vivos_official_test: held_out
+  vivos_train_validation: speaker_grouped_from_train
+  commonvoice_train: train_only
+  commonvoice_dev: validation_only
+  commonvoice_test: excluded_from_training_and_tuning
+  fleurs_vietnamese_test: cross_corpus_test_only
+
+noise:
+  snr_db: [20, 10, 5]
+  seed: 20261020
+  source: MUSAN
+  status: pending_storage_and_download
+  fallback: synthetic_fixed_seed_noise_only_if_MUSAN_is_unavailable_and_is_labeled_as_synthetic
+
+qa:
+  expected_reports:
+    - speaker_overlap_report.json
+    - transcript_normalization_summary.json
+    - duration_and_sample_rate_summary.json
+  raw_audio_committed_to_git: false

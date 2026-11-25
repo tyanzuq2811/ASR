@@ -1,0 +1,92 @@
+# ==============================================================================
+# .gitignore — Bài tập lớn học phần Xử lý ngôn ngữ tự nhiên (CSC4007)
+# Đề tài: Nghiên cứu fine-tuning và lượng tử hóa mô hình nhận dạng tiếng nói
+# tiếng Việt cho triển khai trên thiết bị Edge AI
+# ==============================================================================
+
+# 1. Dữ liệu âm thanh thô & trọng số mô hình dung lượng lớn
+03_data/raw/
+05_models/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.onnx
+*.onnx.data
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.npy
+*.npz
+
+# Giữ cấu trúc thư mục rỗng và metadata tái lập nhỏ
+!03_data/raw/.gitkeep
+!03_data/processed/.gitkeep
+!05_models/.gitkeep
+!03_data/processed/
+!03_data/processed/*.csv
+!03_data/processed/*.json
+!03_data/processed/*.sha256
+
+# 2. Loại trừ tài liệu quản trị/bản thảo bài báo & nhật ký nội bộ không thuộc BTL
+00_admin/
+01_blueprint/
+02_literature/
+08_manuscript/
+09_submission/
+output/
+exp_v2/
+tools/
+README_HANDOFF.md
+CONTRIBUTING.md
+
+# Chỉ giữ thư mục kết quả đánh giá công khai (PhoWhisper-Tiny E2 & QNN 760 mẫu)
+10_evidence/*
+!10_evidence/public_results_20261029/
+!10_evidence/public_results_20261029/**
+
+# 3. Loại trừ tệp bảo mật công bố có điều phối (CVD) & log thực thi cục bộ
+04_code/profiling/verify_rpc_security_b10.py
+04_code/profiling/verify_offline_boundary.py
+06_experiments/EXP-B10-security/
+06_experiments/logs/
+
+# 4. Bộ nhớ đệm Python, IDE, môi trường ảo và tệp tạm
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.sync-state/
+tmp/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# 5. Thông tin xác thực và khóa bí mật
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+credentials*
+secrets*
+id_rsa*
+id_ed25519*

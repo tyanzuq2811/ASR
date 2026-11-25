@@ -1,0 +1,6 @@
+SNR_Condition,Pretrained_WER,CleanFT_A30_WER,CleanFT_A30_CER,NoiseAware_A30_WER,NoiseAware_A30_CER,NoiseAware_CPU_WER,Delta_WER_Abs,Relative_Improvement_Pct
+Clean,59.1,26.99,11.95,27.14,12.15,27.1,0.16,-0.6%
+20,-,28.97,12.96,28.36,12.81,28.35,-0.61,+2.1%
+10,-,33.58,15.95,31.34,14.94,31.34,-2.24,+6.7%
+5,-,37.4,18.61,35.24,17.33,35.22,-2.16,+5.8%
+OVERALL,-,31.73,14.87,30.52,14.31,30.5,-1.21,+3.8%

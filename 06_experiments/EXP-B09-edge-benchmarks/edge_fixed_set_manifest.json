@@ -1,0 +1,41 @@
+{
+  "fixed_set_name": "VIVOS Test Representative Subset (Speaker VIVOSDEV02)",
+  "sample_size_n": 20,
+  "total_audio_duration_s": 78.188,
+  "mean_duration_s": 3.909,
+  "median_duration_s": 3.688,
+  "min_duration_s": 2.562,
+  "max_duration_s": 5.375,
+  "audio_ids": [
+    "VIVOSDEV02_R015",
+    "VIVOSDEV02_R027",
+    "VIVOSDEV02_R031",
+    "VIVOSDEV02_R032",
+    "VIVOSDEV02_R045",
+    "VIVOSDEV02_R106",
+    "VIVOSDEV02_R122",
+    "VIVOSDEV02_R130",
+    "VIVOSDEV02_R132",
+    "VIVOSDEV02_R135",
+    "VIVOSDEV02_R137",
+    "VIVOSDEV02_R149",
+    "VIVOSDEV02_R154",
+    "VIVOSDEV02_R164",
+    "VIVOSDEV02_R170",
+    "VIVOSDEV02_R173",
+    "VIVOSDEV02_R181",
+    "VIVOSDEV02_R192",
+    "VIVOSDEV02_R195",
+    "VIVOSDEV02_R200"
+  ],
+  "hardware_testbed": {
+    "board": "Arduino VENTUNO Q",
+    "soc": "Qualcomm Snapdragon QCS8275 (Octa-core Kryo)",
+    "cpu_threads": 4,
+    "cpu_affinity": "Kryo Cortex-A78C performance cores @ 2.7 GHz",
+    "npu_accelerator": "Qualcomm Hexagon HTP v75",
+    "system_ram": "14 GiB Unified LPDDR5",
+    "os": "Ubuntu 24.04 LTS noble (Linux Kernel 6.6.x)",
+    "runtime": "ONNX Runtime v1.31.0 + QNN SDK v2.49.0"
+  }
+}

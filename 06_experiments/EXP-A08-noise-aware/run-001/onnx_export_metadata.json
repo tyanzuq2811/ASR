@@ -1,0 +1,45 @@
+{
+  "model_id": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/06_experiments/EXP-A08-noise-aware/run-001/final",
+  "device": "cuda",
+  "opset": 17,
+  "encoder_input_shape": [
+    1,
+    80,
+    3000
+  ],
+  "encoder_output_shape_sample": [
+    1,
+    1500,
+    384
+  ],
+  "decoder_input_shape_sample": [
+    1,
+    4
+  ],
+  "decoder_output_shape_sample": [
+    1,
+    4,
+    51865
+  ],
+  "decoder_use_cache": false,
+  "language": "vi",
+  "task": "transcribe",
+  "prompt_token_ids": [
+    50258,
+    50278,
+    50359,
+    50363
+  ],
+  "torch_version": "2.6.0+cu124",
+  "python_version": "3.12.7",
+  "files": {
+    "encoder.onnx": {
+      "bytes": 32890409,
+      "sha256": "f22ba29ad65ae4cd993da9f36b9469e6e7914869aea66e3d55370635c830c522"
+    },
+    "decoder.onnx": {
+      "bytes": 197990359,
+      "sha256": "1ffccb58c26225f3d4e4485ccf2b77042608c2e189d9c99f54fbf66b30b6778e"
+    }
+  }
+}

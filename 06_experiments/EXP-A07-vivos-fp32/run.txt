@@ -1,0 +1,90 @@
+processed=1/760 device=cpu
+processed=10/760 device=cpu
+processed=20/760 device=cpu
+processed=30/760 device=cpu
+processed=40/760 device=cpu
+processed=50/760 device=cpu
+processed=60/760 device=cpu
+processed=70/760 device=cpu
+processed=80/760 device=cpu
+processed=90/760 device=cpu
+processed=100/760 device=cpu
+processed=110/760 device=cpu
+processed=120/760 device=cpu
+processed=130/760 device=cpu
+processed=140/760 device=cpu
+processed=150/760 device=cpu
+processed=160/760 device=cpu
+processed=170/760 device=cpu
+processed=180/760 device=cpu
+processed=190/760 device=cpu
+processed=200/760 device=cpu
+processed=210/760 device=cpu
+processed=220/760 device=cpu
+processed=230/760 device=cpu
+processed=240/760 device=cpu
+processed=250/760 device=cpu
+processed=260/760 device=cpu
+processed=270/760 device=cpu
+processed=280/760 device=cpu
+processed=290/760 device=cpu
+processed=300/760 device=cpu
+processed=310/760 device=cpu
+processed=320/760 device=cpu
+processed=330/760 device=cpu
+processed=340/760 device=cpu
+processed=350/760 device=cpu
+processed=360/760 device=cpu
+processed=370/760 device=cpu
+processed=380/760 device=cpu
+processed=390/760 device=cpu
+processed=400/760 device=cpu
+processed=410/760 device=cpu
+processed=420/760 device=cpu
+processed=430/760 device=cpu
+processed=440/760 device=cpu
+processed=450/760 device=cpu
+processed=460/760 device=cpu
+processed=470/760 device=cpu
+processed=480/760 device=cpu
+processed=490/760 device=cpu
+processed=500/760 device=cpu
+processed=510/760 device=cpu
+processed=520/760 device=cpu
+processed=530/760 device=cpu
+processed=540/760 device=cpu
+processed=550/760 device=cpu
+processed=560/760 device=cpu
+processed=570/760 device=cpu
+processed=580/760 device=cpu
+processed=590/760 device=cpu
+processed=600/760 device=cpu
+processed=610/760 device=cpu
+processed=620/760 device=cpu
+processed=630/760 device=cpu
+processed=640/760 device=cpu
+processed=650/760 device=cpu
+processed=660/760 device=cpu
+processed=670/760 device=cpu
+processed=680/760 device=cpu
+processed=690/760 device=cpu
+processed=700/760 device=cpu
+processed=710/760 device=cpu
+processed=720/760 device=cpu
+processed=730/760 device=cpu
+processed=740/760 device=cpu
+processed=750/760 device=cpu
+processed=760/760 device=cpu
+{
+  "model_id": "openai/whisper-tiny",
+  "split": "test_in_domain",
+  "device": "cpu",
+  "seed": 20261020,
+  "rows": 760,
+  "wer": 0.591038591038591,
+  "cer": 0.3147294864361783,
+  "median_inference_s": 0.47469401359558105,
+  "median_rtf": 0.13568800687789917,
+  "total_audio_s": 2685.544563,
+  "total_inference_s": 374.662751
+}

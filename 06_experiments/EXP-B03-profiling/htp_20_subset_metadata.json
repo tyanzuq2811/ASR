@@ -1,0 +1,79 @@
+{
+  "subset_identifier": "E1-HTP-20-PROFILING",
+  "hardware_tier": "Tier 5: Edge NPU (Hexagon HTP v75)",
+  "soc": "Qualcomm Snapdragon QCS8275",
+  "accelerator": "Hexagon Tensor Processor (HTP v75, SoC ID 675)",
+  "compilation_toolchain": "QAIRT / QNN Tools v2.49.0 (HTP Skel Backend)",
+  "num_utterances": 20,
+  "speaker_id": "VIVOSDEV02",
+  "selection_methodology": "The 20 listed VIVOSDEV02 utterance IDs are the locked profiling subset in manifest order; the official utterance IDs are non-contiguous and must not be described as a numeric R001-R020 sequence",
+  "total_audio_duration_seconds": 73.541,
+  "utterance_ids": [
+    "VIVOSDEV02_R015",
+    "VIVOSDEV02_R027",
+    "VIVOSDEV02_R031",
+    "VIVOSDEV02_R032",
+    "VIVOSDEV02_R045",
+    "VIVOSDEV02_R106",
+    "VIVOSDEV02_R122",
+    "VIVOSDEV02_R130",
+    "VIVOSDEV02_R132",
+    "VIVOSDEV02_R135",
+    "VIVOSDEV02_R137",
+    "VIVOSDEV02_R149",
+    "VIVOSDEV02_R154",
+    "VIVOSDEV02_R164",
+    "VIVOSDEV02_R170",
+    "VIVOSDEV02_R173",
+    "VIVOSDEV02_R181",
+    "VIVOSDEV02_R192",
+    "VIVOSDEV02_R195",
+    "VIVOSDEV02_R200"
+  ],
+  "provenance_artifacts": {
+    "profiling_csv": "06_experiments/EXP-B03-profiling/edge_profiling_results.csv",
+    "accuracy_csv": "06_experiments/EXP-B03-profiling/edge_accuracy_results.csv",
+    "profiling_summary_json": "06_experiments/EXP-B03-profiling/edge_profiling_summary.json",
+    "accuracy_summary_json": "06_experiments/EXP-B03-profiling/edge_accuracy_summary.json",
+    "evidence_report": "10_evidence/DUNG_B03_PROFILING_2026-10-22.md"
+  },
+  "metrics": {
+    "fp32_baseline": {
+      "wer": 0.4045,
+      "cer": 0.2362,
+      "median_rtf": 0.3918,
+      "median_tpot_ms": 47.70,
+      "median_ttft_ms": 685.56,
+      "peak_ram_mb": 657.76,
+      "model_size_mb": 220.19
+    },
+    "w8a16_qdq_htp": {
+      "wer": 0.4115,
+      "cer": 0.2460,
+      "delta_wer": 0.0069,
+      "p_value": 0.6788,
+      "median_rtf": 0.3188,
+      "median_tpot_ms": 20.83,
+      "median_ttft_ms": 824.99,
+      "peak_ram_mb": 657.76,
+      "model_size_mb": 56.49
+    },
+    "int8_htp": {
+      "wer": 0.9908,
+      "cer": 0.9702,
+      "delta_wer": 0.5863,
+      "p_value": "<0.0001",
+      "median_rtf": 0.1239,
+      "median_tpot_ms": 19.48,
+      "median_ttft_ms": 431.98,
+      "peak_ram_mb": 657.76,
+      "model_size_mb": 55.93,
+      "failure_mode": "Encoder attention outlier clipping collapse"
+    }
+  },
+  "scope_boundary_lock": {
+    "sample_size": "n = 20 ONLY",
+    "full_set_prohibition": "Under no circumstances shall this n=20 HTP benchmark be represented or extrapolated as a full 760-utterance evaluation",
+    "cpu_full_set_distinction": "Full 760-utterance evaluation is strictly partitioned under Tier 4 (Kryo CPU, CPUExecutionProvider)"
+  }
+}

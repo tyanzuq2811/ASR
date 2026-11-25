@@ -1,0 +1,80 @@
+{
+  "encoder_cosine_similarity": {
+    "w8a16_vs_fp32": {
+      "mean": 0.9977958865214414,
+      "min": 0.9974636186048123,
+      "max": 0.9980653347548483,
+      "mean_mae": 0.048748661391437055
+    },
+    "int8_vs_fp32": {
+      "mean": 0.47637723739047344,
+      "min": 0.46528206689797336,
+      "max": 0.4928157263201974,
+      "mean_mae": 0.9429830253124237
+    }
+  },
+  "decoder_behavior_by_combo": {
+    "FP32_Enc_FP32_Dec": {
+      "mean_tokens_generated": 18.6,
+      "median_tokens_generated": 19.0,
+      "mean_eos_prob_step1": 2.4719601061651274e-07,
+      "median_eos_rank_step1": 6363.5,
+      "eos_termination_rate": 1.0,
+      "first_tokens_sample": {
+        "c": 6,
+        "�": 3,
+        "tr": 2,
+        "t": 2,
+        "v": 2
+      }
+    },
+    "FP32_Enc_INT8_Dec": {
+      "mean_tokens_generated": 18.9,
+      "median_tokens_generated": 19.0,
+      "mean_eos_prob_step1": 2.903948035148929e-07,
+      "median_eos_rank_step1": 8323.0,
+      "eos_termination_rate": 1.0,
+      "first_tokens_sample": {
+        "c": 6,
+        "�": 3,
+        "tr": 2,
+        "m": 1,
+        "y": 1
+      }
+    },
+    "INT8_Enc_FP32_Dec": {
+      "mean_tokens_generated": 3.0,
+      "median_tokens_generated": 3.0,
+      "mean_eos_prob_step1": 0.00038604451619903555,
+      "median_eos_rank_step1": 137.0,
+      "eos_termination_rate": 1.0,
+      "first_tokens_sample": {
+        "c": 20
+      }
+    },
+    "INT8_Enc_INT8_Dec": {
+      "mean_tokens_generated": 2.5,
+      "median_tokens_generated": 2.0,
+      "mean_eos_prob_step1": 0.0008959224396676291,
+      "median_eos_rank_step1": 66.0,
+      "eos_termination_rate": 1.0,
+      "first_tokens_sample": {
+        "c": 20
+      }
+    },
+    "W8A16_Enc_INT8_Dec": {
+      "mean_tokens_generated": 18.7,
+      "median_tokens_generated": 19.0,
+      "mean_eos_prob_step1": 2.669243695851975e-07,
+      "median_eos_rank_step1": 7668.0,
+      "eos_termination_rate": 1.0,
+      "first_tokens_sample": {
+        "c": 6,
+        "�": 3,
+        "tr": 2,
+        "v": 2,
+        "m": 1
+      }
+    }
+  }
+}

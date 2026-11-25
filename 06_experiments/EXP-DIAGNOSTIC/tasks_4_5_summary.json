@@ -1,0 +1,52 @@
+[
+  {
+    "Configuration": "FP32_Baseline",
+    "Encoder_Cos_Sim_Mean": 1.0,
+    "Encoder_Cos_Sim_Min": 1.0,
+    "Mean_Tokens_Generated": 18.4,
+    "Median_Tokens_Generated": 18.5,
+    "Mean_EOS_Prob_Step1": 0.0,
+    "First_Tokens_Distinct": 10,
+    "Status": "HEALTHY (Normal)"
+  },
+  {
+    "Configuration": "W8A16_Paper_Tier",
+    "Encoder_Cos_Sim_Mean": 0.997794,
+    "Encoder_Cos_Sim_Min": 0.99746,
+    "Mean_Tokens_Generated": 18.6,
+    "Median_Tokens_Generated": 19.0,
+    "Mean_EOS_Prob_Step1": 0.0,
+    "First_Tokens_Distinct": 10,
+    "Status": "HEALTHY (Normal)"
+  },
+  {
+    "Configuration": "INT8_Orig_20calib",
+    "Encoder_Cos_Sim_Mean": 0.451073,
+    "Encoder_Cos_Sim_Min": 0.434871,
+    "Mean_Tokens_Generated": 2.1,
+    "Median_Tokens_Generated": 2.0,
+    "Mean_EOS_Prob_Step1": 0.001125,
+    "First_Tokens_Distinct": 2,
+    "Status": "COLLAPSED (EOS Early Stop)"
+  },
+  {
+    "Configuration": "INT8_Task4_100noisy",
+    "Encoder_Cos_Sim_Mean": 0.451419,
+    "Encoder_Cos_Sim_Min": 0.431045,
+    "Mean_Tokens_Generated": 2.7,
+    "Median_Tokens_Generated": 3.0,
+    "Mean_EOS_Prob_Step1": 0.002031,
+    "First_Tokens_Distinct": 1,
+    "Status": "COLLAPSED (EOS Early Stop)"
+  },
+  {
+    "Configuration": "INT8_Task5_SensPreserved",
+    "Encoder_Cos_Sim_Mean": 0.636459,
+    "Encoder_Cos_Sim_Min": 0.622069,
+    "Mean_Tokens_Generated": 57.1,
+    "Median_Tokens_Generated": 64.0,
+    "Mean_EOS_Prob_Step1": 2e-05,
+    "First_Tokens_Distinct": 5,
+    "Status": "HEALTHY (Normal)"
+  }
+]

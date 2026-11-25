@@ -1,0 +1,13 @@
+{
+  "base_model": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/05_models/onnx/EXP-A08-noise-aware/run-001/decoder.onnx",
+  "base_bytes": 197990359,
+  "base_sha256": "1ffccb58c26225f3d4e4485ccf2b77042608c2e189d9c99f54fbf66b30b6778e",
+  "fp16": {
+    "bytes": 99098863,
+    "sha256": "373915d80fe352621df6ea485943500037ac534889c6429ae36d5e6483d4cc25"
+  },
+  "int8": {
+    "bytes": 50118859,
+    "sha256": "1029357ef325e88f2bc1b0b239f409344caeb8adbbe8123a30665600aacea161"
+  }
+}

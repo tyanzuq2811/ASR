@@ -1,0 +1,761 @@
+utterance_id,speaker_id,split,reference,hypothesis,audio_duration_s,inference_s,rtf,device,model_id
+VIVOSDEV02_R106,VIVOSDEV02,test_in_domain,trở nên thụ động,chào anh nhan tô đau,2.625000,0.342557,0.130498,cpu,openai/whisper-tiny
+VIVOSDEV02_R122,VIVOSDEV02,test_in_domain,cũng khiến cho họ dè dặt,công kênh chào hạ dạ,2.562500,0.381821,0.149003,cpu,openai/whisper-tiny
+VIVOSDEV02_R130,VIVOSDEV02,test_in_domain,chị gặn hỏi anh thề sống thề chết là không có,dị dẫn hỏi anh thế xong thế để là không gó,4.406250,0.445931,0.101204,cpu,openai/whisper-tiny
+VIVOSDEV02_R132,VIVOSDEV02,test_in_domain,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tuyện thái lan nhân ta cũng phải nhất máy đúng không?,3.875000,0.469406,0.121137,cpu,openai/whisper-tiny
+VIVOSDEV02_R135,VIVOSDEV02,test_in_domain,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cũng thuật lại dầy đặc nhất trong hệ mặt trời,3.718750,0.557489,0.149913,cpu,openai/whisper-tiny
+VIVOSDEV02_R137,VIVOSDEV02,test_in_domain,các vụ tham nhũng và bê bối kinh tế,các vụ tham nhận và bế bối kinh đế.,3.562500,0.517686,0.145315,cpu,openai/whisper-tiny
+VIVOSDEV02_R149,VIVOSDEV02,test_in_domain,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,chúng cứ có lời lại mặt dù bướng bíu góng trình.,4.750000,0.574087,0.120860,cpu,openai/whisper-tiny
+VIVOSDEV02_R154,VIVOSDEV02,test_in_domain,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,bỏ buồn dữ and trả trọt bay ra khai dữ and bệ kìm chết,5.187500,0.617169,0.118972,cpu,openai/whisper-tiny
+VIVOSDEV02_R015,VIVOSDEV02,test_in_domain,tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả mọi thứ đều kì đã một các phi thường.,3.375000,0.463049,0.137200,cpu,openai/whisper-tiny
+VIVOSDEV02_R164,VIVOSDEV02,test_in_domain,các chương trình ca nhạc phần lớn đều không đột phá,cái chuyên trình gái nhạc thân lớn đều không đọc phép,3.656250,0.555810,0.152016,cpu,openai/whisper-tiny
+VIVOSDEV02_R170,VIVOSDEV02,test_in_domain,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lời bánh trang gõ cửa phòng 3 lên 2 giấm dùi,4.937500,0.558284,0.113070,cpu,openai/whisper-tiny
+VIVOSDEV02_R173,VIVOSDEV02,test_in_domain,để trả trở lại đại dương,để tất cả các bạn ạ!,3.218750,0.366846,0.113972,cpu,openai/whisper-tiny
+VIVOSDEV02_R181,VIVOSDEV02,test_in_domain,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,"nè, có đôi mắt đôi sau và bình chán rộng minh mông.",4.125000,0.563702,0.136655,cpu,openai/whisper-tiny
+VIVOSDEV02_R192,VIVOSDEV02,test_in_domain,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi ử hỏi phải chân đó lại cho anh dân của con quá trẻ.,4.937500,0.488969,0.099032,cpu,openai/whisper-tiny
+VIVOSDEV02_R195,VIVOSDEV02,test_in_domain,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,vì bàn châu áo kêu gọi nhận quốc gia phát triển có lại.,4.062500,0.528628,0.130124,cpu,openai/whisper-tiny
+VIVOSDEV02_R200,VIVOSDEV02,test_in_domain,và khi chúng ta sao nhãng công việc của mình,và khi chúng ta chá nhạc công việc của mình.,3.343750,0.356539,0.106628,cpu,openai/whisper-tiny
+VIVOSDEV02_R027,VIVOSDEV02,test_in_domain,có thể lành lặn mà không để lại vết sẹo,có thể là lãng mòa không để lại bây giờ,3.406250,0.400120,0.117466,cpu,openai/whisper-tiny
+VIVOSDEV02_R031,VIVOSDEV02,test_in_domain,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,một đẹp phải gè làm chào chào các bó kỳ trên nổi bận lên.,5.375000,0.558705,0.103945,cpu,openai/whisper-tiny
+VIVOSDEV02_R032,VIVOSDEV02,test_in_domain,y tế bình hưng hòa bị hư hỏng,"ê, đẹp bình hương hoài bị hư hồng.",3.437500,0.448817,0.130565,cpu,openai/whisper-tiny
+VIVOSDEV02_R045,VIVOSDEV02,test_in_domain,cô cứ nhè ngay cái nọng cá trê,cô cứ nhẹ cán nồng các chơi,3.625000,0.341201,0.094124,cpu,openai/whisper-tiny
+VIVOSDEV02_R005,VIVOSDEV02,test_in_domain,nếu tưởng tượng bảy tám năm nữa,nếu tướng tướng bại đám năm nữa,2.625000,0.346464,0.131986,cpu,openai/whisper-tiny
+VIVOSDEV02_R067,VIVOSDEV02,test_in_domain,ông chủ tịch tuyên bố như thế nào,ông chú tận đi bố như thế nào,3.937500,0.343438,0.087222,cpu,openai/whisper-tiny
+VIVOSDEV02_R068,VIVOSDEV02,test_in_domain,khiến hai cha con cậu,khiến hai trách góng cầu,3.062500,0.321373,0.104938,cpu,openai/whisper-tiny
+VIVOSDEV02_R069,VIVOSDEV02,test_in_domain,làm đẹp không đúng cách,nam đẹp không tướng cách,2.500000,0.290401,0.116160,cpu,openai/whisper-tiny
+VIVOSDEV02_R071,VIVOSDEV02,test_in_domain,mỗi khi xe rác đi ngang qua đánh kẻng mới đem ra đổ,mỏ kỳ chè là tìm nghen của tang kếm mới đêm ra đau,4.937500,0.576482,0.116756,cpu,openai/whisper-tiny
+VIVOSDEV02_R076,VIVOSDEV02,test_in_domain,thay vì bốn giờ như trước đây,thái về bống giò như chết đây,2.968750,0.344714,0.116114,cpu,openai/whisper-tiny
+VIVOSDEV02_R079,VIVOSDEV02,test_in_domain,hầu hết nang này có nguồn gốc từ gân cơ chân ngỗng,hào hẹp chán này có gồm gấp từ gân cơ trinh gảo.,4.031250,0.555795,0.137872,cpu,openai/whisper-tiny
+VIVOSDEV02_R087,VIVOSDEV02,test_in_domain,tiếng mã tấu sắc lạnh chạm nhau và cả tiếng rên rỉ,tuy má đấu chắc là chảm nhau và cạc biến tranh rửi,4.687500,0.598543,0.127689,cpu,openai/whisper-tiny
+VIVOSDEV02_R089,VIVOSDEV02,test_in_domain,có hẳn một loạt bài viết chuyên đề về quản trị thương hiệu,có hẳng mọt là bài viên trên đài về quan trị thương hiểu.,4.750000,0.638207,0.134359,cpu,openai/whisper-tiny
+VIVOSDEV02_R091,VIVOSDEV02,test_in_domain,hợp với hương vị đầu xuân,"hạp vôi hương, vui đạo xung",3.000000,0.426229,0.142076,cpu,openai/whisper-tiny
+VIVOSDEV02_R099,VIVOSDEV02,test_in_domain,ổng nói ở sài gòn ổng đã làm ông hội đồng như thế nào,ở nơi ở xây gần ấm đại làm ấm hỏi đầm như thế nào,5.062500,0.597844,0.118093,cpu,openai/whisper-tiny
+VIVOSDEV02_R009,VIVOSDEV02,test_in_domain,bà quảng vẫn đang bận rộn,"bà quán, vấn đam bận rộng",3.343750,0.398310,0.119121,cpu,openai/whisper-tiny
+VIVOSDEV02_T012,VIVOSDEV02,test_in_domain,mày dám chơi vợ tao tao phải giết mày,mày giám chơi bởi đào đá chạy giúp mày,3.375000,0.519902,0.154045,cpu,openai/whisper-tiny
+VIVOSDEV02_T013,VIVOSDEV02,test_in_domain,tống cổ hắn đi không được để hắn vào đây nữa,đóng có hán đi không được để hán vả đây nữa,3.687500,0.446482,0.121080,cpu,openai/whisper-tiny
+VIVOSDEV02_T015,VIVOSDEV02,test_in_domain,hắn chơi vợ anh thì sao anh không chơi vợ hắn,hán chơi vợ ăn thì chào ăn không chơi vợ ăn.,3.375000,0.506091,0.149953,cpu,openai/whisper-tiny
+VIVOSDEV02_T022,VIVOSDEV02,test_in_domain,tháng trước chồng về mấy ngày mình nằm ngủ thấy ấm kinh khủng,"tháng trước, trọng về máy ngày 60 ủ thấy ám kinh khủng.",4.250000,0.618564,0.145544,cpu,openai/whisper-tiny
+VIVOSDEV02_T031,VIVOSDEV02,test_in_domain,cho em góp một viên gạch,đó em gặp mọc bình gặp,2.250000,0.464047,0.206243,cpu,openai/whisper-tiny
+VIVOSDEV02_T043,VIVOSDEV02,test_in_domain,đi kiểm tra lại bác sĩ khuyên nên mổ nội soi,đấy game dare lại và sẽ quyền nên mọi nổi xong,3.781250,0.478981,0.126673,cpu,openai/whisper-tiny
+VIVOSDEV02_T004,VIVOSDEV02,test_in_domain,hôm nay em có tới năm khách,hôm nay em có đỡ năm khác,2.937500,0.347802,0.118401,cpu,openai/whisper-tiny
+VIVOSDEV02_T050,VIVOSDEV02,test_in_domain,anh bị đẩy từ hà nội vào sài gòn,anh bị đẩy đưa hành nói bài xe gó,3.312500,0.487608,0.147202,cpu,openai/whisper-tiny
+VIVOSDEV03_R109,VIVOSDEV03,test_in_domain,phù hợp cho mọi cân nặng,phù hạp cho ai cân mẹn.,1.656250,0.390515,0.235783,cpu,openai/whisper-tiny
+VIVOSDEV03_R010,VIVOSDEV03,test_in_domain,âm thầm chắt chiu nuôi tôi khôn lớn,em hầm chất kêu nguy tỏi không lớn,2.687500,0.438180,0.163044,cpu,openai/whisper-tiny
+VIVOSDEV03_R113,VIVOSDEV03,test_in_domain,vì bạn có thể lảy cò từng phát một,vì bản có thể lấy cò từng phát mộ.,2.625000,0.500665,0.190729,cpu,openai/whisper-tiny
+VIVOSDEV03_R117,VIVOSDEV03,test_in_domain,vai trò của chế độ dinh dưỡng,vài trò của chế đau in dưới.,1.781250,0.365226,0.205039,cpu,openai/whisper-tiny
+VIVOSDEV03_R119,VIVOSDEV03,test_in_domain,không hiểu sao,không hiểu sao?,1.406250,0.246554,0.175328,cpu,openai/whisper-tiny
+VIVOSDEV03_R120,VIVOSDEV03,test_in_domain,khiến phụ huynh hiểu nhầm,khiến bố hơn hệu nhằm.,2.062500,0.358268,0.173706,cpu,openai/whisper-tiny
+VIVOSDEV03_R125,VIVOSDEV03,test_in_domain,mỗi khi cơn gió đến,mọi hình con nhớ đơn,1.843750,0.310259,0.168276,cpu,openai/whisper-tiny
+VIVOSDEV03_R136,VIVOSDEV03,test_in_domain,này bón cho con thương đỡ yếu đau còi cọc,này bóng cho thương đợi yêu đào coi cậu,3.437500,0.474513,0.138040,cpu,openai/whisper-tiny
+VIVOSDEV03_R142,VIVOSDEV03,test_in_domain,trong tư thế phi ngựa chồm lên,trong thứ thái phía ngữ trọng lên,2.500000,0.358796,0.143519,cpu,openai/whisper-tiny
+VIVOSDEV03_R144,VIVOSDEV03,test_in_domain,mà cũng đầy thanh khiết,mạc cũng đầy thân khí,1.625000,0.348293,0.214334,cpu,openai/whisper-tiny
+VIVOSDEV03_R148,VIVOSDEV03,test_in_domain,một vụ chập điện đã khiến ngọn lửa bùng lên,mò bố chập đến đã kính ngọng lưỡa bùng lên,3.000000,0.478893,0.159631,cpu,openai/whisper-tiny
+VIVOSDEV03_R149,VIVOSDEV03,test_in_domain,bà con chòm xóm,bà con kìa mớm,1.562500,0.307983,0.197109,cpu,openai/whisper-tiny
+VIVOSDEV03_R156,VIVOSDEV03,test_in_domain,đây là mức lãi suất thấp nhất qua các phiên đấu thầu,đây là mức lại xúc thấp nhắc qua cafing nó thảo.,2.875000,0.464010,0.161395,cpu,openai/whisper-tiny
+VIVOSDEV03_R160,VIVOSDEV03,test_in_domain,dọc hai bên sông ngàn sâu,dọc 2 bân xong ngàn xấu,2.156250,0.378157,0.175377,cpu,openai/whisper-tiny
+VIVOSDEV03_R163,VIVOSDEV03,test_in_domain,nhưng oái ăm thay,nhưng ai em thay,1.625000,0.275309,0.169421,cpu,openai/whisper-tiny
+VIVOSDEV03_R180,VIVOSDEV03,test_in_domain,sau cải cách,sao cái cắt,1.562500,0.291602,0.186625,cpu,openai/whisper-tiny
+VIVOSDEV03_R182,VIVOSDEV03,test_in_domain,một kế hoạch tương tự được áp dụng ở anh,một cái hạt tương tạo được áp dụng ngờ ăn,2.750000,0.482805,0.175565,cpu,openai/whisper-tiny
+VIVOSDEV03_R191,VIVOSDEV03,test_in_domain,cỡi ngựa đi thi,cái ngờ đi thế?,1.687500,0.295250,0.174963,cpu,openai/whisper-tiny
+VIVOSDEV03_R193,VIVOSDEV03,test_in_domain,ôi dào,oh yếu,1.437500,0.243735,0.169555,cpu,openai/whisper-tiny
+VIVOSDEV03_R195,VIVOSDEV03,test_in_domain,không một chiếc xe lạ nào có thể mon men vào được,không một kí sẽ là nào có thấy mong mêng vào được,3.062500,0.422521,0.137966,cpu,openai/whisper-tiny
+VIVOSDEV03_R198,VIVOSDEV03,test_in_domain,rồi đi khắp nơi tìm thầy chữa bệnh cho anh,rồi đi khắp nơi tìm hài chủ bản chóan,2.562500,0.491280,0.191719,cpu,openai/whisper-tiny
+VIVOSDEV03_R020,VIVOSDEV03,test_in_domain,bên trong trái vả khi bổ ra sẽ rỗng chứ không đặc như trái sung,bình tâm tay và khi bẫu ra sẽ rộng chứ không đặc như trái xung.,4.625000,0.560513,0.121192,cpu,openai/whisper-tiny
+VIVOSDEV03_R029,VIVOSDEV03,test_in_domain,nên hai mố cầu bị sụp đất khiến lối đi bộ quá nguy hiểm,nên 2 mốt cầu bị giập đất khiến lỗi đi bộ quanh vi hiểm.,4.687500,0.576207,0.122924,cpu,openai/whisper-tiny
+VIVOSDEV03_R041,VIVOSDEV03,test_in_domain,luôn ổn định và các xe trấu khá nặng,luôn ổng đánh và các xe trấu khán ấn,2.937500,0.443725,0.151055,cpu,openai/whisper-tiny
+VIVOSDEV03_R044,VIVOSDEV03,test_in_domain,và khi họ vạch tóc ra,và khi họ bắt tóc ra,2.937500,0.333292,0.113461,cpu,openai/whisper-tiny
+VIVOSDEV03_R046,VIVOSDEV03,test_in_domain,của chính sách đối với quy mô của thị trường,cố chân sắp đôi với quy mò của thị trường,2.937500,0.495104,0.168546,cpu,openai/whisper-tiny
+VIVOSDEV03_R056,VIVOSDEV03,test_in_domain,sương mù đã đọng thành những hạt giá băng,xương mù đã đống thành những hạn xa băng,2.625000,0.409235,0.155899,cpu,openai/whisper-tiny
+VIVOSDEV03_R057,VIVOSDEV03,test_in_domain,chứ không phải tài năng thiên bẩm nào,khiếc không phải tại năng thình bấm nào,2.281250,0.401826,0.176143,cpu,openai/whisper-tiny
+VIVOSDEV03_R061,VIVOSDEV03,test_in_domain,là tiếng trống lân tùng xèng vui tai,là tiếng trống lần tùng sàng vui tay,2.562500,0.381359,0.148823,cpu,openai/whisper-tiny
+VIVOSDEV03_R007,VIVOSDEV03,test_in_domain,một chuyến du lịch dã ngoại tại bò cạp vàng,một chuyến như lịch dẫn ngoài tại bóa cấp phang,3.125000,0.455401,0.145728,cpu,openai/whisper-tiny
+VIVOSDEV03_R082,VIVOSDEV03,test_in_domain,ghép cành mai giảo vào thân cổ thụ cho hoa cánh lớn,"nhớ một dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà, dạy bà",3.937500,3.580735,0.909393,cpu,openai/whisper-tiny
+VIVOSDEV03_R092,VIVOSDEV03,test_in_domain,để chọn máy in cho phù hợp,để cho ông máy anh chá phù hợp,2.500000,0.406161,0.162464,cpu,openai/whisper-tiny
+VIVOSDEV03_T017,VIVOSDEV03,test_in_domain,bác vẫn chưa trả tiền cho tôi đây nhé,bác phán kêu đã tìm cho tôi đấy nhé,2.406250,0.405904,0.168687,cpu,openai/whisper-tiny
+VIVOSDEV03_T018,VIVOSDEV03,test_in_domain,tôi đang bận họp,tối đang bánh hợp,1.750000,0.289196,0.165255,cpu,openai/whisper-tiny
+VIVOSDEV03_T023,VIVOSDEV03,test_in_domain,cướp đầy đường công an chỉ lo hạch sách,"côp đầy đường, công ngang chỉ loa hạt sát",2.812500,0.467200,0.166116,cpu,openai/whisper-tiny
+VIVOSDEV03_T035,VIVOSDEV03,test_in_domain,mẹ ơi có mua đồ cho con không,mẹ ơi có mua đổi cho con không,2.312500,0.347394,0.150224,cpu,openai/whisper-tiny
+VIVOSDEV03_T041,VIVOSDEV03,test_in_domain,con chó lủi thủi đi theo chủ nó,con giao lửa thửa thế nào?,2.531250,0.390257,0.154176,cpu,openai/whisper-tiny
+VIVOSDEV03_T047,VIVOSDEV03,test_in_domain,trong phim có nhiều cảnh chém giết,tong phim có nhiều cạnh kếm giết,2.281250,0.422076,0.185020,cpu,openai/whisper-tiny
+VIVOSDEV03_T048,VIVOSDEV03,test_in_domain,diễn viên chính đứng như khúc gỗ,nhìn mình chánh đứng nhờ khúc gạo,2.250000,0.383737,0.170550,cpu,openai/whisper-tiny
+VIVOSDEV03_T009,VIVOSDEV03,test_in_domain,bác đang suy nghĩ gì thế,bỏ đang xin nghỉ dịch thấy,1.906250,0.325351,0.170676,cpu,openai/whisper-tiny
+VIVOSDEV01_R108,VIVOSDEV01,test_in_domain,khi trẫm khỏi bệnh thì sẽ chém đầu,khi chấm có bình thầy sẽ chếm đầu.,3.437500,0.455013,0.132367,cpu,openai/whisper-tiny
+VIVOSDEV01_R117,VIVOSDEV01,test_in_domain,việc một quyển tiểu thuyết như thế,về mọc quên tèo hích như hay,2.750000,0.372872,0.135590,cpu,openai/whisper-tiny
+VIVOSDEV01_R012,VIVOSDEV01,test_in_domain,những cơn gió mạnh và mưa đóng băng gây trơn trợt,những cơng gió mạnh và mưa đóng bằng gây chân chật.,4.187500,0.524982,0.125369,cpu,openai/whisper-tiny
+VIVOSDEV01_R130,VIVOSDEV01,test_in_domain,não bộ chúng ta phát triển những rung động yêu thương,ná bỏ chúng ta phát kỹ những gung đọng yêu hơn,3.718750,0.454285,0.122161,cpu,openai/whisper-tiny
+VIVOSDEV01_R139,VIVOSDEV01,test_in_domain,trừ khi bạn biết tôn trọng bản thân mình,chưa khi bạn biết tốt chọn bản hơn mình.,3.187500,0.381264,0.119612,cpu,openai/whisper-tiny
+VIVOSDEV01_R141,VIVOSDEV01,test_in_domain,những con đường ngắn ngủn như những nhát cắt,những con đường án nổ như những nhét cắt.,3.281250,0.418536,0.127554,cpu,openai/whisper-tiny
+VIVOSDEV01_R146,VIVOSDEV01,test_in_domain,hiện ra tận phía xa,hẹn gia tận phía xa,2.031250,0.328533,0.161739,cpu,openai/whisper-tiny
+VIVOSDEV01_R150,VIVOSDEV01,test_in_domain,xin được chân khuân vác,sinh đầu chân không vật,2.062500,0.309273,0.149951,cpu,openai/whisper-tiny
+VIVOSDEV01_R151,VIVOSDEV01,test_in_domain,nhưng khi tiến gần vào vịnh thì mặt biển bị rạn vỡ,nhưng khi tính gần vào vấn hề mặc bếng bế gàng vợ,3.656250,0.547048,0.149620,cpu,openai/whisper-tiny
+VIVOSDEV01_R164,VIVOSDEV01,test_in_domain,một bà ngoại giặt đồ thuê,"mọng bá ngã, dạc đau hơi",2.500000,0.417026,0.166811,cpu,openai/whisper-tiny
+VIVOSDEV01_R170,VIVOSDEV01,test_in_domain,đôi bàn tay em không được mềm mại và nõn nà,đói bản tay em không được miếng mãi và nóng nè,3.281250,0.485900,0.148084,cpu,openai/whisper-tiny
+VIVOSDEV01_R172,VIVOSDEV01,test_in_domain,tây giang vẫn còn khắc khoải không thể vào xã a nông,tây dên quấn còn các khỏi công hỏi vào sả an ngon,3.718750,0.449366,0.120838,cpu,openai/whisper-tiny
+VIVOSDEV01_R174,VIVOSDEV01,test_in_domain,những dự định cần phải được biến thành hiện thực,những dưới đánh cần phải được viến hành hình hợp.,3.125000,0.450191,0.144061,cpu,openai/whisper-tiny
+VIVOSDEV01_R176,VIVOSDEV01,test_in_domain,để tàu không phải cưỡi cầu tàu,đấy tạo không phải cửa cầu tạo,3.437500,0.377731,0.109885,cpu,openai/whisper-tiny
+VIVOSDEV01_R180,VIVOSDEV01,test_in_domain,bàn chổi sơn bằng bông mềm rất phổ biến,bàn chói xe bằng bông mềm gước phó biến.,3.937500,0.464151,0.117880,cpu,openai/whisper-tiny
+VIVOSDEV01_R187,VIVOSDEV01,test_in_domain,thật sự mà là bởi lòng hận thù,hực sửa mà là bởi lòng hăng hô.,2.750000,0.428827,0.155937,cpu,openai/whisper-tiny
+VIVOSDEV01_R188,VIVOSDEV01,test_in_domain,việc quy tội để bùng nổ loại sách này là do,bây quý tỏi để bùng nỗi lời sách này là ya,3.437500,0.474157,0.137936,cpu,openai/whisper-tiny
+VIVOSDEV01_R027,VIVOSDEV01,test_in_domain,di tích có bảy phỗng ông và hai phỗng bà được làm bằng gỗ mít,gì tất có bảy phẩm ông và 2 phẩm và được làm văn gồm bất,4.718750,0.603747,0.127946,cpu,openai/whisper-tiny
+VIVOSDEV01_R028,VIVOSDEV01,test_in_domain,các chú cũng thoải mái phóng uế giữa chốn đông người mà không sợ,các chủ cũng hỏi mái phóng ở dưới chủ đồng người mà không sợ,4.562500,0.564156,0.123651,cpu,openai/whisper-tiny
+VIVOSDEV01_R002,VIVOSDEV01,test_in_domain,tiếng cọc cạch khựng lại của những khớp sắt,đến cộng cận lại có những gấp sách.,4.062500,0.421243,0.103690,cpu,openai/whisper-tiny
+VIVOSDEV01_R034,VIVOSDEV01,test_in_domain,người ta nói,người ta nói,1.937500,0.211839,0.109336,cpu,openai/whisper-tiny
+VIVOSDEV01_R003,VIVOSDEV01,test_in_domain,cũng lên tiếng ủng hộ các kiến nghị này,còn lên tiếng ủng hò các kỹ nghỉ này,3.687500,0.423211,0.114769,cpu,openai/whisper-tiny
+VIVOSDEV01_R043,VIVOSDEV01,test_in_domain,anh phú chưa bú được sữa mẹ lần nào,anh phố chưa bố được sở mẹ lần nào.,3.375000,0.421306,0.124831,cpu,openai/whisper-tiny
+VIVOSDEV01_R044,VIVOSDEV01,test_in_domain,ngọn lửa bạo động ở trung đông và phá vỡ lộ trình hòa bình,nóng lưỡa bỏ đồng ở trong đông và phá phá phá phá lối trên của bình,5.218750,0.701127,0.134348,cpu,openai/whisper-tiny
+VIVOSDEV01_R055,VIVOSDEV01,test_in_domain,và rất sáng tạo,và gước xang tạo,2.593750,0.304979,0.117582,cpu,openai/whisper-tiny
+VIVOSDEV01_R057,VIVOSDEV01,test_in_domain,nhưng giấc ngủ chập chờn,"nhưng dức nấu, dập kia",2.937500,0.372208,0.126709,cpu,openai/whisper-tiny
+VIVOSDEV01_R058,VIVOSDEV01,test_in_domain,giám đốc sở giáo dục đào tạo ninh thuận cho biết,giám đốc sợ giá dục nào tạo ninh hưởng cho biết,3.781250,0.522884,0.138283,cpu,openai/whisper-tiny
+VIVOSDEV01_R069,VIVOSDEV01,test_in_domain,đèn bị hư rồi ba,đẹn biệt hư gọi bá,2.187500,0.394691,0.180430,cpu,openai/whisper-tiny
+VIVOSDEV01_R071,VIVOSDEV01,test_in_domain,trưởng công an xã chạy sang can ngăn cũng bị tuyến đánh tiếp,chưởng công sẽ trải xanh kênh ngăn cũng bị tuyên đánh tiếp.,4.562500,0.569887,0.124907,cpu,openai/whisper-tiny
+VIVOSDEV01_R078,VIVOSDEV01,test_in_domain,nghe chúng tôi hỏi điều này chị ngát rân rấn nước mắt,nhiều chống tôi hỏi đều này chìa nghe gần gần nước mắt,3.750000,0.583906,0.155708,cpu,openai/whisper-tiny
+VIVOSDEV01_R086,VIVOSDEV01,test_in_domain,công văn đề nghị tỉnh con tum xây dựng cửa khẩu,còn văn đầy ngay tính con tâm xe dẫn cửa khẩu.,4.125000,0.561831,0.136201,cpu,openai/whisper-tiny
+VIVOSDEV01_R089,VIVOSDEV01,test_in_domain,nhưng tình yêu vẫn nồng nàn và say đắm như buổi ban đầu,nhưng tình yêu vấn nồng nè và xây đám như vối bang đầu.,4.062500,0.471446,0.116048,cpu,openai/whisper-tiny
+VIVOSDEV01_R092,VIVOSDEV01,test_in_domain,do chính phủ mỹ tiến hành ở việt nam,dòi chính phủ mỹ tiếng hình ở việt nam,3.031250,0.364339,0.120194,cpu,openai/whisper-tiny
+VIVOSDEV01_R098,VIVOSDEV01,test_in_domain,tỉnh quảng trị đã phê duyệt,tính của anh kỳ đã phơi dịch.,2.875000,0.365684,0.127195,cpu,openai/whisper-tiny
+VIVOSDEV01_R099,VIVOSDEV01,test_in_domain,nhưng tôi thích xem bộ phim truyện phát ngay sau chương trình này,nhưng tôi hết xem bỏ phim truyền phát ngày sau chung trình này.,3.875000,0.538337,0.138926,cpu,openai/whisper-tiny
+VIVOSDEV01_T002,VIVOSDEV01,test_in_domain,cũng chưa biết nữa,cộng chờ biết nữa,1.968750,0.255046,0.129547,cpu,openai/whisper-tiny
+VIVOSDEV01_T030,VIVOSDEV01,test_in_domain,xuân này em không về,sương mẹ em không vời,1.937500,0.280025,0.144529,cpu,openai/whisper-tiny
+VIVOSDEV01_T038,VIVOSDEV01,test_in_domain,chắc sắp tới thu xếp đi du lịch thôi,"chắc sắp tới hô sếp, bây giờ là tài.",2.500000,0.460677,0.184271,cpu,openai/whisper-tiny
+VIVOSDEV01_T043,VIVOSDEV01,test_in_domain,nó trốn mất tiêu rồi còn đâu,nó chó mức tư gói con rao,2.437500,0.368789,0.151298,cpu,openai/whisper-tiny
+VIVOSDEV01_T048,VIVOSDEV01,test_in_domain,thằng đó có cái miệng như đàn bà,hẳng đó có cái mấy như đẳng ba,2.375000,0.393739,0.165785,cpu,openai/whisper-tiny
+VIVOSDEV04_R100,VIVOSDEV04,test_in_domain,bà nói,bà nói,1.375000,0.217679,0.158312,cpu,openai/whisper-tiny
+VIVOSDEV04_R010,VIVOSDEV04,test_in_domain,con nhỏ mở cái túi gút đeo trên cổ,"con nhỏ, mở cái tuy vũ đều trình cổ.",3.750000,0.444255,0.118468,cpu,openai/whisper-tiny
+VIVOSDEV04_R114,VIVOSDEV04,test_in_domain,cũng chẳng còn xúng xính quần áo mới,cũng chán còn xung xinh của ngá mới,2.812500,0.341583,0.121452,cpu,openai/whisper-tiny
+VIVOSDEV04_R118,VIVOSDEV04,test_in_domain,trẻ em đâu có chướng ngại vật,để em đau có chung ngày vọc,2.406250,0.378414,0.157263,cpu,openai/whisper-tiny
+VIVOSDEV04_R126,VIVOSDEV04,test_in_domain,tôi không nỡ làm cô bé thất vọng,tơi không nở làm của bế tất phòng,2.406250,0.358380,0.148937,cpu,openai/whisper-tiny
+VIVOSDEV04_R127,VIVOSDEV04,test_in_domain,rất nhiều gửi gắm và kỳ vọng vào ông,lực nhiều người gắm và ký vắng vô vắng.,3.468750,0.423453,0.122077,cpu,openai/whisper-tiny
+VIVOSDEV04_R129,VIVOSDEV04,test_in_domain,đang thảo luận về đề xuất,đăng thổ lần về đe sức,2.187500,0.354498,0.162056,cpu,openai/whisper-tiny
+VIVOSDEV04_R132,VIVOSDEV04,test_in_domain,chủ tịch nước đã đến kiểm tra tiến độ thi công,chúng ta nước đã đánh kìm tra tiến đổi thích công.,3.375000,0.438922,0.130051,cpu,openai/whisper-tiny
+VIVOSDEV04_R013,VIVOSDEV04,test_in_domain,nghĩa là kém cỏi nam tính hay sao,nhiế là kim có nong tính hay sau.,3.841000,0.360889,0.093957,cpu,openai/whisper-tiny
+VIVOSDEV04_R149,VIVOSDEV04,test_in_domain,một cô gái váy ngắn cũn cỡn chạy lên hỏi,một cô gái với ngán cũng cận chảy linh hóa.,4.722313,0.501117,0.106117,cpu,openai/whisper-tiny
+VIVOSDEV04_R152,VIVOSDEV04,test_in_domain,sẽ không khiến bạn trông gầy như những trang phục một màu,sẽ không khiến bạn trong ngày như những trong phục mục mào.,4.531250,0.446529,0.098544,cpu,openai/whisper-tiny
+VIVOSDEV04_R162,VIVOSDEV04,test_in_domain,cô chỉ mới vào lưới nhặt bóng hai lần,cui chỉ mở vào lưới nhạc bóng hay lạng.,2.687500,0.513649,0.191125,cpu,openai/whisper-tiny
+VIVOSDEV04_R182,VIVOSDEV04,test_in_domain,hoặc chỉ biểu hiện bằng các rối loạn co bóp,hạc kiế biểu hiện bàn cắt rối lần các bóc.,3.562500,0.484748,0.136070,cpu,openai/whisper-tiny
+VIVOSDEV04_R186,VIVOSDEV04,test_in_domain,nhằm tạo ra sự hấp dẫn,nhanh đau rác xử hấp dẫn,1.937500,0.390812,0.201709,cpu,openai/whisper-tiny
+VIVOSDEV04_R187,VIVOSDEV04,test_in_domain,thứ âm thanh không chỉ cảm nhận bằng thính giác,thứ ảm thân không chỉ cảm nhận bằng thân dạc.,3.250000,0.480548,0.147861,cpu,openai/whisper-tiny
+VIVOSDEV04_R189,VIVOSDEV04,test_in_domain,từ nỗi cô đơn của một cô bé bị cha mẹ bỏ quên,từ nữ cố đăng của một của bệ trọng mẹ bó khánh,3.375000,0.529051,0.156756,cpu,openai/whisper-tiny
+VIVOSDEV04_R023,VIVOSDEV04,test_in_domain,chính bà cũng là người nung nấu niềm đam mê diễn xuất của cô con gái,chính bà cũng là người nung nấu nềm đam mê dính sức của cô con gái,6.375000,0.593724,0.093133,cpu,openai/whisper-tiny
+VIVOSDEV04_R002,VIVOSDEV04,test_in_domain,đó cũng là động lực thúc đẩy tôi,đó cũng là đồng lực thúc đấy thôi.,3.375000,0.378105,0.112031,cpu,openai/whisper-tiny
+VIVOSDEV04_R047,VIVOSDEV04,test_in_domain,nhóm sinh viên tại trường cùng họp mặt ăn tết chung,nhóm xinh viên tại trường cùng học mạc ăn tích trường.,4.281250,0.498878,0.116526,cpu,openai/whisper-tiny
+VIVOSDEV04_R049,VIVOSDEV04,test_in_domain,vì tối đó,"vì, tàu y đau",2.062500,0.274554,0.133117,cpu,openai/whisper-tiny
+VIVOSDEV04_R004,VIVOSDEV04,test_in_domain,đôi khi bạn cũng có thể làm những điều đó,được khi bằng cũng có thể làm những biểu đó,3.562500,0.395673,0.111066,cpu,openai/whisper-tiny
+VIVOSDEV04_R051,VIVOSDEV04,test_in_domain,rạch bàu mớp,rất báo mục,2.250000,0.286628,0.127390,cpu,openai/whisper-tiny
+VIVOSDEV04_R056,VIVOSDEV04,test_in_domain,gí hòn than vào rơm,y hiểu hẳng thân vào rương,3.093750,0.355623,0.114949,cpu,openai/whisper-tiny
+VIVOSDEV04_R063,VIVOSDEV04,test_in_domain,cháu sốt nên rẹo rọc suốt đêm,"cáo sốc, nèng, rọng, rọng, xúc đêm.",3.875000,0.544627,0.140549,cpu,openai/whisper-tiny
+VIVOSDEV04_R081,VIVOSDEV04,test_in_domain,và tôi thấy hoa vạn thọ vàng ươm,và tôi thấy qua vảng thỏ vàng lâm.,3.187500,0.366847,0.115089,cpu,openai/whisper-tiny
+VIVOSDEV04_R086,VIVOSDEV04,test_in_domain,tay kia xách một tay gióng mang chiếc vịm lớn,tại vì sách mục tây dẫn mang chức vướng lắng.,5.125000,0.469816,0.091671,cpu,openai/whisper-tiny
+VIVOSDEV04_R089,VIVOSDEV04,test_in_domain,ngủ trên nệm không phù hợp,"lô tăng nêm, không phu hợp.",2.312500,0.351940,0.152190,cpu,openai/whisper-tiny
+VIVOSDEV04_R008,VIVOSDEV04,test_in_domain,những ngày đầu vắng bóng ba việt cứ thừ người nghĩ ngợi,"những ngày đầu váng bóng, ba mẹ cứ thử người nghĩ ở",6.437500,0.432693,0.067214,cpu,openai/whisper-tiny
+VIVOSDEV04_R092,VIVOSDEV04,test_in_domain,bị các cô gái bao vây ráo riết,bây cập của gái bảo v rào rịp,3.062500,0.428443,0.139900,cpu,openai/whisper-tiny
+VIVOSDEV04_R095,VIVOSDEV04,test_in_domain,trơ trọi giữa đồng cái nhìn khắc khoải,"tờ trại, dùa đồng cái nhìn khắc khỏi",4.250000,0.453136,0.106620,cpu,openai/whisper-tiny
+VIVOSDEV04_R097,VIVOSDEV04,test_in_domain,ngoài việc phát hiện kẻ thù,ngoài việc phó kinh gái tổ,2.375000,0.335040,0.141069,cpu,openai/whisper-tiny
+VIVOSDEV04_T015,VIVOSDEV04,test_in_domain,một là gặp lại tất cả các em phò,một là gặp lại tất cả các em phó.,3.343750,0.396989,0.118726,cpu,openai/whisper-tiny
+VIVOSDEV04_T018,VIVOSDEV04,test_in_domain,những sai lầm khi đi chọn khách sạn,như sẽ làm khi đi chọn khách sáng.,2.593750,0.382471,0.147459,cpu,openai/whisper-tiny
+VIVOSDEV04_T029,VIVOSDEV04,test_in_domain,anh đi công tác cần thơ tuần sau mới về,"anh đi công tác, cạnh thật tưởng sau mối vẻ.",3.062500,0.431630,0.140941,cpu,openai/whisper-tiny
+VIVOSDEV04_T002,VIVOSDEV04,test_in_domain,có trả tiền cho bố không thì bảo,các trả tiền cho bố không thì báo,3.000000,0.386725,0.128908,cpu,openai/whisper-tiny
+VIVOSDEV04_T032,VIVOSDEV04,test_in_domain,cam sành lột vỏ còn chua,cấm sản lập phát con kêu,2.000000,0.357210,0.178605,cpu,openai/whisper-tiny
+VIVOSDEV04_T035,VIVOSDEV04,test_in_domain,anh khen em đẹp em chê anh già,"anh khen em địp, mt. and dà.",2.687500,0.426668,0.158760,cpu,openai/whisper-tiny
+VIVOSDEV04_T003,VIVOSDEV04,test_in_domain,nhận được tin này gọi lại cho tôi gấp,"nhận được tinh này, có lại cháu tư gấp",2.968750,0.463637,0.156173,cpu,openai/whisper-tiny
+VIVOSDEV04_T044,VIVOSDEV04,test_in_domain,ba này chỉ giỏi bốc phét,bóan ai kìa bố phát,2.687500,0.333396,0.124054,cpu,openai/whisper-tiny
+VIVOSDEV04_T009,VIVOSDEV04,test_in_domain,cho tôi nhắn đại tin nào cũng được,cho tôi nhấn đại tinh nào cũng được.,2.562500,0.364667,0.142309,cpu,openai/whisper-tiny
+VIVOSDEV05_004,VIVOSDEV05,test_in_domain,hãy tưởng tượng rằng bạn là là giám đốc dự án trong một công ty lớn,hãy tưởng tượng rằng bạn là giám đốc dữ an trong một công ty lớn.,4.062500,0.551714,0.135806,cpu,openai/whisper-tiny
+VIVOSDEV05_030,VIVOSDEV05,test_in_domain,của những thế lực hùng mạnh,gối những thấy là không mạnh.,2.375000,0.306111,0.128889,cpu,openai/whisper-tiny
+VIVOSDEV05_037,VIVOSDEV05,test_in_domain,ông nhặt nó lên,ông nhật nó lên,1.937500,0.267502,0.138066,cpu,openai/whisper-tiny
+VIVOSDEV05_043,VIVOSDEV05,test_in_domain,nguyên thứ trưởng mai văn dâu đã bị bắt,nguyên thứ tưởng mai văn dâu đã bị bắt.,3.000000,0.457483,0.152494,cpu,openai/whisper-tiny
+VIVOSDEV05_055,VIVOSDEV05,test_in_domain,nhưng mức án tử hình đối với các bị cáo là tương xứng,nhưng mức an tử hành đối với các vị cáo là tương dẫn.,3.343750,0.541466,0.161934,cpu,openai/whisper-tiny
+VIVOSDEV05_065,VIVOSDEV05,test_in_domain,những người sống thì tha thẩn trong nhà ngoài ngõ,những người sống thị thá tháng trong nhà ngoài ngó,3.656250,0.474867,0.129878,cpu,openai/whisper-tiny
+VIVOSDEV05_087,VIVOSDEV05,test_in_domain,cả không gian nhuốm màu tro bếp,cả không dàng nhúng màu trò bếp,2.406250,0.395364,0.164307,cpu,openai/whisper-tiny
+VIVOSDEV05_091,VIVOSDEV05,test_in_domain,trán giô,tên dô,2.062500,0.220200,0.106763,cpu,openai/whisper-tiny
+VIVOSDEV05_097,VIVOSDEV05,test_in_domain,thu chạm ngõ rất hiền,thô chạm ngó rất hiện.,2.125000,0.341239,0.160583,cpu,openai/whisper-tiny
+VIVOSDEV05_107,VIVOSDEV05,test_in_domain,trông một cô nàng đổ người lên lưng anh người yêu gầy còm,trong mỏ vô nèng đón người lên lưng ăn người yêu gây cơm.,4.875000,0.579311,0.118833,cpu,openai/whisper-tiny
+VIVOSDEV05_109,VIVOSDEV05,test_in_domain,doanh nghiệp tuyển dụng lao động nước ngoài,giò anh nghiệp tính dụng lao đồng nước ngoài.,2.562500,0.495911,0.193526,cpu,openai/whisper-tiny
+VIVOSDEV05_115,VIVOSDEV05,test_in_domain,thời hạn sử dụng và loại sản phẩm bột,thời hành sử dụng và loài sáng phẩm bộ,3.875000,0.523290,0.135043,cpu,openai/whisper-tiny
+VIVOSDEV05_119,VIVOSDEV05,test_in_domain,mà còn bị những bộ mặt lạnh te kia hoạnh họe,mà con bây nhiễm bộ mặt lần tế kí hoàn hòa,3.937500,0.558321,0.141796,cpu,openai/whisper-tiny
+VIVOSDEV05_120,VIVOSDEV05,test_in_domain,nhưng mùi hôi vẫn xộc vào tận óc,nhưng mùi hơi vẫn sợ vào tăng áp,3.031250,0.435075,0.143530,cpu,openai/whisper-tiny
+VIVOSDEV05_125,VIVOSDEV05,test_in_domain,đang làm việc không ngừng nghỉ,đang làm bây con ngừng ngay,2.250000,0.322044,0.143131,cpu,openai/whisper-tiny
+VIVOSDEV05_129,VIVOSDEV05,test_in_domain,thu hút rất là nhiều loài chim,thô hốc rất là nhiều loại kìm.,2.343750,0.416323,0.177631,cpu,openai/whisper-tiny
+VIVOSDEV05_135,VIVOSDEV05,test_in_domain,khi cô thể hiện không mấy thành công ở lễ khai mạc,khi cô thở h顯 không mấy thành công ở lẽ kê mạc.,3.500000,0.519253,0.148358,cpu,openai/whisper-tiny
+VIVOSDEV05_136,VIVOSDEV05,test_in_domain,ra hiệu cho tôi im lặng,ra hiểu cho tôi im lắng,2.125000,0.307632,0.144768,cpu,openai/whisper-tiny
+VIVOSDEV05_143,VIVOSDEV05,test_in_domain,nhỏ đưa tay ra cào hết bùn khô trên cổ tớ,nhỏ đưa tay ra cạo hết bùng khô trên cộ tớ,4.343750,0.507088,0.116740,cpu,openai/whisper-tiny
+VIVOSDEV05_150,VIVOSDEV05,test_in_domain,ngồi chồm chồm cách chỉ mấy mét,ngồi chôm trong cách kể máy mết,2.687500,0.366872,0.136511,cpu,openai/whisper-tiny
+VIVOSDEV05_155,VIVOSDEV05,test_in_domain,nửa vòng trái đất hơn bảy năm,nữ vòng tay đất hơn bánh năm.,2.375000,0.367196,0.154609,cpu,openai/whisper-tiny
+VIVOSDEV05_170,VIVOSDEV05,test_in_domain,chậm nắm bắt xu hướng phát triển công nghệ mới,chậm năm 7 su hướng phát triển công nghệ mới,3.875000,0.432989,0.111739,cpu,openai/whisper-tiny
+VIVOSDEV05_185,VIVOSDEV05,test_in_domain,mà mường tượng ra hình bóng mẹ,mà mừng tỡ ra hình báo mẹ,2.562500,0.392113,0.153020,cpu,openai/whisper-tiny
+VIVOSDEV05_189,VIVOSDEV05,test_in_domain,mỗi người một số phận em à,mỗi người mục sốt phẳng em à,2.437500,0.380822,0.156235,cpu,openai/whisper-tiny
+VIVOSDEV05_199,VIVOSDEV05,test_in_domain,lần lữa mãi mới gặp được tuyên,lần nữa máy mới gặp được tuyên.,2.937500,0.373514,0.127154,cpu,openai/whisper-tiny
+VIVOSDEV05_200,VIVOSDEV05,test_in_domain,làm đường dây để nối các mảnh đời,làm đường dây để nói các mạnh đời,2.750000,0.359044,0.130561,cpu,openai/whisper-tiny
+VIVOSDEV05_202,VIVOSDEV05,test_in_domain,chị hai chủ quán nghe bàn tán rôm rả cũng ra góp chuyện,chỉ 2 chủ quá ngay bàn táng rộng ra cũng ra góp chuyển.,3.843750,0.542964,0.141259,cpu,openai/whisper-tiny
+VIVOSDEV05_206,VIVOSDEV05,test_in_domain,tức khắc ập về kéo mọi người thứ trở lại thời hoang sơ,tức khắc ập về kéo mọi người thử trở lại thời hoang sơ.,4.562500,0.521461,0.114293,cpu,openai/whisper-tiny
+VIVOSDEV05_209,VIVOSDEV05,test_in_domain,tên gọi tại địa phương là trắc thối,tân gọi tài đe phương là trách thôi.,3.187500,0.402800,0.126368,cpu,openai/whisper-tiny
+VIVOSDEV05_212,VIVOSDEV05,test_in_domain,bốn chiếc trống đại phèng la,bốn kích trong đại phèng lá,2.625000,0.331296,0.126208,cpu,openai/whisper-tiny
+VIVOSDEV05_226,VIVOSDEV05,test_in_domain,một cú ngoặt không chính xác,"một gũng, quả không kinh sách?",2.062500,0.394578,0.191311,cpu,openai/whisper-tiny
+VIVOSDEV05_231,VIVOSDEV05,test_in_domain,mới đây nhất là các tiểu vương quốc ả rập thống nhất,mới đời nhất là các biểu buồn quốc á rập thống nhất.,3.625000,0.483899,0.133489,cpu,openai/whisper-tiny
+VIVOSDEV05_238,VIVOSDEV05,test_in_domain,cộng đồng người mê toán học trên toàn thế giới,còn đồng người mê thuán học tên thuán thế giới,3.062500,0.459106,0.149912,cpu,openai/whisper-tiny
+VIVOSDEV05_249,VIVOSDEV05,test_in_domain,tôi nghĩ thủ tướng sẽ không né tránh bất cứ câu hỏi nào,tôi nghĩ thủ tướng sẽ không nè đánh bất cứ câu hỏi nào,4.125000,0.500799,0.121406,cpu,openai/whisper-tiny
+VIVOSDEV05_251,VIVOSDEV05,test_in_domain,bọn buôn lậu ma túy và vũ khí,bọn buồn lòng má tối và vũ kế,2.500000,0.422869,0.169148,cpu,openai/whisper-tiny
+VIVOSDEV05_261,VIVOSDEV05,test_in_domain,lại quay ra tập viết báo rồi gửi vu vơ,lại quay ra tập viết báo rồi gửi vô vơ.,3.562500,0.474694,0.133247,cpu,openai/whisper-tiny
+VIVOSDEV05_263,VIVOSDEV05,test_in_domain,nghe tiếng xình xịch xa xa thì đoán trúng phóc là hút hầm cầu,ngay tính sình sật xa xa thị đoạn trung pháp là hốc hầm cầu.,4.437500,0.616485,0.138926,cpu,openai/whisper-tiny
+VIVOSDEV05_270,VIVOSDEV05,test_in_domain,chưa rục rịch gì,tư rope red a,2.187500,0.260162,0.118931,cpu,openai/whisper-tiny
+VIVOSDEV05_286,VIVOSDEV05,test_in_domain,thế nhưng khi giá phôi thép thế giới cao dần,thế những kỳ giá phối tẹp thế giới giao dân.,3.625000,0.497276,0.137180,cpu,openai/whisper-tiny
+VIVOSDEV05_295,VIVOSDEV05,test_in_domain,làm hỏng các thiết bị của tên lửa,làm hỏng các thích bây khô tên lớp,2.812500,0.393105,0.139771,cpu,openai/whisper-tiny
+VIVOSDEV06_001,VIVOSDEV06,test_in_domain,đơn giản là tán gẫu với nhau,đơn giản là tán gổ với nhau,2.687500,0.354903,0.132057,cpu,openai/whisper-tiny
+VIVOSDEV06_006,VIVOSDEV06,test_in_domain,mà do lối sống chui nhủi của chúng,mà cho lối sống truyền của chúng,3.250000,0.335132,0.103118,cpu,openai/whisper-tiny
+VIVOSDEV06_016,VIVOSDEV06,test_in_domain,râu ria đã ba ngày không cạo,rồi ria đã băng ngày không cảo.,3.187500,0.337605,0.105915,cpu,openai/whisper-tiny
+VIVOSDEV06_021,VIVOSDEV06,test_in_domain,một đường hướng chuyên nghiệp,một đường hướng chuyên nghiệp,2.562500,0.366659,0.143087,cpu,openai/whisper-tiny
+VIVOSDEV06_022,VIVOSDEV06,test_in_domain,lính cứu hỏa khó tiếp cận hiện trường,lính cứ hả có tiếp cạnh hình trường.,3.125000,0.360219,0.115270,cpu,openai/whisper-tiny
+VIVOSDEV06_034,VIVOSDEV06,test_in_domain,những người trên ghe của công an đã nhắm thẳng vào ghe anh chủ,nếu người trên kia của công an đã nhắm hẳng vào kia ăn chấu,4.968750,0.554682,0.111634,cpu,openai/whisper-tiny
+VIVOSDEV06_037,VIVOSDEV06,test_in_domain,đừng buồn vì tự giằn vặt mình nữa,đừng buông vi tới rằng vặt mình nữa,2.812500,0.370423,0.131706,cpu,openai/whisper-tiny
+VIVOSDEV06_040,VIVOSDEV06,test_in_domain,và hít vào mũi làm chất này loãng ra,và hết vào mối làm chắc này là ăn ra.,3.687500,0.403303,0.109370,cpu,openai/whisper-tiny
+VIVOSDEV06_042,VIVOSDEV06,test_in_domain,đang hấp dẫn các tập đoàn phân phối đa quốc gia,đang hấp dẫn các tập đồng phân poài đau quốc gia,3.687500,0.489716,0.132804,cpu,openai/whisper-tiny
+VIVOSDEV06_054,VIVOSDEV06,test_in_domain,dù là đậu sức mạnh hoặc cải bông khủng long,dù là đầu sức mạnh họ kể bông khủng lông.,3.687500,0.450605,0.122198,cpu,openai/whisper-tiny
+VIVOSDEV06_061,VIVOSDEV06,test_in_domain,vì nó không nhắc đến những cuộc tấn công nhắm vào người do thái,vì nó không nhắc đến những cuộc tấn công nhấm vào người dòa thái.,4.562500,0.539589,0.118266,cpu,openai/whisper-tiny
+VIVOSDEV06_070,VIVOSDEV06,test_in_domain,rồi khề khà đôi câu vọng cổ với chân chuột,rồi kè kè đôi câu vòng gỡ với dân trục,3.812500,0.472945,0.124051,cpu,openai/whisper-tiny
+VIVOSDEV06_078,VIVOSDEV06,test_in_domain,ở lớp nấu ăn gia đình,ở lấp nấu ăn giá đình.,2.906250,0.353534,0.121646,cpu,openai/whisper-tiny
+VIVOSDEV06_079,VIVOSDEV06,test_in_domain,mà bạn có thể tham khảo để làm đẹp gian bếp,mà bạn có hả em khảo để làm đẹp dân bếp,4.437500,0.457555,0.103111,cpu,openai/whisper-tiny
+VIVOSDEV06_098,VIVOSDEV06,test_in_domain,cái vị chát chát và đắng ngắt của cà phê nguyên chất,cái vị chắc chắc bà đáng ngách của cả phêng quên chắc,4.531250,0.517681,0.114247,cpu,openai/whisper-tiny
+VIVOSDEV06_103,VIVOSDEV06,test_in_domain,các em nhỏ sẽ không còn phải đi trên những chuyến đò nguy hiểm,các em nhỏ sẽ không còn phải đi tân những chiến đòng quy hiểm.,4.812500,0.523751,0.108831,cpu,openai/whisper-tiny
+VIVOSDEV06_108,VIVOSDEV06,test_in_domain,làm cô nàng rọ rạy thức trắng cả đêm,làm cô nèng rõ rầy thức trắng trả đêm,3.875000,0.473404,0.122169,cpu,openai/whisper-tiny
+VIVOSDEV06_117,VIVOSDEV06,test_in_domain,giải quyết khối ung nhọt này phải cần đến một cuộc đại phẫu nghiêm túc,dạy quyết khói ông nhọc này phải cần đến một cuộc đại phẫu nghiêm tốt.,4.718750,0.640859,0.135811,cpu,openai/whisper-tiny
+VIVOSDEV06_126,VIVOSDEV06,test_in_domain,thậm chí càng giống áo quí nàng càng mốt,hẩm chí can giống ấu ý nè ngàn mốt.,3.937500,0.504271,0.128069,cpu,openai/whisper-tiny
+VIVOSDEV06_139,VIVOSDEV06,test_in_domain,còn bộ khang hi từ điển,còn báo khang hay tư điện,3.062500,0.341783,0.111603,cpu,openai/whisper-tiny
+VIVOSDEV06_143,VIVOSDEV06,test_in_domain,đôi môi mẹ phai son mấp máy một lời ca hoang hoải,đoài môi mẹ phai sông mắp máy mộp lời cao hoang hỏi,4.437500,0.600157,0.135247,cpu,openai/whisper-tiny
+VIVOSDEV06_157,VIVOSDEV06,test_in_domain,số khác suy đoán rằng anh ta hành động ác tâm vậy,số khách xí đóng ràng anti-hình đồng et tâm vậy.,4.718750,0.469523,0.099502,cpu,openai/whisper-tiny
+VIVOSDEV06_168,VIVOSDEV06,test_in_domain,làm khung,làm không?,1.625000,0.217630,0.133926,cpu,openai/whisper-tiny
+VIVOSDEV06_184,VIVOSDEV06,test_in_domain,hoặc bạn sẽ đến đấy với một tâm trạng chán ngán vô cùng,học bản sẽ đến để với một tâm trả chán ngãng vô cùng.,4.812500,0.526685,0.109441,cpu,openai/whisper-tiny
+VIVOSDEV06_195,VIVOSDEV06,test_in_domain,phải được thực hiện trên cơ sở,phải được thật hiện tân cơ sảo,3.000000,0.343310,0.114437,cpu,openai/whisper-tiny
+VIVOSDEV06_210,VIVOSDEV06,test_in_domain,hai mươi sáu hai mươi bảy,hãy mưa sao? hãy mưa bài?,2.843750,0.343512,0.120795,cpu,openai/whisper-tiny
+VIVOSDEV06_212,VIVOSDEV06,test_in_domain,ba mươi ba mươi mốt,"bà mưa, bà mưa mô.",2.250000,0.344541,0.153129,cpu,openai/whisper-tiny
+VIVOSDEV06_222,VIVOSDEV06,test_in_domain,năm mươi năm mươi mốt,nam mưa in nam mưa in môi mô,2.750000,0.401797,0.146108,cpu,openai/whisper-tiny
+VIVOSDEV06_240,VIVOSDEV06,test_in_domain,tám mươi sáu tám mươi bảy,"tám người xau, tám người bãi",3.375000,0.337221,0.099917,cpu,openai/whisper-tiny
+VIVOSDEV06_241,VIVOSDEV06,test_in_domain,tám mươi tám tám mươi chín,"tâm mười tâm, tâm mười trinh.",2.812500,0.379160,0.134812,cpu,openai/whisper-tiny
+VIVOSDEV06_247,VIVOSDEV06,test_in_domain,một trăm một hai ba,"một đem, một kê bà",3.062500,0.326015,0.106454,cpu,openai/whisper-tiny
+VIVOSDEV06_248,VIVOSDEV06,test_in_domain,một ba năm bảy chín,"1,5,5,5",3.062500,0.265660,0.086746,cpu,openai/whisper-tiny
+VIVOSDEV06_252,VIVOSDEV06,test_in_domain,nói trước bước không qua,nói tước bước công qua,3.031250,0.294416,0.097127,cpu,openai/whisper-tiny
+VIVOSDEV06_253,VIVOSDEV06,test_in_domain,chẳng là mấy hôm nay tôi đau bụng quá,chẳng là mấy hôm nay tôi đau bụng quá,3.375000,0.448264,0.132819,cpu,openai/whisper-tiny
+VIVOSDEV06_261,VIVOSDEV06,test_in_domain,sao kết quả ra tệ vậy,sau cất quá ra tới vai,3.375000,0.287585,0.085210,cpu,openai/whisper-tiny
+VIVOSDEV06_272,VIVOSDEV06,test_in_domain,tôi chỉ muốn xem những đoạn hay mà thôi,tơi chỉ muốn xem những đồng hay mà thôi.,4.187500,0.346969,0.082858,cpu,openai/whisper-tiny
+VIVOSDEV06_285,VIVOSDEV06,test_in_domain,công ty trách nhiệm hữu hạn ăn uống,công tây chất nhiệm hữu hàng ăn ngũng,3.562500,0.446611,0.125365,cpu,openai/whisper-tiny
+VIVOSDEV06_286,VIVOSDEV06,test_in_domain,phí chuyển giao công nghệ là ba chục ngàn đồng,ví chuyển giao công nghệ là ba trục ngàn đông.,3.843750,0.427089,0.111113,cpu,openai/whisper-tiny
+VIVOSDEV06_287,VIVOSDEV06,test_in_domain,lương ba cọc ba đồng thì nuôi được ai,lương ba cọc ba đồng hị nguy được ai,3.562500,0.384512,0.107933,cpu,openai/whisper-tiny
+VIVOSDEV06_296,VIVOSDEV06,test_in_domain,cô ấy đã quá chén,cô ấy đã quá tríng,2.562500,0.291500,0.113756,cpu,openai/whisper-tiny
+VIVOSDEV07_002,VIVOSDEV07,test_in_domain,hằng năm chúng ta thải ra hàng tỉ thiết bị điện tử,hằng năm chúng ta thấy ra hàng tế thích bây điện tớ.,3.468750,0.458091,0.132062,cpu,openai/whisper-tiny
+VIVOSDEV07_025,VIVOSDEV07,test_in_domain,cho những chuyến dã ngoại của du khách,cho những kính giáo ngoài của yếu hết,3.062500,0.351529,0.114785,cpu,openai/whisper-tiny
+VIVOSDEV07_030,VIVOSDEV07,test_in_domain,những nhược điểm của mình,những nược đẹp của mình.,2.312500,0.324382,0.140273,cpu,openai/whisper-tiny
+VIVOSDEV07_036,VIVOSDEV07,test_in_domain,vì đó mới chính là thứ bạn cần,vì đó mới chứng là thức bản cân.,3.000000,0.382184,0.127395,cpu,openai/whisper-tiny
+VIVOSDEV07_039,VIVOSDEV07,test_in_domain,gió trời không thể thông thốc thổi vào khai trung,sao tời không thể thông thông thổi bào kêa đông.,3.812500,0.481422,0.126275,cpu,openai/whisper-tiny
+VIVOSDEV07_044,VIVOSDEV07,test_in_domain,bởi cơ quan chuyên môn hoặc thuê tổ chức kiểm toán độc lập,bởi cơ quan trường mong hoặc thuê tổ chức kiếm tóan đọc lập.,3.812500,0.641984,0.168389,cpu,openai/whisper-tiny
+VIVOSDEV07_045,VIVOSDEV07,test_in_domain,hoặc cho vào vại muối để lợn ăn dần,hóa chó vào vài mũi đế lẫn ăn dân.,3.281250,0.474875,0.144724,cpu,openai/whisper-tiny
+VIVOSDEV07_064,VIVOSDEV07,test_in_domain,cứ chụm các đầu ngón tay lại một chỗ,cứ chấm các đầu gó tay lại một chỗ,4.562500,0.409694,0.089796,cpu,openai/whisper-tiny
+VIVOSDEV07_066,VIVOSDEV07,test_in_domain,đã có dự án để xây dựng một cái cầu từ đất liền,đã có dự án đẽ xây dựng một cái cầu từ đất lên.,4.187500,0.550098,0.131367,cpu,openai/whisper-tiny
+VIVOSDEV07_067,VIVOSDEV07,test_in_domain,chạm vào phần thóp mềm trên đầu bé,chảm vào phần thóc mềm chân đầu bế à,3.375000,0.462755,0.137113,cpu,openai/whisper-tiny
+VIVOSDEV07_084,VIVOSDEV07,test_in_domain,thì bỗng nghe thấy tiếng oác oác từ vạt rừng phi lao,thì bộng nghe tiến quác quác từ vạc rân phí lào.,3.812500,0.557170,0.146143,cpu,openai/whisper-tiny
+VIVOSDEV07_093,VIVOSDEV07,test_in_domain,phục vụ cho mùa thi đại học đang đến sát sạt,vột vô kia mô thí đại học đang đến sách sách.,3.312500,0.530361,0.160109,cpu,openai/whisper-tiny
+VIVOSDEV07_098,VIVOSDEV07,test_in_domain,trận chiến xích bích,tăng kinh sức bật,3.375000,0.298098,0.088325,cpu,openai/whisper-tiny
+VIVOSDEV07_107,VIVOSDEV07,test_in_domain,nguyên thứ trưởng bộ đại học và giáo dục chuyên nghiệp cũ,nguyện thứ tưởng bộ đã học và giáo dụng cuyên nghiệp cố,3.937500,0.597888,0.151844,cpu,openai/whisper-tiny
+VIVOSDEV07_115,VIVOSDEV07,test_in_domain,vào cơ quan là anh hót giống hệt nhồng mới lột lưỡi vậy,vào cơ quan là anh hóa giống hẹt nhồng với lộp lưới vậy,3.781250,0.577699,0.152780,cpu,openai/whisper-tiny
+VIVOSDEV07_125,VIVOSDEV07,test_in_domain,áng chừng đã ngoại bảy mươi,anh chừng đá ngoài bãi mới,3.562500,0.355398,0.099761,cpu,openai/whisper-tiny
+VIVOSDEV07_127,VIVOSDEV07,test_in_domain,có hai tác dụng tích cực,có hai tác dòng tất cực,2.125000,0.339898,0.159952,cpu,openai/whisper-tiny
+VIVOSDEV07_134,VIVOSDEV07,test_in_domain,tham gia giảng dạy là lực lượng đoàn viên,thám gia giã giã giãi là lực lượng đoàn viên.,2.843750,0.505916,0.177905,cpu,openai/whisper-tiny
+VIVOSDEV07_138,VIVOSDEV07,test_in_domain,đó hẳn là một món quà,đó hẳng là một mắm của à,2.375000,0.366782,0.154434,cpu,openai/whisper-tiny
+VIVOSDEV07_141,VIVOSDEV07,test_in_domain,và khi thấy tôi vẫn kiên định trả lời trớt quớt,và khi thấy tôi vẫn kinh đánh trá lại trước quốc.,3.437500,0.429234,0.124868,cpu,openai/whisper-tiny
+VIVOSDEV07_151,VIVOSDEV07,test_in_domain,rô bót thông minh,rồi bói tâm mình,2.000000,0.296156,0.148078,cpu,openai/whisper-tiny
+VIVOSDEV07_156,VIVOSDEV07,test_in_domain,đầu tiên là bà con mình vật vã làm ăn,đầu tiên là bá con mình vật và á lắm ăn.,2.875000,0.435725,0.151556,cpu,openai/whisper-tiny
+VIVOSDEV07_168,VIVOSDEV07,test_in_domain,mà cho đến lúc đó được xem là của tư nhân,mà cho đến lúc đó được xem là của tư nhân.,3.500000,0.415076,0.118593,cpu,openai/whisper-tiny
+VIVOSDEV07_170,VIVOSDEV07,test_in_domain,như lần này được nếm món giò thủ hoàn toàn làm từ tai heo,như lần này được đếm món giò thủ hàng toàn làm từ tay hale.,4.281250,0.523091,0.122182,cpu,openai/whisper-tiny
+VIVOSDEV07_182,VIVOSDEV07,test_in_domain,những người hoài nghi nói rằng giữ được vật treo lủng lẳng trên người,những người hoài ngây nói rằng giữ được vật theo lỗng lắng trên người.,4.031250,0.525450,0.130344,cpu,openai/whisper-tiny
+VIVOSDEV07_185,VIVOSDEV07,test_in_domain,chíu chít gợi tình mẹ con sum họp,khiều kết gọi tình mẹ con xâm học,2.562500,0.397913,0.155283,cpu,openai/whisper-tiny
+VIVOSDEV07_190,VIVOSDEV07,test_in_domain,nơi có mấy tên trông rất gấu,nơi có mấy tàn trong rất gau,2.437500,0.354441,0.145412,cpu,openai/whisper-tiny
+VIVOSDEV07_192,VIVOSDEV07,test_in_domain,nhiều người cho biết,nếu người kia bê,1.906250,0.267924,0.140550,cpu,openai/whisper-tiny
+VIVOSDEV07_194,VIVOSDEV07,test_in_domain,nhiều trụ đá di tích nằm nghiêng ngả và vỡ nát,nhiều tổ đá dưới tất nằm nghi ngá và vỡ nè,2.937500,0.506142,0.172304,cpu,openai/whisper-tiny
+VIVOSDEV07_195,VIVOSDEV07,test_in_domain,họ cũng luôn tránh xa những tình huống có thể gây hại cho họ,hòa cũng luôn giánh xa những tình hốn có thể kìa hại cho họ.,3.875000,0.531446,0.137147,cpu,openai/whisper-tiny
+VIVOSDEV07_197,VIVOSDEV07,test_in_domain,trong cuộc sống của tôi chúng không dùng để kiếm ra lợi nhuận,trong cuộc sống của tôi chúng không dùng để kiếm ra lấy nhóm.,4.062500,0.490637,0.120772,cpu,openai/whisper-tiny
+VIVOSDEV07_209,VIVOSDEV07,test_in_domain,hai mươi bốn hai mươi lăm,"hôm nay bong, hôm nay làm.",2.468750,0.353550,0.143210,cpu,openai/whisper-tiny
+VIVOSDEV07_211,VIVOSDEV07,test_in_domain,hai mươi tám hai mươi chín,"hôm nay tạm, hôm nay gian.",2.375000,0.365890,0.154059,cpu,openai/whisper-tiny
+VIVOSDEV07_223,VIVOSDEV07,test_in_domain,năm mươi hai năm mươi ba,"nam mấy hành, nam mấy bà",2.562500,0.353742,0.138046,cpu,openai/whisper-tiny
+VIVOSDEV07_231,VIVOSDEV07,test_in_domain,sáu mươi tám sáu mươi chín,"sau mệt tám, sau mệt trên",2.562500,0.346425,0.135190,cpu,openai/whisper-tiny
+VIVOSDEV07_236,VIVOSDEV07,test_in_domain,bảy mươi tám bảy mươi chín,"bài mấy tâm, bài mấy chân",2.281250,0.389892,0.170912,cpu,openai/whisper-tiny
+VIVOSDEV07_246,VIVOSDEV07,test_in_domain,chín mươi tám chín mươi chín,"kính mười tâm, kính mười chân.",2.562500,0.409893,0.159958,cpu,openai/whisper-tiny
+VIVOSDEV07_264,VIVOSDEV07,test_in_domain,buổi sáng thành phố ô nhiễm hơn buổi trưa,bối xáng thành phố ổ nhiễm hơn bối trưa,2.812500,0.462638,0.164494,cpu,openai/whisper-tiny
+VIVOSDEV07_266,VIVOSDEV07,test_in_domain,nóng giận tôi đã lăng mạ anh,nóng dẫn tôi đã lăng mian,2.562500,0.370302,0.144508,cpu,openai/whisper-tiny
+VIVOSDEV07_295,VIVOSDEV07,test_in_domain,chủ tàu cho biết sẽ tiếp tục thương thuyết về số chi phí này,dù tạo cho biết sẽ tiếp tục thương thức và số gì phí này.,3.750000,0.502414,0.133977,cpu,openai/whisper-tiny
+VIVOSDEV08_002,VIVOSDEV08,test_in_domain,đừng để con sâu ăn,đừng để con sau ăn,2.375000,0.260790,0.109806,cpu,openai/whisper-tiny
+VIVOSDEV08_005,VIVOSDEV08,test_in_domain,cây cổ thụ ấy bất chợt bị bệnh tật quật ngã,cây có thổ ai bất trọc biến tất của ngá,3.406250,0.447982,0.131518,cpu,openai/whisper-tiny
+VIVOSDEV08_014,VIVOSDEV08,test_in_domain,và nếu bạn trót làm lộn xộn màn hình nền,và nếu bạn tốt làm lộng sống mà hình nâng.,3.625000,0.459090,0.126645,cpu,openai/whisper-tiny
+VIVOSDEV08_025,VIVOSDEV08,test_in_domain,đạo diễn trẻ này có nhiều điều ngẫm ngợi về nghề,đau dĩnh tẻ này có nhiều điều ngắm ngợi về ngay,3.687500,0.449919,0.122012,cpu,openai/whisper-tiny
+VIVOSDEV08_032,VIVOSDEV08,test_in_domain,sẽ không khiến bạn trông gầy như những trang phục một màu,sẽ không kính bằng trong gài như những căng phục mục mào.,5.187500,0.479860,0.092503,cpu,openai/whisper-tiny
+VIVOSDEV08_053,VIVOSDEV08,test_in_domain,bởi cơ quan chuyên môn hoặc thuê tổ chức kiểm toán độc lập,bởi cơ quan kinh mong hoặc thay tởi chức kính tóng đọc lập.,4.156250,0.587893,0.141448,cpu,openai/whisper-tiny
+VIVOSDEV08_057,VIVOSDEV08,test_in_domain,nó lật đật đạp chiếc xe cà tàng băng ngay ra đầu đường,nó lập đặc đập chiếc xe cà tàng băng ngay đá đau đường,4.312500,0.610705,0.141613,cpu,openai/whisper-tiny
+VIVOSDEV08_062,VIVOSDEV08,test_in_domain,hoặc chỉ biểu hiện bằng các rối loạn co bóp,họ ký biểu hệnh bằng cách lo lỏng cơ bấp,3.250000,0.497271,0.153007,cpu,openai/whisper-tiny
+VIVOSDEV08_071,VIVOSDEV08,test_in_domain,khi tôi là con bé lớp bốn thì cây vả đã cao quá nóc nhà,khi tôi là con bé lấp bống thì kế vả nó cao qua nóc nhé.,4.468750,0.515117,0.115271,cpu,openai/whisper-tiny
+VIVOSDEV08_077,VIVOSDEV08,test_in_domain,buổi đầu thật khó khăn theo đuổi chương trình học,bối đạo thật có khang theo đối chứng tình học,3.000000,0.400243,0.133414,cpu,openai/whisper-tiny
+VIVOSDEV08_085,VIVOSDEV08,test_in_domain,việc đưa tín hiệu truyền hình trực tiếp bằng hệ thống cáp quang,về đưa tính hiểu truyền hành trực tiếp bằng hải thống cấp quanh,4.156250,0.579062,0.139323,cpu,openai/whisper-tiny
+VIVOSDEV08_090,VIVOSDEV08,test_in_domain,vì không có tiền đóng học phí,vì không có tên đám hợp phê,2.375000,0.351797,0.148125,cpu,openai/whisper-tiny
+VIVOSDEV08_093,VIVOSDEV08,test_in_domain,thì bỗng nghe mấy tiếng oác oác từ vạt rừng phi lao,thì bảo nghe mấy tình quát quát từ vật rừng phía lào,4.250000,0.533141,0.125445,cpu,openai/whisper-tiny
+VIVOSDEV08_100,VIVOSDEV08,test_in_domain,hay đảm bảo rằng ngày nào chúng cũng được đi những đôi tất sạch,"2 đám bảo ràng, nghe nào chúng cũng được đây những do tất sạch.",3.750000,0.530968,0.141591,cpu,openai/whisper-tiny
+VIVOSDEV08_127,VIVOSDEV08,test_in_domain,về việc mang đến cho các em niềm vui học,và việc mang đến cho kém đêm vui hợp.,3.187500,0.428024,0.134282,cpu,openai/whisper-tiny
+VIVOSDEV08_128,VIVOSDEV08,test_in_domain,có lẽ phải mất nhiều thời gian,có lẽ phải mắt nhiều thời gian,2.625000,0.350029,0.133344,cpu,openai/whisper-tiny
+VIVOSDEV08_129,VIVOSDEV08,test_in_domain,nước gỗ trên chiếc đồng hồ đã bắt lên màu gụ bóng loáng,nước giao tên chức đồng hòa đã bắt lên mạo của mong lần.,3.875000,0.569085,0.146861,cpu,openai/whisper-tiny
+VIVOSDEV08_141,VIVOSDEV08,test_in_domain,khi sức ép biến mất chúng trở lại tình trạng mềm dẻo bình thường,khi giúp app mình mắt chúng ta lại tình tạng mình vẻ bình thường.,4.812500,0.561652,0.116707,cpu,openai/whisper-tiny
+VIVOSDEV08_143,VIVOSDEV08,test_in_domain,tham gia giảng dạy là lực lượng đoàn viên,"thăm ra, giáng giải là lực lượng đồng viên.",3.062500,0.458026,0.149560,cpu,openai/whisper-tiny
+VIVOSDEV08_145,VIVOSDEV08,test_in_domain,và vải hoặc cói nhiều màu,và vãi hạc gó như mèo,2.687500,0.415930,0.154765,cpu,openai/whisper-tiny
+VIVOSDEV08_159,VIVOSDEV08,test_in_domain,với người mẹ ở xóm chài long biên,với người mẹ ở chấm trải lông bíng,2.812500,0.464829,0.165272,cpu,openai/whisper-tiny
+VIVOSDEV08_163,VIVOSDEV08,test_in_domain,chương trình đã tạo được hiệu ứng tốt từ phía khán giả nhí,chương trình đã tạo được khi ứng tốt từ phía kháng giải nhí.,4.593750,0.563118,0.122583,cpu,openai/whisper-tiny
+VIVOSDEV08_166,VIVOSDEV08,test_in_domain,dịch vụ kiểm tra sức khỏe định kỳ là một ý kiến hay,"nhật vô, kìm pé chất quá đình kìa là mỗi kinh hai.",3.625000,0.573530,0.158215,cpu,openai/whisper-tiny
+VIVOSDEV08_180,VIVOSDEV08,test_in_domain,chính sự lên sàn ồ ạt đó,chính chứ lên chàng ổn ở đó,3.125000,0.360321,0.115303,cpu,openai/whisper-tiny
+VIVOSDEV08_182,VIVOSDEV08,test_in_domain,kết quả chỉ có vỏn vẹn ba người còn biết dệt,cách của a chí có vòng vẻng bằng người có biết giúp,3.375000,0.455907,0.135084,cpu,openai/whisper-tiny
+VIVOSDEV08_193,VIVOSDEV08,test_in_domain,là tương đối có hiệu quả,là thương đối có hi wa,2.187500,0.301352,0.137761,cpu,openai/whisper-tiny
+VIVOSDEV08_196,VIVOSDEV08,test_in_domain,phần lớn học sinh giàu có người nước ngoài,phẳng lớn học sinh giáo cá người được ngoài.,2.812500,0.437115,0.155419,cpu,openai/whisper-tiny
+VIVOSDEV08_201,VIVOSDEV08,test_in_domain,không một hai ba bốn,không mọ排 bà bông,2.250000,0.289205,0.128536,cpu,openai/whisper-tiny
+VIVOSDEV08_208,VIVOSDEV08,test_in_domain,hai mươi hai hai mươi ba,hãy subscribe,2.250000,0.194313,0.086362,cpu,openai/whisper-tiny
+VIVOSDEV08_210,VIVOSDEV08,test_in_domain,hai mươi sáu hai mươi bảy,hãy subscribe cho video,2.375000,0.222359,0.093625,cpu,openai/whisper-tiny
+VIVOSDEV08_214,VIVOSDEV08,test_in_domain,ba mươi bốn ba mươi lăm,"bà mùi bớm, bà mùi làm.",2.812500,0.390585,0.138875,cpu,openai/whisper-tiny
+VIVOSDEV08_222,VIVOSDEV08,test_in_domain,năm mươi năm mươi mốt,"nam mời, nam mời mốt",2.375000,0.283130,0.119213,cpu,openai/whisper-tiny
+VIVOSDEV08_224,VIVOSDEV08,test_in_domain,năm mươi bốn năm mươi lăm,"nam bây bố, nam bây làm",2.375000,0.305485,0.128625,cpu,openai/whisper-tiny
+VIVOSDEV08_233,VIVOSDEV08,test_in_domain,bảy mươi hai bảy mươi ba,"bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ, bây giờ,",3.250000,3.510818,1.080252,cpu,openai/whisper-tiny
+VIVOSDEV08_270,VIVOSDEV08,test_in_domain,nói thật đấy à,nói giả bè,1.875000,0.293603,0.156588,cpu,openai/whisper-tiny
+VIVOSDEV08_271,VIVOSDEV08,test_in_domain,quá tốt rồi,lát tổng phơi,2.375000,0.286505,0.120634,cpu,openai/whisper-tiny
+VIVOSDEV08_274,VIVOSDEV08,test_in_domain,tôi chết cùng với ánh trăng,tôi chết công với anh đang,1.812500,0.286810,0.158240,cpu,openai/whisper-tiny
+VIVOSDEV08_277,VIVOSDEV08,test_in_domain,đàn ông có hai thứ để buồn,đại góc gái thức đếp bồn,2.500000,0.409646,0.163858,cpu,openai/whisper-tiny
+VIVOSDEV08_295,VIVOSDEV08,test_in_domain,giàu đổi bạn sang đổi vợ,"rào đớ bản, xang đó vào",2.875000,0.359291,0.124971,cpu,openai/whisper-tiny
+VIVOSDEV08_300,VIVOSDEV08,test_in_domain,án mạng trên toa tàu tốc hành,anh mẹ nghen tốt tạo tóc hàn.,3.000000,0.420365,0.140122,cpu,openai/whisper-tiny
+VIVOSDEV09_015,VIVOSDEV09,test_in_domain,làm rờm rợp biển mây lau lách phất phơ,làm rộn bệnh mấy lâu lắt vực vơ,3.312500,0.441965,0.133423,cpu,openai/whisper-tiny
+VIVOSDEV09_022,VIVOSDEV09,test_in_domain,trứng mực quyến rũ các ngư dân,chứng mật quên lâu cách người dân.,2.375000,0.354522,0.149272,cpu,openai/whisper-tiny
+VIVOSDEV09_029,VIVOSDEV09,test_in_domain,bạn có thể khiển trách người lái xe,bạn có thể hiện chất người lái xe,2.312500,0.337624,0.145999,cpu,openai/whisper-tiny
+VIVOSDEV09_035,VIVOSDEV09,test_in_domain,loáng thoáng trăn trở loáng thoáng buồn vui,lóan thoán dành trở lắng tháng bùng vui,3.093750,0.415312,0.134242,cpu,openai/whisper-tiny
+VIVOSDEV09_038,VIVOSDEV09,test_in_domain,phòng trà khiêu vũ cánh quạt cối xay đỏ,phòng trà kêu vụ đến quay có xây đỏ.,3.718750,0.436215,0.117301,cpu,openai/whisper-tiny
+VIVOSDEV09_039,VIVOSDEV09,test_in_domain,thịt ngọt lừ ấy lại mang theo trùng sán gây bệnh,thật ngọc lươi lại mang trong sáng ngày bình.,3.437500,0.450253,0.130983,cpu,openai/whisper-tiny
+VIVOSDEV09_041,VIVOSDEV09,test_in_domain,hiện trong nhiều loại tỏi có mặt trên thị trường,hẹn trong gia đình lại đại có mặt trân này trường,3.125000,0.466204,0.149185,cpu,openai/whisper-tiny
+VIVOSDEV09_047,VIVOSDEV09,test_in_domain,ngày căn bậc hai chỉ diễn ra chín lần trong một thế kỷ,ngày căng bật ai chỉ dễn ra chính làng trong mọc thế kỳ.,4.312500,0.541860,0.125649,cpu,openai/whisper-tiny
+VIVOSDEV09_055,VIVOSDEV09,test_in_domain,rồi rơm rạ khô theo thân hình gầy ngẳng,rồi gương mở đã khô tay không thân gần gây dạng nhá.,3.437500,0.508941,0.148056,cpu,openai/whisper-tiny
+VIVOSDEV09_077,VIVOSDEV09,test_in_domain,để có thể vận hành chúng được hiệu quả hơn,để có thể và ngàn cho chúng được hề quá hơn,2.843750,0.400831,0.140951,cpu,openai/whisper-tiny
+VIVOSDEV09_081,VIVOSDEV09,test_in_domain,được mỹ ráo riết tung ra,được mấy ra quý thùm của ra,2.312500,0.373586,0.161551,cpu,openai/whisper-tiny
+VIVOSDEV09_083,VIVOSDEV09,test_in_domain,vì lượng ca khúc mới quá nhiều,vì lượng ca khúc mấy ngoài nhiều.,2.437500,0.382725,0.157015,cpu,openai/whisper-tiny
+VIVOSDEV09_091,VIVOSDEV09,test_in_domain,nước chảy quá mạnh,nước kẻ quá mạnh,1.906250,0.284211,0.149094,cpu,openai/whisper-tiny
+VIVOSDEV09_098,VIVOSDEV09,test_in_domain,khiến cả hai phải giận hờn vô lý,khiến kế 2 phải dẫn hần gố lý,3.687500,0.398057,0.107948,cpu,openai/whisper-tiny
+VIVOSDEV09_106,VIVOSDEV09,test_in_domain,rồi chìm lỉm một thời gian,rồi dìm lấy mọt thay dàn,2.000000,0.395219,0.197609,cpu,openai/whisper-tiny
+VIVOSDEV09_110,VIVOSDEV09,test_in_domain,khi miệng vẫn ngậm bầu vú quắt queo,khi mình vẫn nhằm mẫu vũ quốc quale,3.625000,0.433998,0.119724,cpu,openai/whisper-tiny
+VIVOSDEV09_134,VIVOSDEV09,test_in_domain,câu trả lời của ông ta rất khiếm nhã,câu trái lời của hỗng tà rất kým nhé,3.187500,0.455875,0.143020,cpu,openai/whisper-tiny
+VIVOSDEV09_139,VIVOSDEV09,test_in_domain,nếu chủ đầu tư không tự phá dỡ thì bị cưỡng chế,nếu chỗ đồng từ không tự phá giá thị bị cướng giấy,3.500000,0.529550,0.151300,cpu,openai/whisper-tiny
+VIVOSDEV09_142,VIVOSDEV09,test_in_domain,về chuyện đang theo dõi bọn gián điệp nước ngoài,về chuyển đang theo dõi bọn yên nghiệm nước ngoài.,3.875000,0.477947,0.123341,cpu,openai/whisper-tiny
+VIVOSDEV09_144,VIVOSDEV09,test_in_domain,được cắt từ vỏ chăn bộ đội cũ của các ông bố ra,được các từ või chàng bộ đổi cố cố các ông bóra,3.937500,0.540257,0.137208,cpu,openai/whisper-tiny
+VIVOSDEV09_158,VIVOSDEV09,test_in_domain,sợ nhất là mùa mưa sấm sét đùng đoàng trên núi,sài nhất là 1 mưa sống xác đồng đoàn trên nối,3.562500,0.511520,0.143584,cpu,openai/whisper-tiny
+VIVOSDEV09_159,VIVOSDEV09,test_in_domain,tức lấy sụn lành từ nơi không phải chịu lực ghép vào nơi hư,tức lấy số mạnh từ nơi không phải kiểu lực đẹp vào nơi hơn.,4.312500,0.600062,0.139145,cpu,openai/whisper-tiny
+VIVOSDEV09_163,VIVOSDEV09,test_in_domain,điều vô cùng quan trọng trong thời đại có quá nhiều hoạt động,điều gố quân quan trọng trong thời đại có nhiên quốc độ.,4.312500,0.567733,0.131648,cpu,openai/whisper-tiny
+VIVOSDEV09_166,VIVOSDEV09,test_in_domain,thí sinh tự do cần quan tâm đến độ vênh kiến thức các môn,thì xin tự do cường quan tâm đến độ vận kinh thức cách mong.,4.250000,0.557085,0.131079,cpu,openai/whisper-tiny
+VIVOSDEV09_168,VIVOSDEV09,test_in_domain,mỗi người chúng ta sẽ có những thứ khác nhau,bởi người chúng ta sẽ có những thứ khác nhau,4.125000,0.360113,0.087300,cpu,openai/whisper-tiny
+VIVOSDEV09_178,VIVOSDEV09,test_in_domain,và thậm chí bạn cũng không nên cố gắng,và thảm ký bản cũng không đơn câu gắng.,3.000000,0.436986,0.145662,cpu,openai/whisper-tiny
+VIVOSDEV09_194,VIVOSDEV09,test_in_domain,trên bầu trời ánh trăng sáng vằng vặc,trình bầu trời ảnh trang xanh phần quá,3.281250,0.412024,0.125569,cpu,openai/whisper-tiny
+VIVOSDEV09_198,VIVOSDEV09,test_in_domain,là tổ tiên của ông đặng lên đảm trách việc dẫn đường,là tổ tiên của ông đảng lên đám chất việc dẫn đường.,3.468750,0.499367,0.143962,cpu,openai/whisper-tiny
+VIVOSDEV09_203,VIVOSDEV09,test_in_domain,tám chín mười mười một,tâm kiến mơ mơ mơ,2.750000,0.332653,0.120965,cpu,openai/whisper-tiny
+VIVOSDEV09_204,VIVOSDEV09,test_in_domain,mười một mười hai mười ba,mình mẫu bây giờ mình bà,3.031250,0.319298,0.105335,cpu,openai/whisper-tiny
+VIVOSDEV09_222,VIVOSDEV09,test_in_domain,năm mươi năm mươi mốt,năm 1 năm mục,3.187500,0.245957,0.077163,cpu,openai/whisper-tiny
+VIVOSDEV09_246,VIVOSDEV09,test_in_domain,chín mươi tám chín mươi chín,"tinh mệt ám, tinh mệt nhìn nhìn.",2.031250,0.413941,0.203786,cpu,openai/whisper-tiny
+VIVOSDEV09_267,VIVOSDEV09,test_in_domain,căn nhà đằng kia nghe nói có ma,cái nhà đàn kìa nghe nó có mà,3.187500,0.378186,0.118647,cpu,openai/whisper-tiny
+VIVOSDEV09_268,VIVOSDEV09,test_in_domain,thú thật tui chưa từng chơi gái,thốt tạc tồ chưa tưởng trây giá,3.593750,0.407266,0.113326,cpu,openai/whisper-tiny
+VIVOSDEV09_280,VIVOSDEV09,test_in_domain,xuân này em không về,soch này em không về,3.187500,0.270318,0.084806,cpu,openai/whisper-tiny
+VIVOSDEV09_286,VIVOSDEV09,test_in_domain,có còn hơn không,có gặn hơn không?,1.500000,0.285170,0.190113,cpu,openai/whisper-tiny
+VIVOSDEV09_288,VIVOSDEV09,test_in_domain,chắc sắp tới thu xếp đi du lịch thôi,chắc sắp tới tui sắp để yên uống tối,3.125000,0.444254,0.142161,cpu,openai/whisper-tiny
+VIVOSDEV09_289,VIVOSDEV09,test_in_domain,phương châm sống của tôi là người không vì mình trời tru đất diệt,"phương giám sống của tôi, là người không về mình chơi chú đất dạy.",4.250000,0.534029,0.125654,cpu,openai/whisper-tiny
+VIVOSDEV09_293,VIVOSDEV09,test_in_domain,nó trốn mất tiêu rồi còn đâu,nó cho mất đi vui con đau,2.250000,0.329995,0.146664,cpu,openai/whisper-tiny
+VIVOSDEV09_297,VIVOSDEV09,test_in_domain,thế nào là hoàn hảo,thế nào loa hoàn hảo,2.187500,0.295942,0.135288,cpu,openai/whisper-tiny
+VIVOSDEV10_010,VIVOSDEV10,test_in_domain,khi bị công an thộp cổ khẩn cấp,hì bị công an hợp gỗ hãn cấp,2.812500,0.410066,0.145801,cpu,openai/whisper-tiny
+VIVOSDEV10_014,VIVOSDEV10,test_in_domain,sau khi đọc những thông tin trên báo,"sau khi nhận hôm cân, cân báo",3.062500,0.391802,0.127935,cpu,openai/whisper-tiny
+VIVOSDEV10_017,VIVOSDEV10,test_in_domain,nga khi ấy càng thìn nết na,"ngà hư ấy, càng nhìn nất ngà",2.875000,0.405867,0.141171,cpu,openai/whisper-tiny
+VIVOSDEV10_020,VIVOSDEV10,test_in_domain,việc áp dụng cả bàn vá lỗi và công cụ quét,về áp dụng cá bàng ra lỗi và công cố quế.,3.562500,0.505577,0.141916,cpu,openai/whisper-tiny
+VIVOSDEV10_024,VIVOSDEV10,test_in_domain,ngoài trời mưa cứ lay phay rắc hạt,ngoài gọi mưa tối ai phai gặp hẹp,2.937500,0.454813,0.154830,cpu,openai/whisper-tiny
+VIVOSDEV10_030,VIVOSDEV10,test_in_domain,nuôi mô hình tinh hoàn rồi tạo ra tinh hoàn với đầy đủ hình hài,"nguyên mâu hình tin gua nhỏ, gọi cáo gia tin hoàn, và dài dấu hình hẹn.",5.312500,0.722978,0.136090,cpu,openai/whisper-tiny
+VIVOSDEV10_035,VIVOSDEV10,test_in_domain,có thể giúp ta quên đi những nỗi ưu phiền,có hãy dưới gà quân lý những ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh,2.562500,3.519646,1.373521,cpu,openai/whisper-tiny
+VIVOSDEV10_043,VIVOSDEV10,test_in_domain,mà dung dăng nhé cầm tay đất trời,"mà dung dân nha, cảm ca lất trời",2.500000,0.409504,0.163802,cpu,openai/whisper-tiny
+VIVOSDEV10_045,VIVOSDEV10,test_in_domain,tôi lớn lên trong sự ghẻ lạnh của người mẹ kế,"cô giáo nghe anh, công sử dẻ anh cũng người mẹ kế.",4.281250,0.571005,0.133373,cpu,openai/whisper-tiny
+VIVOSDEV10_051,VIVOSDEV10,test_in_domain,khung răng hàm trên khum,hôm qua em hảm gần hôm?,1.906250,0.365074,0.191514,cpu,openai/whisper-tiny
+VIVOSDEV10_067,VIVOSDEV10,test_in_domain,thế nhưng tôi không ân hận khi trở thành đả nữ,"hãy nhìn gây hồng hận, khi chở hành lãng ữ.",3.875000,0.567842,0.146540,cpu,openai/whisper-tiny
+VIVOSDEV10_068,VIVOSDEV10,test_in_domain,với một tốc độ mà chúng ta không thể đi đến tận cùng của nó,"với mỏ cấp lộ mà chúng ca hôm mẽ dây em, cận công có ngá",4.312500,0.656436,0.152217,cpu,openai/whisper-tiny
+VIVOSDEV10_072,VIVOSDEV10,test_in_domain,tôi thấy đồng lương của mình năm năm rồi vẫn đứng nguyên,"cồi hãy nhìn đường của mình, năm năm rồi vẫn cứu nguyên.",4.468750,0.532981,0.119268,cpu,openai/whisper-tiny
+VIVOSDEV10_073,VIVOSDEV10,test_in_domain,để chấm dứt nạn bạo hành trong gia đình,để cấm giức ngang bấu hành công dân,2.937500,0.426960,0.145348,cpu,openai/whisper-tiny
+VIVOSDEV10_076,VIVOSDEV10,test_in_domain,làm đường sá ngập xắp xắp quanh năm suốt tháng,"đãm đường cháng, 1 xa pấp 1, 2 háng",3.750000,0.483252,0.128867,cpu,openai/whisper-tiny
+VIVOSDEV10_090,VIVOSDEV10,test_in_domain,vừa được trao tặng giải thưởng nhà nước,"vừa ổ cao cắn, giải hỗng ngàn ngốc",2.718750,0.482002,0.177288,cpu,openai/whisper-tiny
+VIVOSDEV10_117,VIVOSDEV10,test_in_domain,cái khó là,cái khói à,1.375000,0.262474,0.190890,cpu,openai/whisper-tiny
+VIVOSDEV10_129,VIVOSDEV10,test_in_domain,điều này đúng với mọi cấp độ và trong mọi lĩnh vực của đời sống,điều ngay lâu cũng với mọi cấp lâu và cấp mọi những vật có ai xong,4.812500,0.638276,0.132629,cpu,openai/whisper-tiny
+VIVOSDEV10_130,VIVOSDEV10,test_in_domain,cao ngồng ngồng,cào nồng nồng,1.375000,0.257732,0.187442,cpu,openai/whisper-tiny
+VIVOSDEV10_140,VIVOSDEV10,test_in_domain,chàng trai lồm cồm bò dậy mặt mày xanh lét như tàu lá chuối,"càng kai đợp cơm bò dạy, mặt mạy chân đẹp, như cao à chui",6.281250,0.674710,0.107416,cpu,openai/whisper-tiny
+VIVOSDEV10_156,VIVOSDEV10,test_in_domain,chính phủ đồng thời cũng lập thêm cục xúc tiến tiêu thụ dầu cọ,"chính phủ em hài, cũng là pem, gập xúc kính, kêu hậu yêu gà.",5.500000,0.663771,0.120686,cpu,openai/whisper-tiny
+VIVOSDEV10_162,VIVOSDEV10,test_in_domain,cũng là tin vui cho tất cả những ai,cổng ra tin buổi cho các cánh nhấn ai,3.156250,0.434792,0.137756,cpu,openai/whisper-tiny
+VIVOSDEV10_172,VIVOSDEV10,test_in_domain,hượm đã còn phải điều chỉnh,hôm mẹ còn phải ở kinh.,2.531250,0.365955,0.144575,cpu,openai/whisper-tiny
+VIVOSDEV10_176,VIVOSDEV10,test_in_domain,trong tình thế ấy chỉ đám trẻ ven sông,"công cình thấy ai, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, kỹ em, k",3.062500,3.377159,1.102746,cpu,openai/whisper-tiny
+VIVOSDEV10_189,VIVOSDEV10,test_in_domain,nếu đi tiếp nha trang,nếu wey cây bẹ nhạc kè,1.750000,0.346634,0.198077,cpu,openai/whisper-tiny
+VIVOSDEV10_194,VIVOSDEV10,test_in_domain,tức chanh có thể trị được bệnh,tức can có hãy kể lục bệnh,3.375000,0.345835,0.102470,cpu,openai/whisper-tiny
+VIVOSDEV10_196,VIVOSDEV10,test_in_domain,chỉ muốn làm một hơi cho đã cái miệng,"khi muốn ngàn mộn hơn gọi ác, cái mẹn.",2.875000,0.440175,0.153104,cpu,openai/whisper-tiny
+VIVOSDEV10_211,VIVOSDEV10,test_in_domain,hai mươi tám hai mươi chín,"hãy mưa gặm, hãy mưa gặm.",2.312500,0.422137,0.182546,cpu,openai/whisper-tiny
+VIVOSDEV10_212,VIVOSDEV10,test_in_domain,ba mươi ba mươi mốt,"bà mời, bà mời mốt",2.000000,0.327460,0.163730,cpu,openai/whisper-tiny
+VIVOSDEV10_227,VIVOSDEV10,test_in_domain,sáu mươi sáu mươi mốt,xa mưa xa mùi mốt,1.593750,0.336474,0.211121,cpu,openai/whisper-tiny
+VIVOSDEV10_234,VIVOSDEV10,test_in_domain,bảy mươi bốn bảy mươi lăm,"bái mề bong, bái mề làm",1.937500,0.361640,0.186653,cpu,openai/whisper-tiny
+VIVOSDEV10_239,VIVOSDEV10,test_in_domain,tám mươi bốn tám mươi lăm,"tán muy bố, tán muy em.",1.875000,0.394239,0.210261,cpu,openai/whisper-tiny
+VIVOSDEV10_245,VIVOSDEV10,test_in_domain,chín mươi sáu chín mươi bảy,"chính mùi xa ổ, chính mùi bài.",1.656250,0.472240,0.285126,cpu,openai/whisper-tiny
+VIVOSDEV10_247,VIVOSDEV10,test_in_domain,một trăm một hai ba,"một kém, một hài ba",1.812500,0.335621,0.185170,cpu,openai/whisper-tiny
+VIVOSDEV10_249,VIVOSDEV10,test_in_domain,không hai bốn sáu tám,hồng 2 bốm xáo cám,2.156250,0.342793,0.158976,cpu,openai/whisper-tiny
+VIVOSDEV10_257,VIVOSDEV10,test_in_domain,tiền điện tháng này bao nhiêu,"bây nướng, hát ngày bong yêu",2.187500,0.366154,0.167385,cpu,openai/whisper-tiny
+VIVOSDEV10_262,VIVOSDEV10,test_in_domain,thua xa tiệm tạp hoá nhà tao,"hô ché, tệm gặp hoang nhà cao",2.750000,0.404856,0.147221,cpu,openai/whisper-tiny
+VIVOSDEV10_266,VIVOSDEV10,test_in_domain,từ trên nóc nhà nhìn xuống có khác,cầy chân n� nhận xuống có hẹn.,2.687500,0.414518,0.154239,cpu,openai/whisper-tiny
+VIVOSDEV10_278,VIVOSDEV10,test_in_domain,tội nghiệp đứa nhỏ không ai chăm sóc,"còn nghiệp đứng nhỏ, không ai chăm sóc",2.437500,0.392552,0.161047,cpu,openai/whisper-tiny
+VIVOSDEV10_294,VIVOSDEV10,test_in_domain,em sợ có một ngày anh gặp người con gái khác tốt hơn em rồi anh bỏ em,"em chả có một ngày, anh gặp người con gái hẹn cố phân em, gọi anh bói em.",5.781250,0.647372,0.111978,cpu,openai/whisper-tiny
+VIVOSDEV11_015,VIVOSDEV11,test_in_domain,nữ diễn viên xinh đẹp phạm băng băng,nếu yến vình sẽ đẹp phá băng băng,2.687500,0.440322,0.163841,cpu,openai/whisper-tiny
+VIVOSDEV11_022,VIVOSDEV11,test_in_domain,sẽ làm giảm tình trạng ói ọc của trẻ,sẽ làm tình đáng 8 của đáng,2.750000,0.317934,0.115612,cpu,openai/whisper-tiny
+VIVOSDEV11_033,VIVOSDEV11,test_in_domain,mà phải che chái ở tạm bên hông nhà cha ruột,mà phải chơi chái ở tảm bân hôm nhé chá rộng,3.093750,0.509591,0.164716,cpu,openai/whisper-tiny
+VIVOSDEV11_036,VIVOSDEV11,test_in_domain,tôi có thể căm giận đủ thứ,tôi có thể cầm dẫn đấu thơ.,2.250000,0.368963,0.163983,cpu,openai/whisper-tiny
+VIVOSDEV11_038,VIVOSDEV11,test_in_domain,mà phải chuyển qua hình thức giao dịch,mà phải chuyển qua hình thức dâu dịch.,2.312500,0.372592,0.161121,cpu,openai/whisper-tiny
+VIVOSDEV11_046,VIVOSDEV11,test_in_domain,đừng bao giờ để cho bất kỳ ai nói với bạn rằng,đừng bao giờ để cho bất kỳ ai nói với bản răng,3.843750,0.479843,0.124837,cpu,openai/whisper-tiny
+VIVOSDEV11_048,VIVOSDEV11,test_in_domain,vàng óng đôi ghệt cao cổ của ngự lâm quân,và ăn ám đôi gạt cao có quốc của người lắm quân,3.343750,0.475400,0.142176,cpu,openai/whisper-tiny
+VIVOSDEV11_057,VIVOSDEV11,test_in_domain,nếu vì chúng tôi,nếu về chủng tơi,2.156250,0.284910,0.132132,cpu,openai/whisper-tiny
+VIVOSDEV11_063,VIVOSDEV11,test_in_domain,nếu bạn vẫn cảm thấy tội lỗi,nếu bạn vẫn cảm thấy đời lỗi,2.750000,0.325928,0.118519,cpu,openai/whisper-tiny
+VIVOSDEV11_075,VIVOSDEV11,test_in_domain,dãi dầu nắng gió trường sơn,giả dầu năng giá trường sân.,3.062500,0.361247,0.117958,cpu,openai/whisper-tiny
+VIVOSDEV11_076,VIVOSDEV11,test_in_domain,với trên là núi và dưới là sông,vậy nên là nguy vạy dưới là sâm.,3.375000,0.419442,0.124279,cpu,openai/whisper-tiny
+VIVOSDEV11_077,VIVOSDEV11,test_in_domain,với sự xuất hiện của quái thú và rồng,với sử dụng sức hiện của white house và rồng.,3.875000,0.514038,0.132655,cpu,openai/whisper-tiny
+VIVOSDEV11_079,VIVOSDEV11,test_in_domain,nét mặt họ không ngời lên hạnh phúc của người mẹ,"nếu mặt hòa không ngay lên, hẳn phục gương người mẹ.",3.562500,0.576184,0.161736,cpu,openai/whisper-tiny
+VIVOSDEV11_081,VIVOSDEV11,test_in_domain,một số người cho rằng,mọc sông người dạ răng,2.375000,0.337263,0.142005,cpu,openai/whisper-tiny
+VIVOSDEV11_083,VIVOSDEV11,test_in_domain,một sinh viên được vay vốn tín dụng học tập,mọc sinh viên được vai ngóm tính dộng hậm tập.,3.625000,0.540143,0.149005,cpu,openai/whisper-tiny
+VIVOSDEV11_095,VIVOSDEV11,test_in_domain,mọi thứ đều được mổ xẻ lại,mọi thứ đều được mẫu sẽ lại,3.250000,0.338141,0.104043,cpu,openai/whisper-tiny
+VIVOSDEV11_122,VIVOSDEV11,test_in_domain,không phải nắp khum,không phải nắp cơm,1.875000,0.295203,0.157442,cpu,openai/whisper-tiny
+VIVOSDEV11_123,VIVOSDEV11,test_in_domain,các công ty du lịch phải xác định,các công ty yếu lật phải sát đánh.,2.875000,0.367850,0.127948,cpu,openai/whisper-tiny
+VIVOSDEV11_129,VIVOSDEV11,test_in_domain,đi bộ leo núi đến nhừ chân,đi bảo lao nối đến nhiều chăng,2.875000,0.341966,0.118945,cpu,openai/whisper-tiny
+VIVOSDEV11_131,VIVOSDEV11,test_in_domain,thì chủ đầu tư phải tự phá dỡ phần nội dung sai phép đó,thì gửi đầu đưa phải tử phá dở phần nơi dông xa phép đó,5.375000,0.586742,0.109161,cpu,openai/whisper-tiny
+VIVOSDEV11_136,VIVOSDEV11,test_in_domain,khi nhân viên cứu hộ cố gắng đưa nó lên sà lan,khi nhăn viên cứu hậu có gắng đưa nó lên xả lắng.,4.687500,0.534495,0.114026,cpu,openai/whisper-tiny
+VIVOSDEV11_137,VIVOSDEV11,test_in_domain,những người này đều được đào tạo về hội họa,những người này đều được đào tạo và hỏi hỏi hỏi,3.562500,0.454512,0.127582,cpu,openai/whisper-tiny
+VIVOSDEV11_147,VIVOSDEV11,test_in_domain,gắn lông chim hột đá lóng lánh hay bèo dún tùa lua đầy cổ,"gian lòng kìm hợp đã lòng lánh hệ bèo dưới, tôi luôn đầy cỗ.",6.218750,0.703517,0.113128,cpu,openai/whisper-tiny
+VIVOSDEV11_160,VIVOSDEV11,test_in_domain,ngụ ấp hòn ngang,nó áp hẳng nghe,2.500000,0.305189,0.122076,cpu,openai/whisper-tiny
+VIVOSDEV11_164,VIVOSDEV11,test_in_domain,ít nhất ở hơn ba mươi trường thuộc các địa phương nói trên,8 môi trường hộ cắt đe phương nối tân.,5.375000,0.455150,0.084679,cpu,openai/whisper-tiny
+VIVOSDEV11_182,VIVOSDEV11,test_in_domain,đặc điểm của phẩy trùng tả,đặc đêm của phải trong tá,2.750000,0.301775,0.109736,cpu,openai/whisper-tiny
+VIVOSDEV11_193,VIVOSDEV11,test_in_domain,vì ban đêm chị ngủ không ngon,về băng đêm chí ngủ không ngon,2.687500,0.342309,0.127371,cpu,openai/whisper-tiny
+VIVOSDEV11_198,VIVOSDEV11,test_in_domain,lơ lửng trên đầu là những chiếc bẫy đá hàng trăm khối,lời lẫn trên đầu lại những chiếc bảy đã hành trăm khối,4.812500,0.483543,0.100476,cpu,openai/whisper-tiny
+VIVOSDEV11_200,VIVOSDEV11,test_in_domain,năm đầu tiên,nam đau tình,2.218750,0.253264,0.114147,cpu,openai/whisper-tiny
+VIVOSDEV11_234,VIVOSDEV11,test_in_domain,bảy mươi bốn bảy mươi lăm,"bảy môi bống, bảy môi lắm",3.062500,0.410798,0.134138,cpu,openai/whisper-tiny
+VIVOSDEV11_242,VIVOSDEV11,test_in_domain,chín mươi chín mươi mốt,"chính mời, chính mời móc",2.875000,0.335518,0.116702,cpu,openai/whisper-tiny
+VIVOSDEV11_246,VIVOSDEV11,test_in_domain,chín mươi tám chín mươi chín,"chính mời tám, chính mời chính",2.687500,0.349752,0.130140,cpu,openai/whisper-tiny
+VIVOSDEV11_252,VIVOSDEV11,test_in_domain,bây giờ cướp nhiều quá đi đường cũng thấy sợ,"bây giờ, kết nhiều quát đầy đường cũng thấy sợ",4.343750,0.459381,0.105757,cpu,openai/whisper-tiny
+VIVOSDEV11_262,VIVOSDEV11,test_in_domain,tìm hung thủ hiếp dâm bằng nước bọt nạn nhân,bềm hôm thổ hiếp giằm bằng nước bọc nạn nhân.,3.812500,0.550296,0.144340,cpu,openai/whisper-tiny
+VIVOSDEV11_269,VIVOSDEV11,test_in_domain,chúng tôi yêu nhau được hai năm thì gia đình tôi xảy ra chuyện,chúng tôi yêu nhau được 2 năm thị ra đình tôi sẽ đát chuyện.,4.656250,0.491314,0.105517,cpu,openai/whisper-tiny
+VIVOSDEV11_273,VIVOSDEV11,test_in_domain,trọng tài phạt thẻ đỏ,trống tay phạc thế đó,2.687500,0.296659,0.110385,cpu,openai/whisper-tiny
+VIVOSDEV11_274,VIVOSDEV11,test_in_domain,kiểu này chắc phải cắt giảm biên chế,cái không này chắc phải các 3 bên chế,3.031250,0.350489,0.115625,cpu,openai/whisper-tiny
+VIVOSDEV11_282,VIVOSDEV11,test_in_domain,thôi thì cứ sắp xếp như vậy,tại vì cứ sắp sẹp như vậy,3.062500,0.360910,0.117848,cpu,openai/whisper-tiny
+VIVOSDEV11_289,VIVOSDEV11,test_in_domain,theo phó chủ tịch ủy ban an toàn giao thông quốc gia,theo phó giấu tịch bán ăn đàn dào thông quốc gia,4.843750,0.478410,0.098768,cpu,openai/whisper-tiny
+VIVOSDEV11_298,VIVOSDEV11,test_in_domain,chuẩn bị cho ngày khai trương cửa hàng đầu tiên,chống bấy trong ngày khai trương cửa hàng đầu tiên.,3.906250,0.453714,0.116151,cpu,openai/whisper-tiny
+VIVOSDEV12_006,VIVOSDEV12,test_in_domain,từ sự dư thừa quá mức của luồng tiền này,từ sử dụng thờ quá mức có lộn tình này,4.125000,0.544258,0.131941,cpu,openai/whisper-tiny
+VIVOSDEV12_011,VIVOSDEV12,test_in_domain,đó chứng tỏ rằng chúng ta đã già,đó chứng tỏ ràng chúng ta đã dạ,3.281250,0.399812,0.121848,cpu,openai/whisper-tiny
+VIVOSDEV12_015,VIVOSDEV12,test_in_domain,trả lại đất cho rừng,tại sao lại đất chó rừng?,2.562500,0.360803,0.140801,cpu,openai/whisper-tiny
+VIVOSDEV12_032,VIVOSDEV12,test_in_domain,các loại cây trồng ở rừng này toàn cây kém giá trị,các lời kê trồng ở rừng này toàn kê kếm giết chị.,4.281250,0.595698,0.139141,cpu,openai/whisper-tiny
+VIVOSDEV12_054,VIVOSDEV12,test_in_domain,thiếu sự quan tâm đúng mức từ các cơ quan chức năng,thư sẽ quan tâm đúng mất tờ các cơ quan chức năng.,4.875000,0.536125,0.109974,cpu,openai/whisper-tiny
+VIVOSDEV12_056,VIVOSDEV12,test_in_domain,tại chợ cá,tại sao cả?,2.968750,0.266610,0.089805,cpu,openai/whisper-tiny
+VIVOSDEV12_057,VIVOSDEV12,test_in_domain,không phải vì tôi không coi trọng chất lượng,không phải về đôi không có trầm dích lượng.,4.312500,0.464234,0.107648,cpu,openai/whisper-tiny
+VIVOSDEV12_065,VIVOSDEV12,test_in_domain,thì đọc được hồi ký không thể chuộc lỗi trên báo tuổi trẻ,thì đọc được hơi ký không thấy chủc lỗi trên báo tối trẻ.,4.500000,0.626687,0.139264,cpu,openai/whisper-tiny
+VIVOSDEV12_066,VIVOSDEV12,test_in_domain,thiếu tướng phạm quý ngọ cho biết,thế tướng phạm quyền ở cho biết,3.375000,0.422682,0.125239,cpu,openai/whisper-tiny
+VIVOSDEV12_068,VIVOSDEV12,test_in_domain,không một chút trầy trụa mà đền cái gì,không mỏ trúc tại tổ má đơn kế dây,3.125000,0.473722,0.151591,cpu,openai/whisper-tiny
+VIVOSDEV12_071,VIVOSDEV12,test_in_domain,nó được đặt trong một hộp đựng trang sức bọc da đỏ,nó được đặt caong mò hợp đừng kênh xức bò gia đó.,3.937500,0.630129,0.160033,cpu,openai/whisper-tiny
+VIVOSDEV12_075,VIVOSDEV12,test_in_domain,nhóm thanh long trẻ diễn tiểu phẩm hài hắc bạch tranh hùng,nóng thần lòng trẻ giữ tíu phóng hay hát bật trên hùng.,4.906250,0.610935,0.124522,cpu,openai/whisper-tiny
+VIVOSDEV12_076,VIVOSDEV12,test_in_domain,tớ đi kiếm nhà trọ rồi nhưng khó quá,tớ để kiếm nhà trò rộn nhưng khó quá,3.562500,0.437069,0.122686,cpu,openai/whisper-tiny
+VIVOSDEV12_079,VIVOSDEV12,test_in_domain,xanh cỏ mượt mà ven đường,sân có mục mạng đường.,3.312500,0.342708,0.103459,cpu,openai/whisper-tiny
+VIVOSDEV12_080,VIVOSDEV12,test_in_domain,chính thức đã lây lan ra bên ngoài,chính thức đã lây làng ra bên ngoài.,3.531250,0.391572,0.110888,cpu,openai/whisper-tiny
+VIVOSDEV12_100,VIVOSDEV12,test_in_domain,phụ huynh và học sinh đang phải è cổ vì sách giá cao,phố hinh và học sinh đang phải air có vì sắp xác giao.,4.812500,0.496091,0.103084,cpu,openai/whisper-tiny
+VIVOSDEV12_101,VIVOSDEV12,test_in_domain,khi chính phủ lúc đầu đề nghị ân xá cho những người nổi dậy,hề chính phủ lúc đầu đe ngày ấn xa cho những người nói dạy.,4.875000,0.579057,0.118781,cpu,openai/whisper-tiny
+VIVOSDEV12_116,VIVOSDEV12,test_in_domain,dưới ánh đèn mờ mờ ảo ảo,yui andeng mau mau a,2.843750,0.316820,0.111409,cpu,openai/whisper-tiny
+VIVOSDEV12_128,VIVOSDEV12,test_in_domain,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó,trong cuộc bỏ phía tại hỏi đồng báo ăn 2 ngày trước đó,3.968750,0.473098,0.119206,cpu,openai/whisper-tiny
+VIVOSDEV12_132,VIVOSDEV12,test_in_domain,hầu hết những vấn đề xảy ra trên thế giới,hầu hết những vắng đời sảy ra trên thơ dưới.,3.312500,0.472843,0.142745,cpu,openai/whisper-tiny
+VIVOSDEV12_135,VIVOSDEV12,test_in_domain,ông được nhiều người biết đến,ông được nhiều người biết đơn,2.500000,0.276629,0.110652,cpu,openai/whisper-tiny
+VIVOSDEV12_144,VIVOSDEV12,test_in_domain,trả lời tôi biết,chá loại tôi biết,2.062500,0.262512,0.127279,cpu,openai/whisper-tiny
+VIVOSDEV12_166,VIVOSDEV12,test_in_domain,ịch gã to béo ục ịch,hãy gặp tỏa bèo ốc,2.687500,0.371024,0.138056,cpu,openai/whisper-tiny
+VIVOSDEV12_169,VIVOSDEV12,test_in_domain,áo rách lươm bươm,hào rắt lông bấm.,2.312500,0.315174,0.136291,cpu,openai/whisper-tiny
+VIVOSDEV12_173,VIVOSDEV12,test_in_domain,đối với những phản ứng khác biệt đó,đôi với những phán ứng khác biệt nó,2.781250,0.351033,0.126214,cpu,openai/whisper-tiny
+VIVOSDEV12_182,VIVOSDEV12,test_in_domain,và đã hiến máu ba lần,vào đá hình mau ba lần.,2.562500,0.348675,0.136068,cpu,openai/whisper-tiny
+VIVOSDEV12_186,VIVOSDEV12,test_in_domain,tiếng hét đồng thanh của mấy chục con người,tiếng hết đồng thân của mấy trục gó ngồi,3.312500,0.402510,0.121512,cpu,openai/whisper-tiny
+VIVOSDEV12_192,VIVOSDEV12,test_in_domain,trang thứ hai của tờ báo,gàng thứ 2 của tạo báo,2.750000,0.333082,0.121121,cpu,openai/whisper-tiny
+VIVOSDEV12_197,VIVOSDEV12,test_in_domain,sau đó bà hàng xóm tính tình xởi lởi chạy qua kể với tôi,"sau đó bài hàng xóm tính tình sẽ lỗi, dài quát gạy với tôi.",4.687500,0.589116,0.125678,cpu,openai/whisper-tiny
+VIVOSDEV12_213,VIVOSDEV12,test_in_domain,ba mươi hai ba mươi ba,"bà mùi hay, bà mùi bà.",2.843750,0.411147,0.144579,cpu,openai/whisper-tiny
+VIVOSDEV12_223,VIVOSDEV12,test_in_domain,năm mươi hai năm mươi ba,"nam mũi hai, nam mũi ba",2.812500,0.384696,0.136781,cpu,openai/whisper-tiny
+VIVOSDEV12_224,VIVOSDEV12,test_in_domain,năm mươi bốn năm mươi lăm,"nam mùi bong, nam mùi lâm.",2.812500,0.408380,0.145202,cpu,openai/whisper-tiny
+VIVOSDEV12_227,VIVOSDEV12,test_in_domain,sáu mươi sáu mươi mốt,xa mười xa mười mốt,2.531250,0.364858,0.144141,cpu,openai/whisper-tiny
+VIVOSDEV12_232,VIVOSDEV12,test_in_domain,bảy mươi bảy mươi mốt,"bài mời, bài mời mời móc",2.437500,0.419142,0.171956,cpu,openai/whisper-tiny
+VIVOSDEV12_244,VIVOSDEV12,test_in_domain,chín mươi bốn chín mươi lăm,"kính mời bóng, kính mời làm.",2.687500,0.421974,0.157014,cpu,openai/whisper-tiny
+VIVOSDEV12_248,VIVOSDEV12,test_in_domain,một ba năm bảy chín,một ba năm bãi kinh.,4.625000,0.348914,0.075441,cpu,openai/whisper-tiny
+VIVOSDEV12_271,VIVOSDEV12,test_in_domain,bà con rang trí cành đào để chuẩn bị đón tết,bà con chàng trí cạnh đào để chứng bị đón tất,3.968750,0.521901,0.131503,cpu,openai/whisper-tiny
+VIVOSDEV12_275,VIVOSDEV12,test_in_domain,tôi không thấy gì là đúng khi tăng giá xe vào các dịp tết,tối không thấy dưới là đúng khi tăng ra xe vào gác dịp tất,4.593750,0.597979,0.130172,cpu,openai/whisper-tiny
+VIVOSDEV12_280,VIVOSDEV12,test_in_domain,du lịch sẽ trở thành ngành kinh tế mũi nhọn,dù lật sẽ chá thằng ngần kinh tế mối nhỏ.,3.125000,0.530124,0.169640,cpu,openai/whisper-tiny
+VIVOSDEV12_290,VIVOSDEV12,test_in_domain,từ khi chồng qua đời vì bệnh tật,từ khi chồng qua nơi vì bình tắc,3.750000,0.392873,0.104766,cpu,openai/whisper-tiny
+VIVOSDEV13_019,VIVOSDEV13,test_in_domain,đơn vị mình không nghe ai nói gì chưa hẳn đã tốt,đơn giới mình không nghe ai nói gì chưa hẳng đã tốt,4.124375,0.484663,0.117512,cpu,openai/whisper-tiny
+VIVOSDEV13_026,VIVOSDEV13,test_in_domain,không ai được ngược đãi các em vì các em học chậm,không ai được ngược đái cách em về các em học chảm,4.186875,0.431604,0.103085,cpu,openai/whisper-tiny
+VIVOSDEV13_054,VIVOSDEV13,test_in_domain,già làng nguyễn mạnh tường trả lời phỏng vấn báo giới ảnh trung dân,dạ là nguyễn mạnh tường chả lời phóng vóng báo dưới án chung dân.,5.624375,0.744180,0.132313,cpu,openai/whisper-tiny
+VIVOSDEV13_058,VIVOSDEV13,test_in_domain,đó là giai đoạn thời tiết ít biến động và nhiệt độ không quá thấp,đó là dây đảnh thời tiết ước bíng đỏng và nhịch đổ không quá tháp,4.343125,0.685644,0.157869,cpu,openai/whisper-tiny
+VIVOSDEV13_061,VIVOSDEV13,test_in_domain,nhưng sau nghe con nói ra nói vào lại ác cảm với em,nhưng sau nghe con nói ra nói vào lại em cảm với em.,4.124375,0.422748,0.102500,cpu,openai/whisper-tiny
+VIVOSDEV13_069,VIVOSDEV13,test_in_domain,những điếu thuốc vô ý đốt cháy vài chỗ trên chiếc sô pha bọc vải,những đứa thuộc của ý đốc cháy vài giữa trên trích xô phá bọc vãi.,4.999375,0.704456,0.140909,cpu,openai/whisper-tiny
+VIVOSDEV13_075,VIVOSDEV13,test_in_domain,bạn có thể tắt chương trình đó đi và thực hiện thao tác cuối cùng,bạn có thể tắt trung trên đó đây và thực hiện thao cách cuối cùng.,4.374375,0.509231,0.116412,cpu,openai/whisper-tiny
+VIVOSDEV13_078,VIVOSDEV13,test_in_domain,khắp nơi quanh chúng tôi vương vãi xác chết của người dân vô tội,các nơi quan trung tôi vương vải xác giết của người yang war toy.,4.561875,0.579755,0.127087,cpu,openai/whisper-tiny
+VIVOSDEV13_088,VIVOSDEV13,test_in_domain,những chiếc lồng đèn đồ chơi việt vẫn lặng lẽ mang hồn việt xuống phố,những kích lòng đàn đôi trơi việc và ngon lãng lãi em ngăn hồn việc xung phó,5.030625,0.800879,0.159201,cpu,openai/whisper-tiny
+VIVOSDEV13_089,VIVOSDEV13,test_in_domain,nhà văn nguyên ngọc sinh viên có quyền hoài nghi và tranh cãi,"nhà vang quên ngọc sinh, nhà vang quỷ ngọc sinh quên có, quên hành nơi và chân cả ai.",6.436875,0.847436,0.131653,cpu,openai/whisper-tiny
+VIVOSDEV13_097,VIVOSDEV13,test_in_domain,cuộc thi còn có hai giải nhì ba giải ba và bốn giải khuyến khích,gục thư gòn có hai giả như ba giả ba và bốn giả quen cất,7.374375,0.572994,0.077701,cpu,openai/whisper-tiny
+VIVOSDEV13_098,VIVOSDEV13,test_in_domain,hầu như các phản ứng phụ nặng nề là rất hiếm gặp,hồi dưa các phản ứng phủ nạn này là rất khiến đẹp,4.249375,0.528778,0.124437,cpu,openai/whisper-tiny
+VIVOSDEV13_104,VIVOSDEV13,test_in_domain,số tiền quá lớn khiến gia đình hương phạm và lê choáng váng,số tình qua lớn khiến gia đình hương phạm và lê tránh vang,4.374375,0.561944,0.128463,cpu,openai/whisper-tiny
+VIVOSDEV13_105,VIVOSDEV13,test_in_domain,nhóc đỏ mặt tía tai nhóc thua chị một tuổi thôi đấy,"nếu đỏ mặt tế tài, nếu đỏ mặt tế tài, nếu thư chỉ một tối thôi đấy.",7.843125,0.711832,0.090759,cpu,openai/whisper-tiny
+VIVOSDEV13_106,VIVOSDEV13,test_in_domain,cảm giác được chia sẻ với bạn đời cùng sở thích thú vị lắm,cảm giác được chia sẻ với bạn đời cùng sợ thất thư vậy lắm.,4.561875,0.588396,0.128981,cpu,openai/whisper-tiny
+VIVOSDEV13_136,VIVOSDEV13,test_in_domain,tôi vào quầy giải khát đầu tiên và gọi một cốc nước cam,tôi vào quay giải khác đầu tiên vào gọi một cấp nước game.,4.249375,0.531581,0.125096,cpu,openai/whisper-tiny
+VIVOSDEV13_137,VIVOSDEV13,test_in_domain,mẹ lần tay trong ví và lấy ra chiếc phong bì,mẹ lần đây trong vĩ và lấy ra kết phòng bầy.,3.249375,0.535392,0.164768,cpu,openai/whisper-tiny
+VIVOSDEV13_139,VIVOSDEV13,test_in_domain,tiêu như phong chạy trốn khỏi kinh thành để tìm hung thủ thật sự,điều phòng giải trón khỏi cinh thần để đi mong tổ thật sử,4.124375,0.648212,0.157166,cpu,openai/whisper-tiny
+VIVOSDEV13_146,VIVOSDEV13,test_in_domain,có ngày các bác sĩ điều dưỡng mổ mắt cho hàng trăm người mù nghèo,"có ngay cái bác sĩ để vừa mỏ mắt cho hình, chấm người mùa ngheu",5.124375,0.680896,0.132874,cpu,openai/whisper-tiny
+VIVOSDEV13_147,VIVOSDEV13,test_in_domain,không ai muốn có tiêu cực cả và cũng đừng tuyệt đối hóa vấn đề,khà ngoài muốn có từ cơm cả và cũng đừng trịt đối há vấn đề.,4.593125,0.610803,0.132982,cpu,openai/whisper-tiny
+VIVOSDEV13_150,VIVOSDEV13,test_in_domain,vợ hắn thị ngần mang lưới ra vá để chiều thả,"vào hắn thấy nồng, mang lươi ra vá để chêu thả.",4.124375,0.526291,0.127605,cpu,openai/whisper-tiny
+VIVOSDEV13_164,VIVOSDEV13,test_in_domain,hiện cơ quan chức năng đang tiếp tục điều tra vụ việc,hãy cơ quan chức năng đăng tiếp tục đi chá vũ vệch.,3.655625,0.533547,0.145952,cpu,openai/whisper-tiny
+VIVOSDEV13_167,VIVOSDEV13,test_in_domain,khi bị phát hiện họ đã trả lời như thế nào,"cây bởi phát kỳng, hả đã chết lời như thế?",3.843125,0.521209,0.135621,cpu,openai/whisper-tiny
+VIVOSDEV13_210,VIVOSDEV13,test_in_domain,rà soát chất lượng công trình xây dựng trên cả nước,rồi sẽ chết lượng công dân xây dẫn trên cả nước,3.311875,0.449680,0.135778,cpu,openai/whisper-tiny
+VIVOSDEV13_211,VIVOSDEV13,test_in_domain,không nản nghĩa tin rằng sẽ có một giải pháp nào đó,không nãy ngế tinh ràng trễ có 1 giải phát nào đó,3.686875,0.445606,0.120863,cpu,openai/whisper-tiny
+VIVOSDEV13_222,VIVOSDEV13,test_in_domain,mẹ cũng đã từng thống khổ tuyệt vọng và cô đơn như vậy,mẹ cũng đã tần thống khó thịt vàng và cô đơn như vậy.,3.718125,0.517378,0.139150,cpu,openai/whisper-tiny
+VIVOSDEV13_225,VIVOSDEV13,test_in_domain,hai loại văn này nên được coi trọng như nhau trong các kỳ thi,"hãy like, like and subscribe",3.686875,0.275954,0.074848,cpu,openai/whisper-tiny
+VIVOSDEV13_226,VIVOSDEV13,test_in_domain,vậy mới có mục tiêu để mà phấn đấu nên người có ý thức,vậy mới có 1 tưu để mà phóng đáo nên người có ít thích,3.593125,0.514980,0.143324,cpu,openai/whisper-tiny
+VIVOSDEV13_227,VIVOSDEV13,test_in_domain,tại đây có một ông trưởng phòng nhân sự công ty,đại đây có một ông chưởng phòng nhân sửa công ty,3.249375,0.404338,0.124436,cpu,openai/whisper-tiny
+VIVOSDEV13_230,VIVOSDEV13,test_in_domain,chỉ một điều đơn giản vậy mà anh ấy không bao giờ thực hiện được,chỉ một điều đơn giản với mạng ấy không bao giờ thực hiện được.,4.186875,0.517091,0.123503,cpu,openai/whisper-tiny
+VIVOSDEV13_239,VIVOSDEV13,test_in_domain,chẳng cần nhìn về phương tây quê hương của hàng hiệu,chẳng cần nhìn về phương tay quay hơn của hàng hệ,3.124375,0.506128,0.161993,cpu,openai/whisper-tiny
+VIVOSDEV13_241,VIVOSDEV13,test_in_domain,mùa đông cả cánh đồng chuyển sang một màu vàng rực,đó đông cá cánh đồng chuyến xanh một màu vang rực,2.624375,0.541485,0.206329,cpu,openai/whisper-tiny
+VIVOSDEV13_252,VIVOSDEV13,test_in_domain,tôi học cùng với các anh chị làm việc chuyên về sản xuất phần mềm,tôi học cùng với cách anh chỉ làm việc kinh về sáng xúc phần mềm.,3.936875,0.521210,0.132392,cpu,openai/whisper-tiny
+VIVOSDEV13_255,VIVOSDEV13,test_in_domain,có lẽ đây là lời quảng cáo không công hay nhất cho du lịch lào,có lẽ đây là lời ủy án cáo không còm hay nhất cho lịch nào,4.124375,0.612590,0.148529,cpu,openai/whisper-tiny
+VIVOSDEV13_257,VIVOSDEV13,test_in_domain,từ đó đến nay gia đình chị vẫn sống trong căn nhà lụp xụp,"từ đó đến nay, đình chỉ vấn sống trong căng nhà lực sơ.",3.561875,0.548789,0.154073,cpu,openai/whisper-tiny
+VIVOSDEV13_258,VIVOSDEV13,test_in_domain,bạn cần trung thực với nhân viên của mình trong mọi hoàn cảnh,bản gần chúng thật với nhân viên của mình trong mọi hàng,3.186875,0.443906,0.139292,cpu,openai/whisper-tiny
+VIVOSDEV13_263,VIVOSDEV13,test_in_domain,một số điểm nước phun đến đâu bay hơi hết đến đó,một số để nước phòng đến đau bay 2 tân đau,3.186875,0.433931,0.136162,cpu,openai/whisper-tiny
+VIVOSDEV13_267,VIVOSDEV13,test_in_domain,do vậy vấn đề khu trú khống chế bệnh tả hiện nay rất khó,"vậy, vắng đề khu chú không chế bệnh tã hệnh này rất khó.",3.936875,0.608016,0.154441,cpu,openai/whisper-tiny
+VIVOSDEV13_276,VIVOSDEV13,test_in_domain,đó là câu hỏi mà đến nay vẫn chưa có câu trả lời,đó là câu hỏi mà đến này vẫn chưa có cau chả là,3.124375,0.467191,0.149531,cpu,openai/whisper-tiny
+VIVOSDEV13_277,VIVOSDEV13,test_in_domain,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tĩnh,hàng nói mở rõ mạng khu vật không? đây xong hảm nên là khu vật tấn,3.968125,0.686997,0.173129,cpu,openai/whisper-tiny
+VIVOSDEV14_018,VIVOSDEV14,test_in_domain,biên chế này nhà thanh gọi là an nam quốc nhạc,bình trế này như thân lợ là eg nè em gục nhẹ.,3.124375,0.525415,0.168166,cpu,openai/whisper-tiny
+VIVOSDEV14_022,VIVOSDEV14,test_in_domain,hơn là dẫn dắt các em theo chủ ý của giáo viên,hôm nay dẫn 1 cách em theo dụi của yohan,2.999375,0.484434,0.161512,cpu,openai/whisper-tiny
+VIVOSDEV14_027,VIVOSDEV14,test_in_domain,bạn có thể tham khảo một sơ yếu lý lịch điện tử sau đây,bạn có thể thêm khả một số xơi đi lịch tình tủ sau đây,5.061875,0.497349,0.098254,cpu,openai/whisper-tiny
+VIVOSDEV14_035,VIVOSDEV14,test_in_domain,nhạc sĩ la hối với ca khúc xuân và tuổi trẻ,nhàng xị là hơi với các khúc xong và tuy trẻ.,3.311875,0.480105,0.144965,cpu,openai/whisper-tiny
+VIVOSDEV14_079,VIVOSDEV14,test_in_domain,vậy ai sẽ chịu trách nhiệm về những trường hợp này,vậy ai sẽ chứ chất nhiên về những trung hợp này.,3.374375,0.478037,0.141667,cpu,openai/whisper-tiny
+VIVOSDEV14_080,VIVOSDEV14,test_in_domain,tuy phía trước còn vô và khó khăn đối với con,tui về chút còn vô và khá hàng đối với cầm.,4.124375,0.477901,0.115872,cpu,openai/whisper-tiny
+VIVOSDEV14_085,VIVOSDEV14,test_in_domain,bốn năm trời bị câm một mình với bóng mình nhiều phen òa khóc,"bố 6 trời bị cám một mình với bấm, mình nhiều phêng ai khóc",4.811875,0.605850,0.125907,cpu,openai/whisper-tiny
+VIVOSDEV14_086,VIVOSDEV14,test_in_domain,em sợ mất anh ấy nhưng lại cảm thấy mình bị xúc phạm,em sẽ mất an ai những là cánh thêm mình bây xúc phản,3.186875,0.496083,0.155664,cpu,openai/whisper-tiny
+VIVOSDEV14_093,VIVOSDEV14,test_in_domain,trò đùa đối với thầy nhưng lại là chân thật chân thật với một người,chào đủ với thải nhương lại là chương thật chương thật với một vời,4.374375,0.557525,0.127452,cpu,openai/whisper-tiny
+VIVOSDEV14_104,VIVOSDEV14,test_in_domain,đó là nhận xét chung của nhiều tổng giám đốc điều hành ngày nay,đó là những sẽ chung của nhiều tổng giám đốc điều hành nghe này,4.343125,0.514615,0.118490,cpu,openai/whisper-tiny
+VIVOSDEV14_108,VIVOSDEV14,test_in_domain,người pháp đã đồng ý với cách quản lý lĩnh vực dành riêng,gởi phép đại đồng mối với các quản lấy đến vật dân riêng.,2.905625,0.626002,0.215445,cpu,openai/whisper-tiny
+VIVOSDEV14_113,VIVOSDEV14,test_in_domain,hắn thay đổi lầm lì sau khi theo gia đình đến xứ người,hán thầy đối lầm lầy sau kê hẹa dần đến số ngồi,3.343125,0.604286,0.180755,cpu,openai/whisper-tiny
+VIVOSDEV14_114,VIVOSDEV14,test_in_domain,yếu tố hấp dẫn mới thu hút đầu tư nước ngoài vào việt nam,hãy subscribe cho những video hấp dẫn.,3.436875,0.380592,0.110738,cpu,openai/whisper-tiny
+VIVOSDEV14_115,VIVOSDEV14,test_in_domain,vậy mà giờ đây nó không đợi được đến lúc huy về,vậy mà giờ đây nó không đợi đục lên lúc hôi về,4.124375,0.488935,0.118548,cpu,openai/whisper-tiny
+VIVOSDEV14_116,VIVOSDEV14,test_in_domain,một góc câu cá trên cầu sài gòn ảnh mai vinh,một góp câu kia trên cầu xa gòn an mai vinh.,2.874375,0.506998,0.176385,cpu,openai/whisper-tiny
+VIVOSDEV14_123,VIVOSDEV14,test_in_domain,một vài người trong bọn họ đưa mắt nhìn mảnh giấy,một vài người trong bỏng hả đưa mắt nhìn mạnh dái,3.124375,0.549854,0.175989,cpu,openai/whisper-tiny
+VIVOSDEV14_134,VIVOSDEV14,test_in_domain,nhưng trước đây nhìn từ bên ngoài nơi này không khác một căn nhà hoang,chúc đây nhìn từ bên ngoài nơi này không khác gì một căn nhẹ hành,3.874375,0.601281,0.155194,cpu,openai/whisper-tiny
+VIVOSDEV14_140,VIVOSDEV14,test_in_domain,có nhưng phải là thuốc đặc trị của pháp hiếm và cực kỳ đắt,có những phải là thuốc đặt trị của pháp viếm vật kỳ đáp.,3.499375,0.568252,0.162387,cpu,openai/whisper-tiny
+VIVOSDEV14_145,VIVOSDEV14,test_in_domain,một số bạn trẻ cũng có ý nghĩ như cao cường,một số bàn trẻ cũng có ý nghĩa như kéo cửa,2.686875,0.467728,0.174079,cpu,openai/whisper-tiny
+VIVOSDEV14_151,VIVOSDEV14,test_in_domain,tôi đã có thời gian tuyệt vời khi chơi cho đội tuyển,tôi đã có thật dân tịch vời khi chơi cho lỗi tuyên.,3.093125,0.579306,0.187288,cpu,openai/whisper-tiny
+VIVOSDEV14_156,VIVOSDEV14,test_in_domain,thỉnh thoảng con đi qua dừng lại dựng xe ngồi hút thuốc,thịnh thảnh gòn đi位 dường lại dường xe ngồi hút hút,3.093125,0.597536,0.193182,cpu,openai/whisper-tiny
+VIVOSDEV14_163,VIVOSDEV14,test_in_domain,chú bộ đội qua những câu chuyện của ông mới gần gũi làm sao,chưa của rõo wan những câu chuyển của ammuy lần gũng lệm sao,3.124375,0.659273,0.211010,cpu,openai/whisper-tiny
+VIVOSDEV14_180,VIVOSDEV14,test_in_domain,ăn cá ngừ cá thu và cá mòi với rau trộn,hình gánh người có thù và gắn mọi với râu chỗ.,2.874375,0.508688,0.176974,cpu,openai/whisper-tiny
+VIVOSDEV14_186,VIVOSDEV14,test_in_domain,có bằng thạc sĩ những ngành trên là một lợi thế,cá bằng thè xảy như ngần trên là mục lời thay,2.811875,0.539527,0.191874,cpu,openai/whisper-tiny
+VIVOSDEV14_191,VIVOSDEV14,test_in_domain,minh nhật hồng quân vũ công thành sưu tầm từ báo nước ngoài,mình quanh hồng quanh vũ công thành dư tập từ báo nước ngoài.,4.499375,0.574448,0.127673,cpu,openai/whisper-tiny
+VIVOSDEV14_194,VIVOSDEV14,test_in_domain,muốn có bằng lái phải qua một đợt thi rất khắt khe,"vông có đằng life, phải ngoài mục đợp tây được khách hẹn.",2.749375,0.576047,0.209519,cpu,openai/whisper-tiny
+VIVOSDEV14_195,VIVOSDEV14,test_in_domain,yêu nhau khoảng vài tháng thì chúng tôi đã có quan hệ tình dục,yêu nhau khoảng vài tháng thì chúng tôi đã có quên hả?,5.436875,0.477027,0.087739,cpu,openai/whisper-tiny
+VIVOSDEV14_199,VIVOSDEV14,test_in_domain,khó sao duyên dám cho anh uống rượu trong đám cưới,khó xào dùnh giám chàng uống rỗ trông đêm khuy,3.061875,0.515430,0.168338,cpu,openai/whisper-tiny
+VIVOSDEV14_225,VIVOSDEV14,test_in_domain,ông dương đức lân phó tổng cục trưởng tổng cục dạy nghề,ông dương đứt lần phá tảm cộp trưởng tập cùng. dạy nghe.,4.249375,0.656562,0.154508,cpu,openai/whisper-tiny
+VIVOSDEV14_227,VIVOSDEV14,test_in_domain,đối xử với bạn như người yêu cũ của bạn đã từng làm,đôi sửa về bánh như người yêu cố gố bánh đã tương lãn,3.186875,0.553203,0.173588,cpu,openai/whisper-tiny
+VIVOSDEV14_235,VIVOSDEV14,test_in_domain,tham gia thiết kế lăng chủ tịch hồ chí minh thì có nhiều người,"thêm dài thiết cái lần, chủ tập họ chỉ mình thì có nhiều người.",3.374375,0.576527,0.170854,cpu,openai/whisper-tiny
+VIVOSDEV14_236,VIVOSDEV14,test_in_domain,vì vậy công ty b phải có trách nhiệm bồi thường,vì vậy góc tiếp bế phải góc chết nhìn boy thường.,3.061875,0.492064,0.160707,cpu,openai/whisper-tiny
+VIVOSDEV14_256,VIVOSDEV14,test_in_domain,nông dân trồng mía than cứ một vụ được lại ba vụ thất,nôm dân trong mê thàn cứ một phổ lại được ba vụ thức.,3.874375,0.545771,0.140867,cpu,openai/whisper-tiny
+VIVOSDEV14_280,VIVOSDEV14,test_in_domain,thì người xem cũng được nâng cao kiến thức về địa lý,thì người xem cũng được nông cao kính thật và để lấy,2.999375,0.490342,0.163482,cpu,openai/whisper-tiny
+VIVOSDEV14_283,VIVOSDEV14,test_in_domain,ngày xưa các cụ làm bìa sách là minh hoạ cho cuốn sách đó,ngày xưa kết cố làm bây sách làm mất hại cho cũng sắp đó.,3.905625,0.639766,0.163806,cpu,openai/whisper-tiny
+VIVOSDEV14_285,VIVOSDEV14,test_in_domain,tôi đã nhiều lần phản đối quyết liệt việc nước thải tuồn ra ngoài,tờ đáng nhiều lòng phán đối quyết liệt nước thái tụng đang ngoài.,3.374375,0.603226,0.178767,cpu,openai/whisper-tiny
+VIVOSDEV14_286,VIVOSDEV14,test_in_domain,nhiều gia đình hiện nay thích tự giới thiệu chương trình,nhiều gia đình hiện nay hức tối dễ thử trưng trên.,2.905625,0.517063,0.177953,cpu,openai/whisper-tiny
+VIVOSDEV14_289,VIVOSDEV14,test_in_domain,tôi là một người miền tây đang là nghiên cứu sinh ở mỹ,tôi là một người mình tay đang là nghiên cứu xin ở mấy,3.686875,0.467302,0.126748,cpu,openai/whisper-tiny
+VIVOSDEV14_291,VIVOSDEV14,test_in_domain,càng đi sâu vào bên trong cảnh trí thiên nhiên càng hùng vĩ,cái đi sau vào bên trong cạnh trái hình e nghe càng hùng vỡ,3.561875,0.567685,0.159378,cpu,openai/whisper-tiny
+VIVOSDEV14_294,VIVOSDEV14,test_in_domain,mong bạn bình tâm suy nghĩ và chọn được cách giải quyết tốt nhất,mong bệnh 5 xin ấy và trọng lúc cắt dẻ quyết tốt nhất.,3.311875,0.600996,0.181467,cpu,openai/whisper-tiny
+VIVOSDEV15_003,VIVOSDEV15,test_in_domain,điều này khó hơn khi bạn vào bàn tiệc toàn người xa lạ,điều này có hơn khi bạn vào bàn tiêu tôn người xa là,3.624375,0.504528,0.139204,cpu,openai/whisper-tiny
+VIVOSDEV15_013,VIVOSDEV15,test_in_domain,cũng đều trong tư thế ngõ nhỏ phố nhỏ phở tôi ở đó,cũng đều trong tư thế ngã phố phố nhả vừa tôi ở đó,3.686875,0.546014,0.148097,cpu,openai/whisper-tiny
+VIVOSDEV15_014,VIVOSDEV15,test_in_domain,thành một chiếc lồng đèn khổng lồ tại công viên ở thủ đô bắc kinh,thánh ngôi trước lòng đến khổng lâu tại công viên ở thủ đô bắc kinh.,3.874375,0.681670,0.175943,cpu,openai/whisper-tiny
+VIVOSDEV15_020,VIVOSDEV15,test_in_domain,câu chuyện của quá khứ ông kể không biết bao nhiêu lần,cơ truyện của qua khứ ông kẻ khấu biết bao nhiêu lan.,2.843125,0.604184,0.212507,cpu,openai/whisper-tiny
+VIVOSDEV15_021,VIVOSDEV15,test_in_domain,màu son trông thật tuyệt trên bất kì màu da nào,một xong trong thật thưa trên bất kì một án hào,3.436875,0.558994,0.162646,cpu,openai/whisper-tiny
+VIVOSDEV15_026,VIVOSDEV15,test_in_domain,ông ăn chay mà nghĩ mặn thì ăn chay làm chi,ông quan trây mà nghĩ mạnh thi ăn trây làm gì?,3.436875,0.495349,0.144128,cpu,openai/whisper-tiny
+VIVOSDEV15_037,VIVOSDEV15,test_in_domain,trên cơ sở đó những hành vi vi phạm sẽ được xử lý nghiêm,trên cơ sở đó những hành vi vi phạm sẽ được số liên nghiệm,3.655625,0.571320,0.156285,cpu,openai/whisper-tiny
+VIVOSDEV15_038,VIVOSDEV15,test_in_domain,một cơ quan chính thức để khách hàng khiếu nại tham khảo và tin tưởng,một cơ quan trính thức đẹp khách hàng kêu nại tham khả ở vật tinh tưởng.,4.311875,0.829143,0.192293,cpu,openai/whisper-tiny
+VIVOSDEV15_047,VIVOSDEV15,test_in_domain,một tình huống ứng xử sư phạm tôi làm bộ tỉnh rụi được cô duyệt,một tình hướng ơn sửa xưa phạm tôi là bộ tình rùi được cố dễ.,5.374375,0.786015,0.146252,cpu,openai/whisper-tiny
+VIVOSDEV15_050,VIVOSDEV15,test_in_domain,chẳng lẽ ăn cơm nhà người mà lại không chăm chú lắng nghe người nói,"trong lẽ ăn cơm, nhà người mà lại khô chăm chú nắng nghe người nổi",4.311875,0.656660,0.152291,cpu,openai/whisper-tiny
+VIVOSDEV15_062,VIVOSDEV15,test_in_domain,nghĩa là nếu bạn đang làm việc dưới quyền một giám sát viên,"nghĩ là nếu bạn đang làm việc dưới quên 1 xam xa, viên",4.030625,0.528805,0.131197,cpu,openai/whisper-tiny
+VIVOSDEV15_066,VIVOSDEV15,test_in_domain,kẽm có nhiều trong gan sò thịt đỏ cá óc trứng,cảm ơn nhờ trong cãn sò thích đó cá ốc trứng.,4.374375,0.512110,0.117070,cpu,openai/whisper-tiny
+VIVOSDEV15_092,VIVOSDEV15,test_in_domain,ung thư từ một cơ quan khác di căn vào hệ thống hạch bạch huyết,ông thứ từ một cơ quan khác gì cân vào hệ thống hệ bài khết.,4.374375,0.551908,0.126169,cpu,openai/whisper-tiny
+VIVOSDEV15_109,VIVOSDEV15,test_in_domain,cuộc thi tự hào sử việt đã hết giai đoạn i,cố gây từ hào sau vẻ đã hết xa đrad.,3.030625,0.466778,0.154020,cpu,openai/whisper-tiny
+VIVOSDEV15_111,VIVOSDEV15,test_in_domain,cuộc biểu tình của áo đỏ có thể sẽ biến thành bạo lực,cô bều tên của áo đỏ có thể sẽ biến thành bảo lực.,3.405625,0.522323,0.153371,cpu,openai/whisper-tiny
+VIVOSDEV15_117,VIVOSDEV15,test_in_domain,trên thực tế một cuộc điều tra đã được tiến hành,chên thực tế một cuộc điều tra đật tiếng hành.,3.686875,0.435858,0.118219,cpu,openai/whisper-tiny
+VIVOSDEV15_121,VIVOSDEV15,test_in_domain,trải dài hàng chục cây số đều thu gọn vào tầm mắt,chạy dây hàng trục kây số đều thu gọi vào tấm mắt.,3.999375,0.542668,0.135688,cpu,openai/whisper-tiny
+VIVOSDEV15_137,VIVOSDEV15,test_in_domain,thản nhiên giá đó thì chỉ có thể làm vậy thôi,thánh như giá đó thì chỉ có thể làm vậy thôi,3.999375,0.398513,0.099644,cpu,openai/whisper-tiny
+VIVOSDEV15_147,VIVOSDEV15,test_in_domain,bắt đầu cuộc chạy đua mùa kinh doanh tết giữa bánh nội và bánh ngoại,bắt đầu cũng trạc đua mùa kinh giói nghe tên sữa bánh nội và bánh ngoại.,4.249375,0.737496,0.173554,cpu,openai/whisper-tiny
+VIVOSDEV15_154,VIVOSDEV15,test_in_domain,cái nhà hát bị đập tan tành ông khoái lắm à,"cái nhà hết bị đập tăng tình, ông khỏi lắm à.",3.749375,0.488459,0.130277,cpu,openai/whisper-tiny
+VIVOSDEV15_168,VIVOSDEV15,test_in_domain,mâm cơm vẫn thanh đạm tủ áo của vợ cũng chỉ vài bộ đơn sơ,mâm cơ vẫn thang đạm tổ áo của vợ cũng chỉ phải vợ đưa ra.,5.561875,0.641480,0.115335,cpu,openai/whisper-tiny
+VIVOSDEV15_173,VIVOSDEV15,test_in_domain,hình thức kỷ luật nào cũng chỉ có tính định hướng răn đe,hãy cứ kỹ lột nào cũng chỉ có tính định hướng rân đea,4.749375,0.537115,0.113092,cpu,openai/whisper-tiny
+VIVOSDEV15_180,VIVOSDEV15,test_in_domain,hiện nay bà đang bị nhiều bệnh và sống dưới mức nghèo khổ,"hẹn nay, bà đang bị nhiều bạc và sống dưới mất ngào hỗ.",4.093125,0.605833,0.148012,cpu,openai/whisper-tiny
+VIVOSDEV15_194,VIVOSDEV15,test_in_domain,nằm trên giường gần cả tháng bất giác tôi cảm thấy mình thật cô độc,"nam chơi dường gần gà tháng, bất trở tôi cảm thấy mình thật cô đọc.",4.374375,0.639573,0.146209,cpu,openai/whisper-tiny
+VIVOSDEV15_198,VIVOSDEV15,test_in_domain,nhảm nhí khi giờ học chán phèo buồn ngủ quá ờ buồn ngủ,"nạn nghĩ khi giờ học trán phèo, bôn ngộ quá, bôn ngộ.",4.874375,0.543076,0.111414,cpu,openai/whisper-tiny
+VIVOSDEV15_200,VIVOSDEV15,test_in_domain,nói chuyện một hồi ông làm bộ để tay lên tay em trên cần số,nói truyện bộ hội ông là bộ để tay lên tay em trên cản số,4.874375,0.602863,0.123680,cpu,openai/whisper-tiny
+VIVOSDEV15_203,VIVOSDEV15,test_in_domain,còn anh trai tôi trong nhật ký của mình cũng linh cảm điều đó,còn anh chai tôi trong nhật ki quộ mình cũng linh cảm điều đó.,4.186875,0.494586,0.118128,cpu,openai/whisper-tiny
+VIVOSDEV15_204,VIVOSDEV15,test_in_domain,sáng chúng tôi tạm biệt thung nai và những chủ nhân mến khách mộc mạc,sáng trung tôi tạm biệt thông nay và những chủ nhân mến khách bộ mạc.,4.343125,0.637739,0.146839,cpu,openai/whisper-tiny
+VIVOSDEV15_208,VIVOSDEV15,test_in_domain,mấy ngày đầu thúy hà phải nhờ kim dẫn đi giới thiệu trường,mấy ngày đầu thứ 2 phải nhờ kim dẫn đi dưới thiệu trường.,4.186875,0.503209,0.120187,cpu,openai/whisper-tiny
+VIVOSDEV15_209,VIVOSDEV15,test_in_domain,họ thích nghi với văn hóa công ty như thế nào,họ thình gây với văn hóa công ty như thế nào.,3.186875,0.482724,0.151473,cpu,openai/whisper-tiny
+VIVOSDEV15_213,VIVOSDEV15,test_in_domain,mô hình cấu trúc chức năng và khoa học xã hội mang tính giáo dục,"mô hình cầu chúc, chức năng và khóa học xã hội mang tính giáo dục.",4.561875,0.651429,0.142799,cpu,openai/whisper-tiny
+VIVOSDEV15_216,VIVOSDEV15,test_in_domain,và bạn cần có việc làm ổn định với thu nhập cao,và bạn cần có việc làm ổn định với thương nhỏm cao.,3.249375,0.507686,0.156241,cpu,openai/whisper-tiny
+VIVOSDEV15_220,VIVOSDEV15,test_in_domain,đây là tháng có số đăng ký thấp nhất từ đầu năm đến nay,đây là tháng có số đăng ký thấp nhất từ đầu năm đến nay.,3.749375,0.465517,0.124159,cpu,openai/whisper-tiny
+VIVOSDEV15_239,VIVOSDEV15,test_in_domain,thật ra thì cũng không thể làm cầu kì như ở nhà được,thật ra thì cũng không thể làm gầu khi như ở nhà được.,4.374375,0.446310,0.102028,cpu,openai/whisper-tiny
+VIVOSDEV15_253,VIVOSDEV15,test_in_domain,vả lại theo quy chế đây là trách nhiệm của mỗi thí sinh,phà lại theo quy trế đây là chân nhạm của mỗi tí xinh.,3.561875,0.516632,0.145045,cpu,openai/whisper-tiny
+VIVOSDEV15_255,VIVOSDEV15,test_in_domain,công nhân đang thi công hai nhánh cầu rạch chiếc ảnh thuận thắng,côm nhân đang thi công 2 nháng cầu rài trước ảnh thuận thắng,4.561875,0.566738,0.124233,cpu,openai/whisper-tiny
+VIVOSDEV15_265,VIVOSDEV15,test_in_domain,họ không biết chơi phòng ngự là gì trừ khi bị đối thủ vây ép,họ không biết chơi phòng ngợt là gì chưa khi bị đối thủ với eap?,4.374375,0.558411,0.127655,cpu,openai/whisper-tiny
+VIVOSDEV15_267,VIVOSDEV15,test_in_domain,cuối cùng họ dẫn nhau về nhà với thúng làn không,cối cùng họ dẫn nhau về nhà với thúng làan thông.,3.499375,0.458869,0.131129,cpu,openai/whisper-tiny
+VIVOSDEV15_271,VIVOSDEV15,test_in_domain,phim mới của trương nghệ mưu sự trở lại dòng phim nghệ thuật,"phim mới của chương nghệ mô sợ trở lại, sòng phim nghệ thật",4.593125,0.555827,0.121013,cpu,openai/whisper-tiny
+VIVOSDEV15_299,VIVOSDEV15,test_in_domain,còn hàng trăm chiếc khác đã bán thì ông không nhớ hết,còn hàng chăm chứ khác đã bán thì ông không nữ hết.,3.874375,0.471456,0.121686,cpu,openai/whisper-tiny
+VIVOSDEV16_026,VIVOSDEV16,test_in_domain,cùng vợ ăn vội chén cơm thành lại lo ôn bài làm bài tập,cùng vợ ăn vổ chíng gơm thần lại là ông bài làm bài tập.,6.374375,0.606189,0.095098,cpu,openai/whisper-tiny
+VIVOSDEV16_033,VIVOSDEV16,test_in_domain,đội nào thành tích càng cao thì quản lý càng khó,đối nào thần tích gèn cao thị quán lý cạnh khó,3.561875,0.513851,0.144264,cpu,openai/whisper-tiny
+VIVOSDEV16_048,VIVOSDEV16,test_in_domain,phải chăng xây dựng niềm tin vào tình yêu khó thế,phải găng xây dựng nềm tin vào tin yêu khác thế,3.968125,0.459316,0.115751,cpu,openai/whisper-tiny
+VIVOSDEV16_049,VIVOSDEV16,test_in_domain,còn ba cầu thủ văn trương bật hiếu và hải lâm thì sao thưa ông,"còn bác, cầu thủ văn thư bặc hiểu và hãy làm thị sao thư không?",6.061875,0.607551,0.100225,cpu,openai/whisper-tiny
+VIVOSDEV16_050,VIVOSDEV16,test_in_domain,tháng bảy nhiều người con khóc nên trời buồn và khóc theo,tháng bãi nhiều người con khóc nên trời buồn và khóc theo.,3.749375,0.517751,0.138090,cpu,openai/whisper-tiny
+VIVOSDEV16_051,VIVOSDEV16,test_in_domain,ca khúc được khán giả yêu thích nhất bà tôi nguyễn vĩnh tiến,"cái khúc được khai giả yêu thích nhật, bà tôi nguyễn vấn tính.",4.186875,0.640271,0.152923,cpu,openai/whisper-tiny
+VIVOSDEV16_058,VIVOSDEV16,test_in_domain,đầu tư tiêu dùng và xuất khẩu đều sẽ tăng mạnh,đầu tư tư dùng và xuất khẩu đều sẽ tăng mạnh.,3.311875,0.520779,0.157246,cpu,openai/whisper-tiny
+VIVOSDEV16_059,VIVOSDEV16,test_in_domain,đồ cổ không công khai nguồn gốc phải bị coi là hàng giả,"được có khăm câm khai ngủ gấp, phải bây koi là hành giả.",4.093125,0.606454,0.148164,cpu,openai/whisper-tiny
+VIVOSDEV16_064,VIVOSDEV16,test_in_domain,từng là chủ tế hàng trăm lễ an táng mộ gió,từng là chủ tới hàng trăm lẽ ăn tán mối nhau.,3.624375,0.477384,0.131715,cpu,openai/whisper-tiny
+VIVOSDEV16_067,VIVOSDEV16,test_in_domain,hình như không có cả một trong hai tài và đức,hình như không có cả 1 trong 2 tài và đức.,3.561875,0.416336,0.116887,cpu,openai/whisper-tiny
+VIVOSDEV16_068,VIVOSDEV16,test_in_domain,bên cạnh đó chúng tôi còn làm hàng loạt việc khác như,bên cạnh đó chúng tôi còn làm hành like vì khác như,4.249375,0.435999,0.102603,cpu,openai/whisper-tiny
+VIVOSDEV16_074,VIVOSDEV16,test_in_domain,chúng nó yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên,chúng đã yêu nhà rắc tới nha nghe nghe nhau của mất tới nha nghe,3.999375,0.586896,0.146747,cpu,openai/whisper-tiny
+VIVOSDEV16_079,VIVOSDEV16,test_in_domain,tất cả để cho người bệnh và thân nhân hài lòng khi đến bệnh viện,tất cả để chân người bệnh và thân dân hài lòng khí đến bệnh viện.,4.999375,0.615317,0.123079,cpu,openai/whisper-tiny
+VIVOSDEV16_101,VIVOSDEV16,test_in_domain,tôi khẽ chớp mắt và thầm cầu nguyện xin chúa giúp con,tôi khẻ chấp mắt và thầm cầu nguyện xin chú giúp cầu.,3.936875,0.577925,0.146798,cpu,openai/whisper-tiny
+VIVOSDEV16_112,VIVOSDEV16,test_in_domain,lúc hưng phấn nói chuyện phóng lao chẳng có chi phức tạp,lúc hôm phóng nói chuyện phóng là dạng có chơi phức tạp.,3.811875,0.609785,0.159970,cpu,openai/whisper-tiny
+VIVOSDEV16_120,VIVOSDEV16,test_in_domain,sẽ làm chúng ta ngủ không đủ không đúng quy luật,sẽ làm chúng ta ngủ không đủ không đúng quên lộ.,3.780625,0.457938,0.121127,cpu,openai/whisper-tiny
+VIVOSDEV16_149,VIVOSDEV16,test_in_domain,có bao giờ ông gặp tình huống không trả lời được câu hỏi của dân,các bà giờ ông gặp tình hướng không trả lời được công hại cuối dân.,4.374375,0.651784,0.149001,cpu,openai/whisper-tiny
+VIVOSDEV16_153,VIVOSDEV16,test_in_domain,cả đời chưa bao giờ tôi có cảm giác sung sướng như vậy,cá đời chú bà dờ tốt có cảm giác xung xung như vậy.,3.749375,0.532648,0.142063,cpu,openai/whisper-tiny
+VIVOSDEV16_154,VIVOSDEV16,test_in_domain,ít có cơ hội sống sót cho các hành khách trên máy bay,ít có cơ hồ sống sống cho kết hành khách trên mấy bây,3.968125,0.579332,0.145997,cpu,openai/whisper-tiny
+VIVOSDEV16_161,VIVOSDEV16,test_in_domain,trung quốc đưa ra hình phạt cụ thể đối với tội tham nhũng,trung quốc đưa ra hình phải cố thái đưa với tối tham nhổng.,4.655625,0.570812,0.122607,cpu,openai/whisper-tiny
+VIVOSDEV16_168,VIVOSDEV16,test_in_domain,hai cháu ngạc nhiên đón khách lạ sung sướng ôm cặp mới,2 cháo ngạch nghe in đó khát là xung xứng ổng cập mới,4.061875,0.629087,0.154876,cpu,openai/whisper-tiny
+VIVOSDEV16_173,VIVOSDEV16,test_in_domain,nhưng cô quyết chứng minh người mù không phải vô dụng,nhưng câu quyết chứng mình người mù không phải vô dụng.,4.374375,0.541757,0.123848,cpu,openai/whisper-tiny
+VIVOSDEV16_175,VIVOSDEV16,test_in_domain,họ đã trao nhau lời hẹn ước nên duyên chồng vợ,hò đã trao nhau là hình ước đàn duyên trong vỏ.,3.811875,0.564884,0.148190,cpu,openai/whisper-tiny
+VIVOSDEV16_177,VIVOSDEV16,test_in_domain,nếu thỉnh thoảng có vài ngày nghỉ người thụy điển thường ra đảo chơi,"nếu thánh thoảng có và ngài nghĩ, người thầy đỉnh thường ra đảo chơi",5.249375,0.721607,0.137465,cpu,openai/whisper-tiny
+VIVOSDEV16_182,VIVOSDEV16,test_in_domain,những người cô lập mình có thể gặp phải chứng trầm cảm hoặc lo lắng,những người có lập bình có thể gặp phải chứng chăm cảm hoặc lo lắng,4.905625,0.613122,0.124983,cpu,openai/whisper-tiny
+VIVOSDEV16_193,VIVOSDEV16,test_in_domain,thực tế vai trò của bạn và người phỏng vấn đối chiếu nhau,thật tới vai trọc của bạn và người phóng vóng đối chíu nhau.,4.343125,0.601084,0.138399,cpu,openai/whisper-tiny
+VIVOSDEV16_196,VIVOSDEV16,test_in_domain,sự giúp đỡ của bà là vô cùng quí báu cho chúng tôi,sở giúp đỡ cuối báo cho chúng tôi,4.124375,0.410698,0.099578,cpu,openai/whisper-tiny
+VIVOSDEV16_197,VIVOSDEV16,test_in_domain,nhà trường đột ngột hủy đề tài khiến tôi mất phương hướng,nhà trường độc ngọt hối để tài kinh tối mắt phương hướng,4.561875,0.665438,0.145869,cpu,openai/whisper-tiny
+VIVOSDEV16_198,VIVOSDEV16,test_in_domain,các phật tử hưởng ứng lời kêu gọi của thầy như thế nào,"các phật tối hưởng ứng, lời giao gọi của thầy như thế nào.",5.186875,0.698699,0.134705,cpu,openai/whisper-tiny
+VIVOSDEV16_203,VIVOSDEV16,test_in_domain,vậy những đối tượng này sẽ được giải quyết như thế nào,và những đối tưởng này sẽ được giải quyết như thế nào,3.843125,0.479377,0.124736,cpu,openai/whisper-tiny
+VIVOSDEV16_228,VIVOSDEV16,test_in_domain,xen kẽ giữa những màn biểu diễn là những phút vui chơi tập thể,xanh kế dữ những màn bíu dĩnh là những phút vui cho tập thái.,4.811875,0.683730,0.142092,cpu,openai/whisper-tiny
+VIVOSDEV16_233,VIVOSDEV16,test_in_domain,sáng ra thấy dân tình xúm quanh con tê giác khổng lồ đã chết,xãnh ra thấy dân tình sống quân con tây chết khóm lồ đã chết,5.436875,0.622519,0.114499,cpu,openai/whisper-tiny
+VIVOSDEV16_239,VIVOSDEV16,test_in_domain,và một điều sâu xa là mình đã thật sự yêu bạn,và một điều sau xa làm bình đã thực sự yêu bán.,4.249375,0.473455,0.111417,cpu,openai/whisper-tiny
+VIVOSDEV16_247,VIVOSDEV16,test_in_domain,nhiều hôm mưa gió bán ế gánh chè nặng trĩu trên vai mẹ,"như hôm mưu giá bánh air gánh chiến, nắng trữ trường vai mẹ.",5.186875,0.613928,0.118362,cpu,openai/whisper-tiny
+VIVOSDEV16_266,VIVOSDEV16,test_in_domain,phía dưới và xung quanh kệ là nước bẩn lênh láng chảy qua,ví dưới và xuống quan cã là nước bỏng lên lãnh trảy hoa,5.061875,0.654448,0.129290,cpu,openai/whisper-tiny
+VIVOSDEV16_267,VIVOSDEV16,test_in_domain,tôi đứng trước hai lối rẽ và tôi chọn con đường ít người đi hơn,tôi đứng trước hai lối rễ và tôi trọng con đường ít người đi hơn.,4.999375,0.551812,0.110376,cpu,openai/whisper-tiny
+VIVOSDEV16_273,VIVOSDEV16,test_in_domain,chúng tôi đã điều tra những trường hợp có nghi vấn gian dối,chúng tôi đã điều tra những trường hợp có người vắng dành giới.,4.468125,0.597518,0.133729,cpu,openai/whisper-tiny
+VIVOSDEV16_279,VIVOSDEV16,test_in_domain,vậy chừng nào mới tới xin lỗi nhân dân tập cuối,vậy trình nào mất tới sinh lỗi nhăng dân tập cuối,4.186875,0.513484,0.122641,cpu,openai/whisper-tiny
+VIVOSDEV16_298,VIVOSDEV16,test_in_domain,hôm nào tan ca sớm hạnh được giao nhiệm vụ đi chợ cho bữa tối,hôm nào tàn kia sống hạnh được dân dìm vụ đi cho chá buối tối.,5.249375,0.657409,0.125236,cpu,openai/whisper-tiny
+VIVOSDEV16_299,VIVOSDEV16,test_in_domain,vào được nhà anh đấy sửa cửa đi nguy hiểm đấy,"vào được nhà ăn, đây, xưa cố đên người hiểm, đây",4.436875,0.516873,0.116495,cpu,openai/whisper-tiny
+VIVOSDEV17_011,VIVOSDEV17,test_in_domain,rồi mặc dù biết là ngớ ngẩn tôi cứ nói ra,rồi mặt dầu biết là ngớ ngẩn tôi cứ nó ra,4.061875,0.464014,0.114236,cpu,openai/whisper-tiny
+VIVOSDEV17_024,VIVOSDEV17,test_in_domain,riêng ông nguyễn văn ba bị gỗ đè dập sọ não chết ngay tại chỗ,"ghiên ông nguyễn văn bá bị rộn đe, giập sòn nào trước ngày tải trộ.",5.718125,0.722238,0.126307,cpu,openai/whisper-tiny
+VIVOSDEV17_032,VIVOSDEV17,test_in_domain,mỗi người nở một nụ cười với những ý nghĩa khác nhau,mỗi người nở mọc nấu cười với những ý nghĩa khác nhau,4.343125,0.510966,0.117649,cpu,openai/whisper-tiny
+VIVOSDEV17_043,VIVOSDEV17,test_in_domain,do vậy sẽ ảnh hưởng tới việc thu sóng vô tuyến,dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạc dạ,3.624375,3.738431,1.031469,cpu,openai/whisper-tiny
+VIVOSDEV17_048,VIVOSDEV17,test_in_domain,phim chiếu nguyên bản tiếng pháp có phụ đề tiếng việt,vìm chíu nguyên bệnh tý pháp có phủ đề tính vệ,3.749375,0.671553,0.179111,cpu,openai/whisper-tiny
+VIVOSDEV17_060,VIVOSDEV17,test_in_domain,bóng màu xanh là vùng tâm bão có thể đi qua,bộng màu xanh là vùng tâm bảo có thể đi qua,3.468125,0.524316,0.151181,cpu,openai/whisper-tiny
+VIVOSDEV17_062,VIVOSDEV17,test_in_domain,sau một ngày lao động căng mệt bạn ưu tiên chọn,"sau một ngày lâu đẩm cám mật, bản ư tinh chó",3.593125,0.545636,0.151855,cpu,openai/whisper-tiny
+VIVOSDEV17_070,VIVOSDEV17,test_in_domain,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy,hà cũng trận nhớ mình có nói hay không để cả lại ông ấy,4.030625,0.466989,0.115860,cpu,openai/whisper-tiny
+VIVOSDEV17_071,VIVOSDEV17,test_in_domain,bản thân tôi cũng tham gia một vai rất nhỏ nữa,bản thân tôi cũng tham gia một phay đức nhỏ nữa.,3.718125,0.471520,0.126817,cpu,openai/whisper-tiny
+VIVOSDEV17_077,VIVOSDEV17,test_in_domain,hôm sau mở máy thấy cái truyện đã tự hoàn chỉnh rồi,hôm sau mọi máy thế kết chuyện đã tử hành trình rồi,4.249375,0.520179,0.122413,cpu,openai/whisper-tiny
+VIVOSDEV17_090,VIVOSDEV17,test_in_domain,bây giờ thì đáng được khen là thông minh chứ hả,bây giờ thì đáng được kênh là thông mừng trước hả?,3.530625,0.501109,0.141932,cpu,openai/whisper-tiny
+VIVOSDEV17_099,VIVOSDEV17,test_in_domain,chị tìm nhà cho em ở trọ ngay cổng trường chị học,"chỉ tìm nhà, gió em õi trọng, ngay cộng trường trí hợp.",4.593125,0.705945,0.153696,cpu,openai/whisper-tiny
+VIVOSDEV17_100,VIVOSDEV17,test_in_domain,đến đà lạt bạn phải chuẩn bị đôi chân để đi bộ,đến đà là bạn phải chủng bấy đôi trưng để đi bỏ,3.968125,0.546904,0.137824,cpu,openai/whisper-tiny
+VIVOSDEV17_107,VIVOSDEV17,test_in_domain,họ được bọn đầu nậu những tay trùm thuê với giá rẻ mạt,hỏi được bỏ đầu nấu những tây trồng thêm với giá gái mạc.,4.905625,0.607721,0.123883,cpu,openai/whisper-tiny
+VIVOSDEV17_109,VIVOSDEV17,test_in_domain,một bà sang trọng đến gặp bác sĩ trẻ khám bệnh bác sĩ hỏi,một bà xanh trọng đến gặp bác sử dẻ khám bệnh bác sử hỏi,3.811875,0.684476,0.179564,cpu,openai/whisper-tiny
+VIVOSDEV17_114,VIVOSDEV17,test_in_domain,nhân lực ngành thiết kế đồ họa đắt giá và khan hiếm,nhưng lực ngẩn thích kết đồ hoạch đất kia và khang hiếm,3.374375,0.592853,0.175693,cpu,openai/whisper-tiny
+VIVOSDEV17_120,VIVOSDEV17,test_in_domain,sau đó bản thân học sinh phải làm đơn xin học bổng,"sau đó, bản thân học sinh phải làm đơn sinh học bảong.",3.780625,0.513284,0.135767,cpu,openai/whisper-tiny
+VIVOSDEV17_133,VIVOSDEV17,test_in_domain,chỉ có thực phẩm mới giúp bạn làm được việc này,chỉ có thực phẩm mới dấp bản làm được việc này.,3.624375,0.451099,0.124463,cpu,openai/whisper-tiny
+VIVOSDEV17_147,VIVOSDEV17,test_in_domain,với các dát màu cà phê sữa không cần điều trị,bới các giết màu cả phê sử không cần đư trở,3.686875,0.473912,0.128540,cpu,openai/whisper-tiny
+VIVOSDEV17_169,VIVOSDEV17,test_in_domain,họ bảo tôi giống người hàn thì tôi lại thấy họ giống người việt,họ bảo tôi giống như người hình thì tôi lại thấy hỏi giống người việc,4.874375,0.551911,0.113227,cpu,openai/whisper-tiny
+VIVOSDEV17_170,VIVOSDEV17,test_in_domain,và đội tuyển pháp đang là đội chiếm ưu thế hơn so với thụy sĩ,và đợi tính pháp đang là đội chím uống thế hôn sau với thủy sĩ.,3.843125,0.631076,0.164209,cpu,openai/whisper-tiny
+VIVOSDEV17_173,VIVOSDEV17,test_in_domain,trình độ chuyên môn của cô khiến cô quá thừa tư cách,chỉnh lợi trưng mong của cô kính cô quá thở tức cấp,3.249375,0.536101,0.164986,cpu,openai/whisper-tiny
+VIVOSDEV17_181,VIVOSDEV17,test_in_domain,những câu hỏi trên sẽ giúp bạn làm được điều này,những câu hỏi chân sẽ giúp bản làm được điều này.,3.874375,0.460146,0.118766,cpu,openai/whisper-tiny
+VIVOSDEV17_189,VIVOSDEV17,test_in_domain,vẫn còn nhưng bạn không dám chắc họ có hạnh phúc hay không,vũng còn nhưng bản không giám chắc hỏi có hạnh phúc hay không?,4.999375,0.549680,0.109950,cpu,openai/whisper-tiny
+VIVOSDEV17_192,VIVOSDEV17,test_in_domain,đó cũng là sự tiếp xúc gần gũi nhất của bọn em,đó cũng là sự tiếp xúc gần của nhất của bỏng em.,4.061875,0.486804,0.119847,cpu,openai/whisper-tiny
+VIVOSDEV17_204,VIVOSDEV17,test_in_domain,em hãy tỉnh táo mà tìm những định hướng tốt hơn cho tương lai,em hãy tính táo mà tìm những đánh hướng tốt hơn cho tương lai,4.624375,0.631391,0.136535,cpu,openai/whisper-tiny
+VIVOSDEV17_208,VIVOSDEV17,test_in_domain,nhưng chẳng có điểm sản xuất nào dùng bạt phủ che chắn,"nhưng trận có để mạnh xuất nào, dùng bà phủ ché chán.",5.124375,0.558354,0.108960,cpu,openai/whisper-tiny
+VIVOSDEV17_212,VIVOSDEV17,test_in_domain,có mấy người đụng phải nó suýt ngã chúi xuống đường,có máy người đúng phải nó chứt nạn chứ xuống đường,4.686875,0.511527,0.109140,cpu,openai/whisper-tiny
+VIVOSDEV17_213,VIVOSDEV17,test_in_domain,đoàn đi thuyền đến một khu làng dân tộc thiểu số,đạn đi thiệt đến một khô lạng những tập thiết sốt,4.030625,0.547868,0.135926,cpu,openai/whisper-tiny
+VIVOSDEV17_217,VIVOSDEV17,test_in_domain,thì hợp đồng thế chấp này cũng không có giá trị pháp lý,thì hợp đầm thế chấp này cũng không có giá trị pháp lý.,5.936875,0.625451,0.105350,cpu,openai/whisper-tiny
+VIVOSDEV17_239,VIVOSDEV17,test_in_domain,ba tôi hãnh diện nói chuyện với số học sinh cùng lên xe đò,3 tôi hạnh dẫn nói chuyện với số học sinh cùng lớn xe đò.,5.186875,0.606909,0.117009,cpu,openai/whisper-tiny
+VIVOSDEV17_241,VIVOSDEV17,test_in_domain,một anh trai tuấn đang ngồi tù vì tội giết người,một anh chai tốn đang ngồi tổ về tổ yết người.,3.905625,0.506914,0.129791,cpu,openai/whisper-tiny
+VIVOSDEV17_245,VIVOSDEV17,test_in_domain,được bày trên những bệ thờ bên cạnh những bó sen huệ thơm nức,được bay chân những bẻ thào bên cả những mó xem hệ thông phúc,5.311875,0.616524,0.116065,cpu,openai/whisper-tiny
+VIVOSDEV17_254,VIVOSDEV17,test_in_domain,các bước sau đây sẽ giúp bạn tìm ra ứng cử viên thích hợp,các buông sau đây sẽ dập bản tìm ra ứng cỡ viên thích học.,4.811875,0.695304,0.144497,cpu,openai/whisper-tiny
+VIVOSDEV17_268,VIVOSDEV17,test_in_domain,vì chúng có thể làm răng của bạn dễ bị ố vàng,vì chúng có thể làm trang của bệnh giế bị ố vệnh.,4.093125,0.620738,0.151654,cpu,openai/whisper-tiny
+VIVOSDEV17_271,VIVOSDEV17,test_in_domain,giải nhất huy chương vàng thuộc về nhà nhiếp ảnh của cộng hòa séc,dạ nhớ khuy trung vàng thủ về nhà như bản của cậm hoa sét.,5.468125,0.667569,0.122084,cpu,openai/whisper-tiny
+VIVOSDEV17_285,VIVOSDEV17,test_in_domain,để xin thị thực công tác về cơ bản bạn phải có,"để xinh thị thật công tác, vệ câu bệnh vệ cá",4.249375,0.528356,0.124337,cpu,openai/whisper-tiny
+VIVOSDEV17_288,VIVOSDEV17,test_in_domain,tôi nắm bàn tay xưa ba tôi từng thương yêu đau xót cầm giữ,"tôi nắm bản tay sư, bà tôi tưởng thú tôi, ổ só cầm dự.",5.280625,0.723460,0.137003,cpu,openai/whisper-tiny
+VIVOSDEV17_297,VIVOSDEV17,test_in_domain,trong dòng thác người chỉ nhìn được mắt kính và khẩu trang,"trong dòng tháng người, chỉ nhìn được mất kính và khẩu ché.",4.311875,0.539152,0.125039,cpu,openai/whisper-tiny
+VIVOSDEV17_299,VIVOSDEV17,test_in_domain,khai mạc triển lãm quy mô lớn về tranh sơn mài việt nam,khai mẹ chính là vui mô lớn về chân xương mài việt nam,3.624375,0.528019,0.145685,cpu,openai/whisper-tiny
+VIVOSDEV18_006,VIVOSDEV18,test_in_domain,không nên chỉ dựa vào bài viết của bạn để thuyết minh thêm,không mênh tỷ dựa vào bay viết của bạn để tích mình thêm.,3.249375,0.560189,0.172399,cpu,openai/whisper-tiny
+VIVOSDEV18_012,VIVOSDEV18,test_in_domain,và giáo dục con người trở thành việc luyện trí nhớ,và giá trục con người trở thành việc lượng chi nhớ.,2.593125,0.482535,0.186082,cpu,openai/whisper-tiny
+VIVOSDEV18_017,VIVOSDEV18,test_in_domain,tuy nhiên hợp đồng này chỉ có giá trị trong những ngày bình thường,nhưng hấp đồng này chỉ có ra trị trong những ngày bình thường.,2.811875,0.520674,0.185170,cpu,openai/whisper-tiny
+VIVOSDEV18_021,VIVOSDEV18,test_in_domain,vấn đề đặt ra ở đây là làm thế nào để,vinh đây đã trào đoay là làm thế nào để,2.561875,0.435541,0.170009,cpu,openai/whisper-tiny
+VIVOSDEV18_051,VIVOSDEV18,test_in_domain,nhưng nhiều du khách thấy thất vọng khi lên đến nơi,nhưng nhiều dù khác vẫn thấy thấp phòng khi lên đến nơi.,2.874375,0.474509,0.165083,cpu,openai/whisper-tiny
+VIVOSDEV18_056,VIVOSDEV18,test_in_domain,trên mặt ai cũng có khăn tay khẩu trang che miệng,trên mặt ai cùng có khăn tay khổ trang trên miệng.,2.999375,0.519858,0.173322,cpu,openai/whisper-tiny
+VIVOSDEV18_060,VIVOSDEV18,test_in_domain,càng ngày mình càng nghĩ nhiều về công việc giảng dạy,căng ngay mình căng gị nhiều về công việc giảng giải.,2.343125,0.479448,0.204619,cpu,openai/whisper-tiny
+VIVOSDEV18_064,VIVOSDEV18,test_in_domain,tất nhiên hóa đơn tiền nước cũng kèm luôn khoản tiền,"tất nhiên, hà đơn tiền nước cũng cảm theo luôn khoảng tiền.",2.905625,0.558750,0.192299,cpu,openai/whisper-tiny
+VIVOSDEV18_065,VIVOSDEV18,test_in_domain,chúc bạn đọc có thật nhiều thời gian thư giãn thoải mái,bạn đầu có thật nhiều thời gian thứ giản thổi mai.,2.343125,0.431648,0.184219,cpu,openai/whisper-tiny
+VIVOSDEV18_082,VIVOSDEV18,test_in_domain,hàng chân mày đen và xếch không lẫn vào đâu được,"hàng trân, mày dan và sất không lãnh vào đâu được.",2.624375,0.478751,0.182425,cpu,openai/whisper-tiny
+VIVOSDEV18_102,VIVOSDEV18,test_in_domain,cả ngày trời không nắng gió lạnh nên thưa vắng du khách,nói chơi không năng rõ lại nên tương vắng chú khách,2.780625,0.471665,0.169626,cpu,openai/whisper-tiny
+VIVOSDEV18_114,VIVOSDEV18,test_in_domain,làm được hết khối công việc ấy là một nỗ lực rất lớn,được hết khôi công việc ấy làm một nỗi lực rất lớn.,3.030625,0.469272,0.154843,cpu,openai/whisper-tiny
+VIVOSDEV18_118,VIVOSDEV18,test_in_domain,người ăn xin thưa bà ngày thường thì bà cho gì cũng được,người an sinh thơ bà ngày thường thì bà cho gì cũng được.,3.624375,0.508438,0.140283,cpu,openai/whisper-tiny
+VIVOSDEV18_120,VIVOSDEV18,test_in_domain,bạn không bao giờ ra ngoài mà không dùng kem lót,bạn không bao giờ ra ngoài mạc không dùng game la.,2.436875,0.455495,0.186918,cpu,openai/whisper-tiny
+VIVOSDEV18_126,VIVOSDEV18,test_in_domain,vài lần triển lãm tranh tượng không lời như thế hắn sẽ nhận ra,và lành trên làm chân bượng không loy như thế hảnh sẽ nhận ra,4.436875,0.536297,0.120873,cpu,openai/whisper-tiny
+VIVOSDEV18_155,VIVOSDEV18,test_in_domain,người đàn ông trên giường thình lình rên lên một tiếng rồi mở mắt,gười đang ông trên dung thình linh rellen một tiếng rồi mở mắt,3.936875,0.536189,0.136197,cpu,openai/whisper-tiny
+VIVOSDEV18_171,VIVOSDEV18,test_in_domain,tối qua người ta đến bắt tôi giữa đêm hôm khuya khoắt,tối quan người ta đến bắt tôi dõi đêm hôm khuya qua tình,3.499375,0.510158,0.145785,cpu,openai/whisper-tiny
+VIVOSDEV18_183,VIVOSDEV18,test_in_domain,bảo thằng quyết nó bắt con gà sống nâu mà thịt,"bảo thằng tháng quyết nợ bất con gà sống, nâu mà thiết.",2.936875,0.563288,0.191798,cpu,openai/whisper-tiny
+VIVOSDEV18_191,VIVOSDEV18,test_in_domain,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị,vì bắt sĩ hình là nơi có những lý thiết trong cây thật thủ vị.,3.999375,0.629638,0.157434,cpu,openai/whisper-tiny
+VIVOSDEV18_192,VIVOSDEV18,test_in_domain,những kiểu vết thương mà trẻ thường mang theo có thể là gì,gự vết thương mà trẻ thương mang theo có thể là gì?,3.186875,0.492070,0.154405,cpu,openai/whisper-tiny
+VIVOSDEV18_194,VIVOSDEV18,test_in_domain,xin với mẹ cho đi cai tập trung sau một năm bạn trở về nhà,xin với mẹ cho đi cai tập trung sau 1 năm bản chỗ về nhà.,3.468125,0.550931,0.158855,cpu,openai/whisper-tiny
+VIVOSDEV18_195,VIVOSDEV18,test_in_domain,đầu tiên là một tấm âm bản sau đó mới đến dương bản,tên là một tâm âm bạn sau đó mới đến dừng bạn.,2.749375,0.472948,0.172020,cpu,openai/whisper-tiny
+VIVOSDEV18_198,VIVOSDEV18,test_in_domain,mấy ngày nay chúng tôi đã tịch thu được khá nhiều gà chết,này chúng tôi đã tìt thô được khán nhiều gà chết,2.811875,0.514416,0.182944,cpu,openai/whisper-tiny
+VIVOSDEV18_199,VIVOSDEV18,test_in_domain,hiển nhiên không ai muốn xuất hiện bên cạnh một người như vậy,nhìn không ai muốn xuất hiện bên cạnh một người như vậy.,2.905625,0.467530,0.160905,cpu,openai/whisper-tiny
+VIVOSDEV18_211,VIVOSDEV18,test_in_domain,hình ảnh quảng cáo điếu thuốc điện tử được công ty t,"hình ảnh còn cao đưa thúc, để tử được công ty.",4.093125,0.534290,0.130533,cpu,openai/whisper-tiny
+VIVOSDEV18_214,VIVOSDEV18,test_in_domain,kiểu hài dung tục vẫn cứ lềnh khênh ở một số tụ điểm,khiều hài chúng tục bản cứ lên khăn ở một chố tụi điểm.,3.749375,0.606349,0.161720,cpu,openai/whisper-tiny
+VIVOSDEV18_240,VIVOSDEV18,test_in_domain,mời tham dự cuộc thi viết ngắn một giờ không điện,mời tâm sự cuộc thay biết ngắn một giờ không biết.,3.499375,0.463028,0.132317,cpu,openai/whisper-tiny
+VIVOSDEV18_250,VIVOSDEV18,test_in_domain,lần đầu tiên một nhân viên người việt thách thức việc tác nghiệp của tôi,lần đầu tiên một nền bên người việt thấp thức việc tắc nghiệp của tôi,4.530625,0.594052,0.131119,cpu,openai/whisper-tiny
+VIVOSDEV18_252,VIVOSDEV18,test_in_domain,lúc đó chị tưởng làm như vậy cũng làm má vui,đúc đó chỉ tưởng làm như vậy cũng làm m buổi,3.155625,0.471622,0.149455,cpu,openai/whisper-tiny
+VIVOSDEV18_257,VIVOSDEV18,test_in_domain,ngồi nghe tiếng biển và thư thả đếm từng giọt đen rơi,người ngay tìm biển và thư thái đêm từng giọt đen rồi.,3.499375,0.629887,0.180000,cpu,openai/whisper-tiny
+VIVOSDEV18_259,VIVOSDEV18,test_in_domain,muốn công nhận ngay pha bóng ấy thì phải sửa luật,mỗi công nhận ngày pháp bong ấy thì phải sửa lột.,3.436875,0.529084,0.153943,cpu,openai/whisper-tiny
+VIVOSDEV18_263,VIVOSDEV18,test_in_domain,quản lý nhà nước về giao thông vận tải đô thị,còn lý nhả nước về ra thông bận tải đô thị,3.374375,0.511166,0.151485,cpu,openai/whisper-tiny
+VIVOSDEV18_265,VIVOSDEV18,test_in_domain,sau đó họ lân la sang chơi rồi đánh cắp đứa bé,so đã hỏi lên là sang cho rô đánh cập đưa bây,3.999375,0.468140,0.117053,cpu,openai/whisper-tiny
+VIVOSDEV18_272,VIVOSDEV18,test_in_domain,anh nhơn bảo tôi về trước còn anh đi theo cô gái,anh nhớn bảo tôi về chúc còn anh đi theo cô gái,3.124375,0.463521,0.148356,cpu,openai/whisper-tiny
+VIVOSDEV18_273,VIVOSDEV18,test_in_domain,trước hết bạn cần tìm hiểu thông tin quy hoạch khu đất,chức hết bản can tìm hệ ổ thông tin quý hát khu đất,3.343125,0.573882,0.171660,cpu,openai/whisper-tiny
+VIVOSDEV18_279,VIVOSDEV18,test_in_domain,những sản phẩm giúp nở ngực và tan mỡ cấp tốc ảnh yến trinh,những sản phẩm giúp nỗng ngược phá ta nở cấp tốc anh hèn đến inchin.,4.093125,0.684790,0.167302,cpu,openai/whisper-tiny
+VIVOSDEV18_280,VIVOSDEV18,test_in_domain,phóng sự ảnh những màn biểu diễn ngoạn mục trên bầu trời,không sự an những man bởi giễn ngọn bục trên bầu trời,2.936875,0.493710,0.168107,cpu,openai/whisper-tiny
+VIVOSDEV18_282,VIVOSDEV18,test_in_domain,nhưng cuối cùng chẳng ai chịu nổi cái tính ham vui của tôi,của cùng trắng ai chuyển nội cái tin hàm vui của tôi.,3.249375,0.494008,0.152032,cpu,openai/whisper-tiny
+VIVOSDEV18_293,VIVOSDEV18,test_in_domain,kiểm tra trung tâm này công an đã bắt giữ tới,chúng tâm này không ăn đạp bắt giữ tới,2.468125,0.456964,0.185146,cpu,openai/whisper-tiny
+VIVOSDEV18_297,VIVOSDEV18,test_in_domain,hoa phượng vẫn nở đỏ trời trong tiếng ve xao xác khôn nguôi,há vận vận nợ chơi trong tiếng vê xảo xác khôn muôn,3.280625,0.591463,0.180290,cpu,openai/whisper-tiny
+VIVOSDEV19_008,VIVOSDEV19,test_in_domain,từ đó lại sa đà vào nhiều nghịch cảnh đáng tiếc,"từ ra, lại xa đẹp vào như, anh được cạnh đánh tìm.",4.811875,0.519193,0.107898,cpu,openai/whisper-tiny
+VIVOSDEV19_011,VIVOSDEV19,test_in_domain,mong anh hãy hiểu cho em em thương nhớ và yêu anh nhiều,mông an này hữu cho em em thương nhớ và yêu an nhiều,4.124375,0.463352,0.112345,cpu,openai/whisper-tiny
+VIVOSDEV19_020,VIVOSDEV19,test_in_domain,lên các cuộc hẹn phỏng vấn và thực hiện phỏng vấn,lần các cuộc hẹn phòng bán và thực hiện phòng bán.,4.686875,0.483581,0.103178,cpu,openai/whisper-tiny
+VIVOSDEV19_022,VIVOSDEV19,test_in_domain,xét ở khía cạnh này thì đúng là mất bò mới lo làm chuồng,sẽ kế cạnh này thầy chực lúc là mắt bà mới là làm trường.,4.936875,0.606378,0.122826,cpu,openai/whisper-tiny
+VIVOSDEV19_024,VIVOSDEV19,test_in_domain,tuy nhiên tôi nghĩ cậu ta xứng đáng với chức vô địch,tôi nhìn tôi nghĩ cầu tài xứng đáng với chức phố địch.,3.905625,0.480529,0.123035,cpu,openai/whisper-tiny
+VIVOSDEV19_027,VIVOSDEV19,test_in_domain,những biến dạng này thường thấy rõ khi dương vật cương,những biết nhận này thường thấy ra khơi dung và cương.,3.999375,0.485045,0.121280,cpu,openai/whisper-tiny
+VIVOSDEV19_029,VIVOSDEV19,test_in_domain,giỏi gì bác mình đẻ ra không nuôi thì ai nuôi,dổi thì bác mình để ra không nguy thị ai nối.,2.968125,0.458418,0.154447,cpu,openai/whisper-tiny
+VIVOSDEV19_030,VIVOSDEV19,test_in_domain,phù sa bồi đắp ruộng vườn cho xóm làng trù phú,phủ xe bò đáp đổng vương kia sống là n注 phố,3.593125,0.519910,0.144696,cpu,openai/whisper-tiny
+VIVOSDEV19_045,VIVOSDEV19,test_in_domain,ông nói chúng tôi hi vọng sẽ có những tin tức tốt lành,ông nói chúng tôi hề vọng sẽ cán nhấn tình tất tốt lần.,4.186875,0.583857,0.139449,cpu,openai/whisper-tiny
+VIVOSDEV19_056,VIVOSDEV19,test_in_domain,về nguyên tắc vào học là sinh viên phải đóng học phí,"bà yên tách phào học, lại sinh viên phá đám học phối",4.061875,0.529613,0.130386,cpu,openai/whisper-tiny
+VIVOSDEV19_061,VIVOSDEV19,test_in_domain,để những khó khăn và mâu thuẫn dần dần sẽ bị đẩy lui,để những khó khăn và mấu thủng dành dành sẽ bị đại luôn.,4.061875,0.539832,0.132902,cpu,openai/whisper-tiny
+VIVOSDEV19_064,VIVOSDEV19,test_in_domain,chóng mặt còn có thể do tình trạng rối loạn nhịp tim nặng gây ra,"chúng mạch còn có thể ra tình trạng rất lần nhịp điểm mạng, gây ra",6.624375,0.723990,0.109292,cpu,openai/whisper-tiny
+VIVOSDEV19_071,VIVOSDEV19,test_in_domain,trong ngắn hạn thị trường vận hành như một cỗ máy bầu cử,trong ngán hạn thây trường và hành như một cô máy bầu cử.,6.061875,0.613393,0.101189,cpu,openai/whisper-tiny
+VIVOSDEV19_072,VIVOSDEV19,test_in_domain,chương trình học bổng thanh niên châu á của nhật bản,trương trình học bỏng thân nên châu á của nhọc bán.,3.374375,0.562157,0.166596,cpu,openai/whisper-tiny
+VIVOSDEV19_083,VIVOSDEV19,test_in_domain,nhưng rồi cái tình với bà con cứ nắm níu không dứt ra được,"nhưng rồi, cái tình, với bà con, cứ nằm nếu không giúp ra được.",5.749375,0.627866,0.109206,cpu,openai/whisper-tiny
+VIVOSDEV19_091,VIVOSDEV19,test_in_domain,số đơn vị tham gia hội chợ việc làm tăng đáng kể qua các năm,"số đồng vời tham gia hỏi trở việc làm tăng đánh kế, quay các mâm",5.780625,0.640451,0.110793,cpu,openai/whisper-tiny
+VIVOSDEV19_094,VIVOSDEV19,test_in_domain,trang viết của họ hơn hẳn thời tuổi trẻ của tôi,giang biết của họ không hạnh thời đổi trẻ của tôi,3.936875,0.449122,0.114081,cpu,openai/whisper-tiny
+VIVOSDEV19_111,VIVOSDEV19,test_in_domain,khuyết điểm lớn của chúng ta là chưa có dân chủ thật sự,quý đếm lớn của chúng ta lại chưa cá dàng chủ thật sở.,4.436875,0.587416,0.132394,cpu,openai/whisper-tiny
+VIVOSDEV19_133,VIVOSDEV19,test_in_domain,em có suy nghĩ thêm về việc tham dự hội chợ khoa học không,em gắt xuyên người thêm về việc tham dự hỏi dờ ở qua học không?,4.311875,0.639158,0.148232,cpu,openai/whisper-tiny
+VIVOSDEV19_142,VIVOSDEV19,test_in_domain,họ chỉ thích những môn gì mạnh bạo bạo lực và kiếm ra tiền thôi,hà chị thích những mong dầy mạnh mạo và lực về game chat店 thôi.,4.749375,0.589279,0.124075,cpu,openai/whisper-tiny
+VIVOSDEV19_158,VIVOSDEV19,test_in_domain,những người trẻ ấy thật đáng phê phán đáng lên án,những người kể ai thật đáng phơi pháng đáng lên ăn,4.811875,0.475857,0.098892,cpu,openai/whisper-tiny
+VIVOSDEV19_161,VIVOSDEV19,test_in_domain,thông thường án kỷ luật nếu có thường ban hành vào cuối tuần,thống thường an cái lộn nếu cơ thường bàn hành vào của tổng.,5.749375,0.574721,0.099962,cpu,openai/whisper-tiny
+VIVOSDEV19_163,VIVOSDEV19,test_in_domain,điều lạ là tôi vẫn không từ bỏ ý định trở thành tu sĩ,điều là là tới vấn không từ bãi ít đến trở thành tô sĩ,4.374375,0.530520,0.121279,cpu,openai/whisper-tiny
+VIVOSDEV19_167,VIVOSDEV19,test_in_domain,các qui định của pháp luật không thể được ban hành theo kiểu đánh lén,các quý đỉnh của tháp lộn thế được ban hành theo kiểu tán lễ.,5.749375,0.582008,0.101230,cpu,openai/whisper-tiny
+VIVOSDEV19_169,VIVOSDEV19,test_in_domain,nhanh quá đã là lần thứ ba xa nhà rồi đấy,nhân quét đẹn là lòng thứ ba sên nhẹn rồi đại,4.061875,0.465504,0.114603,cpu,openai/whisper-tiny
+VIVOSDEV19_179,VIVOSDEV19,test_in_domain,đỗ đức thuần nguyên kế toán trưởng công ty tiếp thị đầu tư,"lở được thần, buying kết tóng trưởng công ty tiếp thầy đầu tư.",4.405625,0.579217,0.131472,cpu,openai/whisper-tiny
+VIVOSDEV19_196,VIVOSDEV19,test_in_domain,người anh sau đó được phép thầu xây kênh này nhưng không tiến hành,nguyễn sâu đã được phép thau xây gân này nhưng không tiếng hành.,5.718125,0.543962,0.095129,cpu,openai/whisper-tiny
+VIVOSDEV19_218,VIVOSDEV19,test_in_domain,nói cách khác cái được của châu á là cái mất của châu phi,"nói cắt khác, cái được của châu á là cái mắc của châu phi.",5.311875,0.494482,0.093090,cpu,openai/whisper-tiny
+VIVOSDEV19_222,VIVOSDEV19,test_in_domain,mắt tự nhiên hoa lên trí chụp một cái ly quật mạnh xuống sàn,mắt tới nhiên hoa lên trái chục mẫu cái lây hoặc bàn xuống sang,6.061875,0.576823,0.095156,cpu,openai/whisper-tiny
+VIVOSDEV19_227,VIVOSDEV19,test_in_domain,từ đấy ông càng thông cảm sâu sắc tâm trạng của nguyễn thiếp,"từ đây, ông canh thông, cảm xong xác tâm tràng của người in thịt.",6.780625,0.574994,0.084800,cpu,openai/whisper-tiny
+VIVOSDEV19_244,VIVOSDEV19,test_in_domain,em hãy tìm cách tiếp cận để bày tỏ với mẹ,em hãy tìm cắt tiếp càng để bây tạm với mẹ,4.186875,0.477369,0.114016,cpu,openai/whisper-tiny
+VIVOSDEV19_245,VIVOSDEV19,test_in_domain,lúc đó nạn kẹt xe chắc sẽ kinh khủng gấp nhiều lần hôm nay,"lúc đó, đàn kẹt 4, 4, 5, gấp nhiều lòng hôm nay.",4.374375,0.541848,0.123869,cpu,openai/whisper-tiny
+VIVOSDEV19_246,VIVOSDEV19,test_in_domain,vợ lỡ có tật thế anh nên thay đổi cách tiếp cận,"bởi lơ các tập thế, anh nâng, thầy đổi các tiếp gắng.",5.093125,0.595240,0.116871,cpu,openai/whisper-tiny
+VIVOSDEV19_249,VIVOSDEV19,test_in_domain,đây được xem là vai diễn thành công nhất của vương từ trước đến nay,đây được xem là và những thành công nhắc của vương tởi chút đánh này.,4.499375,0.498344,0.110759,cpu,openai/whisper-tiny
+VIVOSDEV19_257,VIVOSDEV19,test_in_domain,nhưng nếu chỉ nói cái giỏi không thôi thì thật chưa đủ về chú tư,nhưng nước gì nói cái giỏi không thôi thì tạm sở chưa đủ về chú tư.,5.280625,0.579691,0.109777,cpu,openai/whisper-tiny
+VIVOSDEV19_259,VIVOSDEV19,test_in_domain,tích cực hơn với vấn đề liên quan đến kiều bào,"tất cậu hư vơi, vắng đợi liên quan đến kiểu báo.",4.186875,0.536111,0.128046,cpu,openai/whisper-tiny
+VIVOSDEV19_262,VIVOSDEV19,test_in_domain,để rồi chúng ta khao khát mãi trong vòng luân hồi nhân gian,để rồi chúng ta khó khách mại trong bòng luôn hồi nhân dân.,4.655625,0.479432,0.102979,cpu,openai/whisper-tiny
+VIVOSDEV19_266,VIVOSDEV19,test_in_domain,vấn đề nảy sinh từ cái câu hỏi dinh cu ấy,"vấn đề này xin từ kia gâu khỏi, dân gâu ai",3.999375,0.470662,0.117684,cpu,openai/whisper-tiny
+VIVOSDEV19_274,VIVOSDEV19,test_in_domain,chị nên đi khám bác sĩ và chọn phương pháp ngừa thai hiệu quả,"chỉ nên đi khám, bắt sử về trong phương pháp ngừa thay hiểu ngoài",3.655625,0.551393,0.150834,cpu,openai/whisper-tiny
+VIVOSDEV19_279,VIVOSDEV19,test_in_domain,nợ một cuộc chiến chống tham nhũng vẫn chưa vào đâu,đở một cuộc chiến chống tham nhũng bằng chưa phà đau.,3.624375,0.502166,0.138552,cpu,openai/whisper-tiny

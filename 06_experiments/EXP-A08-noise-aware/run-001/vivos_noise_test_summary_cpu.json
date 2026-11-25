@@ -1,0 +1,43 @@
+{
+  "model_id": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/06_experiments/EXP-A08-noise-aware/run-001/final",
+  "split": "test_in_domain",
+  "device": "cpu",
+  "seed": 20261020,
+  "rows": 3040,
+  "wer": 0.30503755503755503,
+  "cer": 0.14297702236733698,
+  "median_inference_s": 0.4167099893093109,
+  "median_rtf": 0.11826200038194656,
+  "total_audio_s": 10742.178252,
+  "total_inference_s": 1259.838829,
+  "conditions": {
+    "10": {
+      "rows": 760,
+      "wer": 0.31339031339031337,
+      "cer": 0.14943089927069667,
+      "median_inference_s": 0.41655799746513367,
+      "median_rtf": 0.11771400272846222
+    },
+    "20": {
+      "rows": 760,
+      "wer": 0.28347578347578345,
+      "cer": 0.12800952061273688,
+      "median_inference_s": 0.41638800501823425,
+      "median_rtf": 0.11841200292110443
+    },
+    "5": {
+      "rows": 760,
+      "wer": 0.3522403522403522,
+      "cer": 0.173110371975222,
+      "median_inference_s": 0.4188860058784485,
+      "median_rtf": 0.11885999888181686
+    },
+    "clean": {
+      "rows": 760,
+      "wer": 0.27104377104377103,
+      "cer": 0.12135729761069237,
+      "median_inference_s": 0.4145059883594513,
+      "median_rtf": 0.11823499947786331
+    }
+  }
+}

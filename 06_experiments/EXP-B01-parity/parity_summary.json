@@ -1,0 +1,16 @@
+{
+  "model_id": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/06_experiments/EXP-A08-noise-aware/run-001/final",
+  "onnx_dir": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/05_models/onnx/EXP-A08-noise-aware/run-001",
+  "total_samples": 20,
+  "text_matched_samples": 20,
+  "text_match_rate": 1.0,
+  "tokens_matched_samples": 20,
+  "token_match_rate": 1.0,
+  "encoder_mean_cosine_sim": 0.9999999673472841,
+  "encoder_min_cosine_sim": 0.9999998512541876,
+  "encoder_max_abs_diff": 0.19298648834228516,
+  "decoder_mean_cosine_sim": 0.999999999999557,
+  "decoder_min_cosine_sim": 0.9999999999989436,
+  "decoder_max_abs_diff": 4.1961669921875e-05,
+  "parity_pass": true
+}

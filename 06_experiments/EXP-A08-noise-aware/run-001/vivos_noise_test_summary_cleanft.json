@@ -1,0 +1,43 @@
+{
+  "model_id": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/06_experiments/EXP-A08-clean/run-003-corrected/final",
+  "split": "test_in_domain",
+  "device": "cuda",
+  "seed": 20261020,
+  "rows": 3040,
+  "wer": 0.31734006734006737,
+  "cer": 0.14868328705257697,
+  "median_inference_s": 0.09307999908924103,
+  "median_rtf": 0.026366999372839928,
+  "total_audio_s": 10742.178252,
+  "total_inference_s": 285.770442,
+  "conditions": {
+    "10": {
+      "rows": 760,
+      "wer": 0.3357938357938358,
+      "cer": 0.15953129291141557,
+      "median_inference_s": 0.09311799705028534,
+      "median_rtf": 0.02625500038266182
+    },
+    "20": {
+      "rows": 760,
+      "wer": 0.2896917896917897,
+      "cer": 0.12956577461780233,
+      "median_inference_s": 0.09137299656867981,
+      "median_rtf": 0.02624800056219101
+    },
+    "5": {
+      "rows": 760,
+      "wer": 0.373996373996374,
+      "cer": 0.18610967013518048,
+      "median_inference_s": 0.09351100027561188,
+      "median_rtf": 0.02645700052380562
+    },
+    "clean": {
+      "rows": 760,
+      "wer": 0.2698782698782699,
+      "cer": 0.1195264105459095,
+      "median_inference_s": 0.09335999935865402,
+      "median_rtf": 0.026528000831604004
+    }
+  }
+}

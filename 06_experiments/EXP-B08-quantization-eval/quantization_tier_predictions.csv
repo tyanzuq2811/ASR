@@ -1,0 +1,101 @@
+audio_id,platform,tier_id,tier_name,reference_text,hypothesis_text,wer,cer
+VIVOSDEV02_R015,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả một thứ đều kỳ rạm một các phi thường,0.36363636363636365,0.17647058823529413
+VIVOSDEV02_R015,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả một thứ đều kỳ rạm một các phi thường,0.36363636363636365,0.17647058823529413
+VIVOSDEV02_R015,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả một thứ đều kỳ rạm một các phi thường,0.36363636363636365,0.17647058823529413
+VIVOSDEV02_R015,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,tất cả mọi thứ đều kỳ lạ một cách phi thường,đất cả mọi thứ đều kỳ rạm một các phi thường,0.2727272727272727,0.11764705882352941
+VIVOSDEV02_R015,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,tất cả mọi thứ đều kỳ lạ một cách phi thường,có,1.0,0.9705882352941176
+VIVOSDEV02_R027,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),có thể lành lặn mà không để lại vết sẹo,có thể làn lặng mà không để lại bế sẻo,0.4,0.16666666666666666
+VIVOSDEV02_R027,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),có thể lành lặn mà không để lại vết sẹo,có thể làn lặng mà không để lại bế sẻo,0.4,0.16666666666666666
+VIVOSDEV02_R027,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,có thể lành lặn mà không để lại vết sẹo,có thể làn lặng mà không để lại bế sẻo,0.4,0.16666666666666666
+VIVOSDEV02_R027,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,có thể lành lặn mà không để lại vết sẹo,có thể lành lặng mà không để lại bếch sẻo,0.3,0.16666666666666666
+VIVOSDEV02_R027,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,có thể lành lặn mà không để lại vết sẹo,có,0.9,0.9333333333333333
+VIVOSDEV02_R031,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,mốn đẹp phải gè làm sao cho các bó kơi trên nội bận lên,0.42857142857142855,0.20930232558139536
+VIVOSDEV02_R031,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,mốn đẹp phải gè làm sao cho các bó kơi trên nội bận lên,0.42857142857142855,0.20930232558139536
+VIVOSDEV02_R031,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,mốn đẹp phải gè làm sao cho các bó kơi trên nội bận lên,0.42857142857142855,0.20930232558139536
+VIVOSDEV02_R031,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,mốn đẹp phải gè làm sao cho các bó kơi trên nội bận lên,0.42857142857142855,0.20930232558139536
+VIVOSDEV02_R031,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,c,1.0,0.9767441860465116
+VIVOSDEV02_R032,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),y tế bình hưng hòa bị hư hỏng,í đế bình hưng hoà bị hư hậm,0.5,0.3181818181818182
+VIVOSDEV02_R032,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),y tế bình hưng hòa bị hư hỏng,í đế bình hưng hoà bị hư hậm,0.5,0.3181818181818182
+VIVOSDEV02_R032,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,y tế bình hưng hòa bị hư hỏng,í đế bình hưng hoà bị hư hậm,0.5,0.3181818181818182
+VIVOSDEV02_R032,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,y tế bình hưng hòa bị hư hỏng,y đế bình hưng hoà bị hư hậm,0.375,0.2727272727272727
+VIVOSDEV02_R032,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,y tế bình hưng hòa bị hư hỏng,c,1.0,1.0
+VIVOSDEV02_R045,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọt cái chê,0.5,0.391304347826087
+VIVOSDEV02_R045,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọt cái chê,0.5,0.391304347826087
+VIVOSDEV02_R045,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọt cái chê,0.5,0.391304347826087
+VIVOSDEV02_R045,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọt cái chê,0.5,0.391304347826087
+VIVOSDEV02_R045,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,cô cứ nhè ngay cái nọng cá trê,có,1.0,0.9565217391304348
+VIVOSDEV02_R106,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),trở nên thụ động,trở nên thủ đọng,0.5,0.15384615384615385
+VIVOSDEV02_R106,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),trở nên thụ động,trở nên thủ đọng,0.5,0.15384615384615385
+VIVOSDEV02_R106,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,trở nên thụ động,trở nên thủ đọng,0.5,0.15384615384615385
+VIVOSDEV02_R106,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,trở nên thụ động,trở nên thủ đồng,0.5,0.15384615384615385
+VIVOSDEV02_R106,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,trở nên thụ động,c,1.0,1.0
+VIVOSDEV02_R122,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),cũng khiến cho họ dè dặt,cũng khí cho họ dề dạc,0.5,0.3157894736842105
+VIVOSDEV02_R122,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),cũng khiến cho họ dè dặt,cũng khí cho họ dề dạc,0.5,0.3157894736842105
+VIVOSDEV02_R122,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,cũng khiến cho họ dè dặt,cũng khí cho họ dề dạc,0.5,0.3157894736842105
+VIVOSDEV02_R122,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,cũng khiến cho họ dè dặt,cũng khí tra họa dè dạc,0.6666666666666666,0.47368421052631576
+VIVOSDEV02_R122,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,cũng khiến cho họ dè dặt,c,1.0,0.9473684210526315
+VIVOSDEV02_R130,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),chị gặn hỏi anh thề sống thề chết là không có,chị dặng hỏi anh thề sống thề trẻ là không có,0.18181818181818182,0.17142857142857143
+VIVOSDEV02_R130,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),chị gặn hỏi anh thề sống thề chết là không có,chị dặng hỏi anh thề sống thề trẻ là không có,0.18181818181818182,0.17142857142857143
+VIVOSDEV02_R130,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,chị gặn hỏi anh thề sống thề chết là không có,chị dặng hỏi anh thề sống thề trẻ là không có,0.18181818181818182,0.17142857142857143
+VIVOSDEV02_R130,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,chị gặn hỏi anh thề sống thề chết là không có,chị dạng hỏi anh thề sống thể trẻ là không có,0.2727272727272727,0.22857142857142856
+VIVOSDEV02_R130,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,chị gặn hỏi anh thề sống thề chết là không có,c,1.0,0.9714285714285714
+VIVOSDEV02_R132,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tuyện thoại lan nhân ta cũng phải nhất máy đúng không,0.36363636363636365,0.20454545454545456
+VIVOSDEV02_R132,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tuyện thoại lan nhân ta cũng phải nhất máy đúng không,0.36363636363636365,0.20454545454545456
+VIVOSDEV02_R132,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tuyện thoại lan nhân ta cũng phải nhất máy đúng không,0.36363636363636365,0.20454545454545456
+VIVOSDEV02_R132,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tiện thải lan nhưng ta cũng phải nhất máy đúng không,0.36363636363636365,0.1590909090909091
+VIVOSDEV02_R132,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,có,1.0,0.9772727272727273
+VIVOSDEV02_R135,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),cũng thuộc loại dày đặc nhất trong hệ mặt trời,cũng thuộc lại dày đặt nhất trong hệ mặt trời,0.2,0.05405405405405406
+VIVOSDEV02_R135,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),cũng thuộc loại dày đặc nhất trong hệ mặt trời,cũng thuộc lại dày đặt nhất trong hệ mặt trời,0.2,0.05405405405405406
+VIVOSDEV02_R135,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cũng thuộc lại dày đặt nhất trong hệ mặt trời,0.2,0.05405405405405406
+VIVOSDEV02_R135,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cốn thuộc lại dày đặc nhất trong hệ mặt trời,0.2,0.08108108108108109
+VIVOSDEV02_R135,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,cũng thuộc loại dày đặc nhất trong hệ mặt trời,c,1.0,0.972972972972973
+VIVOSDEV02_R137,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũng và bé bối kinh tế,0.1111111111111111,0.037037037037037035
+VIVOSDEV02_R137,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũng và bé bối kinh tế,0.1111111111111111,0.037037037037037035
+VIVOSDEV02_R137,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũng và bé bối kinh tế,0.1111111111111111,0.037037037037037035
+VIVOSDEV02_R137,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũm và bé bối kinh tế,0.2222222222222222,0.1111111111111111
+VIVOSDEV02_R137,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,các vụ tham nhũng và bê bối kinh tế,c,1.0,0.9629629629629629
+VIVOSDEV02_R149,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,trong cứ có lùi lại mặt dùa vướng pếu gông chiền,0.5454545454545454,0.2972972972972973
+VIVOSDEV02_R149,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,trong cứ có lùi lại mặt dùa vướng pếu gông chiền,0.5454545454545454,0.2972972972972973
+VIVOSDEV02_R149,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,trong cứ có lùi lại mặt dùa vướng pếu gông chiền,0.5454545454545454,0.2972972972972973
+VIVOSDEV02_R149,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,trong cứ có lùi lại mặt dù vướng pia gôn chuyện,0.5454545454545454,0.3783783783783784
+VIVOSDEV02_R149,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,c,1.0,0.972972972972973
+VIVOSDEV02_R154,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,vọc buôn dự án trị trọt bày ra cái dự án để kim chét,0.42857142857142855,0.2926829268292683
+VIVOSDEV02_R154,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,vọc buôn dự án trị trọt bày ra cái dự án để kim chét,0.42857142857142855,0.2926829268292683
+VIVOSDEV02_R154,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,vọc buôn dự án trị trọt bày ra cái dự án để kim chét,0.42857142857142855,0.2926829268292683
+VIVOSDEV02_R154,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,vọc buồn dự án trị trọt bày ra cái dự án để kim chét,0.5,0.3170731707317073
+VIVOSDEV02_R154,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,c,1.0,0.975609756097561
+VIVOSDEV02_R164,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),các chương trình ca nhạc phần lớn đều không đột phá,các chuyên trình ca nhà thuần lớn đều không độc thế,0.45454545454545453,0.2682926829268293
+VIVOSDEV02_R164,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),các chương trình ca nhạc phần lớn đều không đột phá,các chuyên trình ca nhà thuần lớn đều không độc thế,0.45454545454545453,0.2682926829268293
+VIVOSDEV02_R164,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,các chương trình ca nhạc phần lớn đều không đột phá,các chuyên trình ca nhà thuần lớn đều không độc thế,0.45454545454545453,0.2682926829268293
+VIVOSDEV02_R164,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,các chương trình ca nhạc phần lớn đều không đột phá,các chuyên trình ra nhạc thành lớn đều không độc thế,0.45454545454545453,0.2682926829268293
+VIVOSDEV02_R164,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,các chương trình ca nhạc phần lớn đều không đột phá,có,1.0,0.975609756097561
+VIVOSDEV02_R170,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lộip trảy sang gõ cửa phòng ba lên hai giấm dui,0.45454545454545453,0.3235294117647059
+VIVOSDEV02_R170,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lộip trảy sang gõ cửa phòng ba lên hai giấm dui,0.45454545454545453,0.3235294117647059
+VIVOSDEV02_R170,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lộip trảy sang gõ cửa phòng ba lên hai giấm dui,0.45454545454545453,0.3235294117647059
+VIVOSDEV02_R170,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,lồi bảy trang gõ cửa phòng ba lên hai dám dui,0.5454545454545454,0.29411764705882354
+VIVOSDEV02_R170,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,c,1.0,0.9705882352941176
+VIVOSDEV02_R173,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),để trả trở lại đại dương,để trả trở lại dương,0.16666666666666666,0.15789473684210525
+VIVOSDEV02_R173,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),để trả trở lại đại dương,để trả trở lại dương,0.16666666666666666,0.15789473684210525
+VIVOSDEV02_R173,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,để trả trở lại đại dương,để trả trở lại dương,0.16666666666666666,0.15789473684210525
+VIVOSDEV02_R173,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,để trả trở lại đại dương,để trả trở lại dương,0.16666666666666666,0.15789473684210525
+VIVOSDEV02_R173,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,để trả trở lại đại dương,có,1.0,1.0
+VIVOSDEV02_R181,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nà có tôi mắt tôi sau và bình trảnh rộng minh mông,0.5833333333333334,0.3076923076923077
+VIVOSDEV02_R181,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nà có tôi mắt tôi sau và bình trảnh rộng minh mông,0.5833333333333334,0.3076923076923077
+VIVOSDEV02_R181,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nà có tôi mắt tôi sau và bình trảnh rộng minh mông,0.5833333333333334,0.3076923076923077
+VIVOSDEV02_R181,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nà có tôi mắt tôi sau và bình trẻ rộng minh mông,0.5833333333333334,0.3076923076923077
+VIVOSDEV02_R181,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,có,0.9166666666666666,0.9487179487179487
+VIVOSDEV02_R192,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi đự hỏi phải tranh đó lại cho doanh còn quá trẻ,0.4166666666666667,0.3142857142857143
+VIVOSDEV02_R192,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi đự hỏi phải tranh đó lại cho doanh còn quá trẻ,0.4166666666666667,0.3142857142857143
+VIVOSDEV02_R192,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi đự hỏi phải tranh đó lại cho doanh còn quá trẻ,0.4166666666666667,0.3142857142857143
+VIVOSDEV02_R192,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi đự hỏi phải tranh đó lại cho doanh còn quá trẻ,0.4166666666666667,0.3142857142857143
+VIVOSDEV02_R192,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,cói,1.0,0.9428571428571428
+VIVOSDEV02_R195,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,đi ba châu ông cơ gội nhận quýt giá phát triển cỏ lại,0.6923076923076923,0.36363636363636365
+VIVOSDEV02_R195,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,đi ba châu ông cơ gội nhận quýt giá phát triển cỏ lại,0.6923076923076923,0.36363636363636365
+VIVOSDEV02_R195,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,đi ba châu ông cơ gội nhận quýt giá phát triển cỏ lại,0.6923076923076923,0.36363636363636365
+VIVOSDEV02_R195,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,đi ba châu éo cơ gọi nhận quýt giá phát triển cò lại,0.6153846153846154,0.3181818181818182
+VIVOSDEV02_R195,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,c,1.0,0.9772727272727273
+VIVOSDEV02_R200,Server NVIDIA A30,a30_gpu_fp16,A30 GPU Reference (CUDA/FP16),và khi chúng ta sao nhãng công việc của mình,vạc khi chúng ta sẽ nhạc công việc của mình,0.3,0.2
+VIVOSDEV02_R200,Server Intel/AMD CPU,server_cpu_fp32,Server CPU Reference (FP32),và khi chúng ta sao nhãng công việc của mình,vạc khi chúng ta sẽ nhạc công việc của mình,0.3,0.2
+VIVOSDEV02_R200,Arduino VENTUNO Q (QCS8275),edge_fp32,Edge FP32 Baseline,và khi chúng ta sao nhãng công việc của mình,vạc khi chúng ta sẽ nhạc công việc của mình,0.3,0.2
+VIVOSDEV02_R200,Arduino VENTUNO Q (QCS8275),edge_w8a16,Edge W8A16 QDQ Tier,và khi chúng ta sao nhãng công việc của mình,vạc khi chúng ta xa nhạc công việc của mình,0.3,0.2
+VIVOSDEV02_R200,Arduino VENTUNO Q (QCS8275),edge_int8,Edge INT8 Tier,và khi chúng ta sao nhãng công việc của mình,có,1.0,0.9714285714285714

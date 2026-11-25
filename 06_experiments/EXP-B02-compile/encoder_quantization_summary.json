@@ -1,0 +1,22 @@
+{
+  "base_model": "/hdd3/users/baolt/ICCIT_2026_VENTUNO_Q_Paper_DATA/05_models/onnx/EXP-A08-noise-aware/run-001/encoder.onnx",
+  "base_sha256": "f22ba29ad65ae4cd993da9f36b9469e6e7914869aea66e3d55370635c830c522",
+  "base_bytes": 32890409,
+  "configurations": {
+    "fp16": {
+      "precision": "FP16",
+      "bytes": 16496389,
+      "sha256": "4f42267e05cc50934a7cd7a341107a17e5fd6b226d63e4803107b8c867f52d7a"
+    },
+    "int8": {
+      "precision": "INT8 (W8A8 QDQ)",
+      "bytes": 8527164,
+      "sha256": "afb62621a09cec1776bbac66a1cc1273c79c33fabe9c0558d6897c62ef80dc13"
+    },
+    "w8a16": {
+      "precision": "W8A16 QDQ",
+      "bytes": 9114727,
+      "sha256": "85d02e0fc528b2d47bddabce6011489880d9325bd12106e3692dc13efa7ec47e"
+    }
+  }
+}

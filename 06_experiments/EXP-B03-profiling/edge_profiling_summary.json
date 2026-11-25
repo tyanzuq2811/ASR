@@ -1,0 +1,101 @@
+{
+  "fp32": {
+    "tier_name": "FP32 Baseline",
+    "model_size_mb": 220.19,
+    "model_size_bytes": 230880768,
+    "num_samples": 20,
+    "ttft_ms": {
+      "mean": 648.02,
+      "median": 685.56,
+      "iqr": 162.75,
+      "min": 501.35,
+      "max": 772.36,
+      "std": 88.36
+    },
+    "tpot_ms": {
+      "mean": 47.57,
+      "median": 47.7,
+      "iqr": 1.71,
+      "min": 44.49,
+      "max": 51.13,
+      "std": 1.55
+    },
+    "rtf": {
+      "mean": 0.3867,
+      "median": 0.3918,
+      "iqr": 0.0829,
+      "min": 0.2921,
+      "max": 0.4996
+    },
+    "peak_ram_mb": {
+      "mean": 654.82,
+      "max": 657.76
+    }
+  },
+  "w8a16": {
+    "tier_name": "W8A16 QDQ Tier",
+    "model_size_mb": 56.49,
+    "model_size_bytes": 59233586,
+    "num_samples": 20,
+    "ttft_ms": {
+      "mean": 818.71,
+      "median": 824.99,
+      "iqr": 218.84,
+      "min": 630.13,
+      "max": 1018.88,
+      "std": 127.47
+    },
+    "tpot_ms": {
+      "mean": 22.09,
+      "median": 20.83,
+      "iqr": 2.68,
+      "min": 19.1,
+      "max": 43.59,
+      "std": 5.09
+    },
+    "rtf": {
+      "mean": 0.3217,
+      "median": 0.3188,
+      "iqr": 0.1027,
+      "min": 0.2276,
+      "max": 0.5495
+    },
+    "peak_ram_mb": {
+      "mean": 657.76,
+      "max": 657.76
+    }
+  },
+  "int8": {
+    "tier_name": "INT8 Tier",
+    "model_size_mb": 55.93,
+    "model_size_bytes": 58646023,
+    "num_samples": 20,
+    "ttft_ms": {
+      "mean": 426.6,
+      "median": 431.98,
+      "iqr": 79.31,
+      "min": 320.77,
+      "max": 524.59,
+      "std": 55.29
+    },
+    "tpot_ms": {
+      "mean": 20.91,
+      "median": 19.48,
+      "iqr": 5.59,
+      "min": 18.04,
+      "max": 27.0,
+      "std": 3.1
+    },
+    "rtf": {
+      "mean": 0.1234,
+      "median": 0.1239,
+      "iqr": 0.0499,
+      "min": 0.0754,
+      "max": 0.1947
+    },
+    "peak_ram_mb": {
+      "mean": 657.76,
+      "max": 657.76
+    }
+  }
+}

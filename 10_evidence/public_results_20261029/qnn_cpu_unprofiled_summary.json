@@ -1,0 +1,41 @@
+{
+  "experiment": "Unprofiled full-set QNN and CPU execution",
+  "target": "Arduino VENTUNO Q / QCS8275",
+  "image": "Ubuntu 24.04.4, Linux 6.8.0-1080-qcom",
+  "dataset": {
+    "corpus": "VIVOS",
+    "utterances": 760,
+    "manifest_sha256": "ed27898d081eaa41b1e7e38451eb85f7ca06138896b471691510e7bab1187c2e"
+  },
+  "models_sha256": {
+    "encoder_w8a16_onnx": "85d02e0fc528b2d47bddabce6011489880d9325bd12106e3692dc13efa7ec47e",
+    "decoder_int8_onnx": "1029357ef325e88f2bc1b0b239f409344caeb8adbbe8123a30665600aacea161"
+  },
+  "providers": {
+    "encoder": [
+      "QNNExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "decoder": [
+      "QNNExecutionProvider",
+      "CPUExecutionProvider"
+    ]
+  },
+  "profiling_enabled": false,
+  "provider_event_attribution": "not collected; no per-node HTP attribution",
+  "versions": {
+    "ort": "1.26.0",
+    "qnn_plugin": "2.5.0"
+  },
+  "results": {
+    "success_rows": 760,
+    "failed_rows": 0,
+    "corpus_wer": 0.28088578088578087,
+    "corpus_cer": 0.1259345152726496,
+    "median_rtf": 0.4555373709575126,
+    "median_ttft_ms": 749.7367365003811,
+    "median_tpot_ms": 41.765959466859684,
+    "peak_ram_mb": 669.265625
+  },
+  "raw_per_utterance_csv": "qnn_cpu_unprofiled_760_per_utterance.csv"
+}

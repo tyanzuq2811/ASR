@@ -1,0 +1,6 @@
+Configuration,Encoder_Cos_Sim_Mean,Encoder_Cos_Sim_Min,Mean_Tokens_Generated,Median_Tokens_Generated,Mean_EOS_Prob_Step1,First_Tokens_Distinct,Status
+FP32_Baseline,1.0,1.0,18.4,18.5,0.0,10,HEALTHY (Normal)
+W8A16_Paper_Tier,0.997794,0.99746,18.6,19.0,0.0,10,HEALTHY (Normal)
+INT8_Orig_20calib,0.451073,0.434871,2.1,2.0,0.001125,2,COLLAPSED (EOS Early Stop)
+INT8_Task4_100noisy,0.451419,0.431045,2.7,3.0,0.002031,1,COLLAPSED (EOS Early Stop)
+INT8_Task5_SensPreserved,0.636459,0.622069,57.1,64.0,2e-05,5,HEALTHY (Normal)

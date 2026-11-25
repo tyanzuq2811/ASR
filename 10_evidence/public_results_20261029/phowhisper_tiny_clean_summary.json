@@ -1,0 +1,69 @@
+{
+  "experiment": "Exploratory PhoWhisper-Tiny clean-speech CPU comparison",
+  "model_id": "vinai/PhoWhisper-tiny",
+  "snapshot": "cc51d32be916efebde04ff549854fa1741cb5c02",
+  "dataset": {
+    "corpus": "VIVOS",
+    "utterances": 760,
+    "speakers": 19,
+    "manifest_sha256": "ed27898d081eaa41b1e7e38451eb85f7ca06138896b471691510e7bab1187c2e",
+    "audio_redistributed": false
+  },
+  "hardware": {
+    "board": "Arduino VENTUNO Q",
+    "cpu": "Qualcomm Kryo",
+    "threads": 4,
+    "execution_provider": "CPUExecutionProvider"
+  },
+  "decoding": {
+    "language": "Vietnamese",
+    "task": "transcribe",
+    "search": "greedy",
+    "max_new_tokens": 64,
+    "timing_scope": "encoder and autoregressive decoder; excludes audio loading and log-Mel extraction"
+  },
+  "runs": [
+    {
+      "condition": "FP32",
+      "rows": 760,
+      "model_sha256": {
+        "encoder": "6e6cb4f24ceb5bddd5ef8fc35d3e898d22bc9721078a5dbdbf576f94d5c6b3b3",
+        "decoder": "28fee1a6f5dd16e64cf9b581e811bb2044117e8fef0971264e6f2b7c14fbd919"
+      },
+      "corpus_wer": 0.1919191919191919,
+      "corpus_cer": 0.0690549571267279,
+      "median_rtf": 0.459714189976612,
+      "peak_vmhwm_mib": 675.07421875
+    },
+    {
+      "condition": "W8A16 encoder and INT8 decoder",
+      "rows": 760,
+      "model_sha256": {
+        "encoder": "94e9faff3a286873d23c0a309e5d2054e0d92c46c4869c2d7b944ca362732e55",
+        "decoder": "88585f412a45c66ef1318ed48e1a8f2fb6d0c690ecde13ea81ca354eaad197a6"
+      },
+      "corpus_wer": 0.19632219632219633,
+      "corpus_cer": 0.07079429983827164,
+      "median_rtf": 0.3488266927064264,
+      "peak_vmhwm_mib": 476.87890625
+    }
+  ],
+  "paired_analysis": {
+    "status": "exploratory; no preregistered non-inferiority margin",
+    "mean_delta_wer_points": 0.4518967874231032,
+    "bootstrap_ci95_points": [
+      0.024752632236184905,
+      0.8726548122929703
+    ],
+    "speaker_cluster_ci95_points": [
+      -0.03915485099695614,
+      0.9736394818631658
+    ],
+    "identical_hypotheses": 530
+  },
+  "model_pair_mib": {
+    "fp32": 220.18506050109863,
+    "quantized": 56.48955059051514,
+    "reduction_percent": 74.34451253779169
+  }
+}

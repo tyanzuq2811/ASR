@@ -1,0 +1,14 @@
+{
+  "files": 12420,
+  "format_counts": {
+    "(16000, 1, 'WAV', 'PCM_16')": 12420
+  },
+  "bad_count": 0,
+  "bad_examples": [],
+  "duration_seconds": {
+    "min": 0.811875,
+    "max": 17.125,
+    "total": 56401.45725,
+    "hours": 15.667071458333334
+  }
+}\n

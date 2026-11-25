@@ -1,0 +1,56 @@
+{
+  "fp32": {
+    "tier_name": "FP32 Baseline",
+    "num_samples": 20,
+    "wer": {
+      "mean": 0.4045,
+      "median": 0.4286,
+      "iqr": 0.1523,
+      "min": 0.1111,
+      "max": 0.6923
+    },
+    "cer": {
+      "mean": 0.2362,
+      "median": 0.2388,
+      "iqr": 0.1445,
+      "min": 0.037,
+      "max": 0.3913
+    }
+  },
+  "w8a16": {
+    "tier_name": "W8A16 QDQ Tier",
+    "num_samples": 20,
+    "wer": {
+      "mean": 0.4115,
+      "median": 0.4226,
+      "iqr": 0.2182,
+      "min": 0.1667,
+      "max": 0.6667
+    },
+    "cer": {
+      "mean": 0.2461,
+      "median": 0.2485,
+      "iqr": 0.1562,
+      "min": 0.0811,
+      "max": 0.4737
+    }
+  },
+  "int8": {
+    "tier_name": "INT8 Tier",
+    "num_samples": 20,
+    "wer": {
+      "mean": 0.9908,
+      "median": 1.0,
+      "iqr": 0.0,
+      "min": 0.9,
+      "max": 1.0
+    },
+    "cer": {
+      "mean": 0.9702,
+      "median": 0.9722,
+      "iqr": 0.0155,
+      "min": 0.9333,
+      "max": 1.0
+    }
+  }
+}

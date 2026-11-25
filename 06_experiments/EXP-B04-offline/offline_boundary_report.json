@@ -1,0 +1,17 @@
+{
+  "audio_file": "VIVOSDEV02_R015.wav",
+  "audio_duration_s": 3.38,
+  "transcription": "có",
+  "inference_latency_s": 0.338,
+  "pcap_file": "/home/arduino/output/EXP-B04-offline/network_trace.pcap",
+  "pcap_file_bytes": 24,
+  "total_captured_packets": 0,
+  "external_outbound_packets": 0,
+  "claim_c01_offline_verified": true,
+  "claim_c02_zero_audio_rpc_verified": true,
+  "rpc_architecture": {
+    "mcu_interface": "FastRPC / Shared-Memory Ring Buffer",
+    "payload_transmitted": "UTF-8 control commands and text output only",
+    "audio_waveform_location": "Host RAM memory buffer (no RPC transit)"
+  }
+}
